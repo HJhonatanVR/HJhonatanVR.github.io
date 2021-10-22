@@ -1,0 +1,87 @@
+/* Basic MachuPicchu Propiedad 11 */
+
+#home-slider { 
+	background:url(../images/propiedad11/bg-header.jpg) no-repeat center top; }
+
+#content .sidebar-left-top,
+#content .main-content-top, 
+#content .sidebar-right-top {
+	background:url(../images/propiedad11/backgrounds/bg-package-title.png) repeat-x;
+}
+#search-availability{
+	background:url(../images/propiedad11/backgrounds/bg-left-reservas-en.png) !important;
+}
+#main-packages{
+	background:url(../images/propiedad11/backgrounds/bg-main-packages.png) !important;
+	height: 35px;
+    padding: 0 10px;
+    position: relative;
+    width: 516px;
+}
+#booking-sumary{
+	background:url(../images/propiedad11/backgrounds/bg-booking-sumary.png) !important;
+}
+#sidebar-extra-top{
+	/*border-top:1px solid #FFFFFF;
+	border-left:1px solid #FFFFFF;
+	border-right:1px solid #FFFFFF;*/
+	height:35px;
+	padding:0 10px;
+	background:url(../images/propiedad11/backgrounds/bg-sidebar-extra-top.png) !important;
+	width:706px; 
+}
+
+/*#slider-internas { background:url(../images/propiedad11/bg-header-interna.jpg) no-repeat center top; }*/
+#slider-internas { background:url(../images/propiedad11/bg-header-interna.jpg) no-repeat center top; }
+
+#content .bg-sidebar-news {
+	background:url(../images/propiedad11/backgrounds/bg-top-news.png) top right no-repeat , url(../images/backgrounds/bgContent.jpg) repeat;
+	*background:url(../images/propiedad11/backgrounds/bg-top-news.png) top right no-repeat;
+	background /*\**/:url(../images/propiedad11/backgrounds/bg-top-news.png) top right no-repeat }
+
+#content form#form-registration input.invalid { border-color:#1E8686; }
+
+#content form#form-registration span.invalid {
+    color: red !important;
+    font-size: 10px;
+    padding-left: 5px;
+}
+	
+#content form#form-registration div.inline span { 
+	display:inline !important;
+	margin-left:10px !important; }
+
+#content form#form-registration textarea { 
+	color:#70634C;
+	padding:2px;
+	font:12px Arial, Helvetica, sans-serif; }
+
+#content form#form-registration textarea.invalid { border-color:#1E8686; }
+
+/* Shadowbox Details */
+
+.shadowbox-content div.propiedad-header11 { background:url(../images/propiedad11/backgrounds/bg-package-title.png) repeat-x; }
+
+.shadowbox-content div.header p {
+	color:#E7E1D0;
+	font:20px Georgia,"Times New Roman",Times,serif;
+	margin-top:0;
+	padding:4px 0 0 5px;
+}
+.shadowbox-details-room .bg-date-range { background:url(../images/propiedad11/backgrounds/bg-package-title.png) repeat-x; }
+
+
+.more_btns,
+.addWishList,
+#btnSearch{
+	color:#c1d278/*verde*/;}
+
+/*.detail_room{
+	background:url(../images/btn/btn_2_1.png) no-repeat;
+	color:#c1d278;
+}*/
+
+.detail_room{
+	background:url(../images/btn/btn_2_1.png) no-repeat;
+	color:#46c5c1;
+}

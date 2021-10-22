@@ -1,0 +1,100 @@
+/* ::::: https://reservations.inkaterra.com/css/reset.css ::::: */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0px; padding: 0px; border: 0px none; outline: 0px none; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; }
+:focus { outline: 0px none; }
+body { line-height: 1; color: black; background: none repeat scroll 0% 0% white; }
+ol, ul { list-style: outside none none; }
+table { border-collapse: separate; border-spacing: 0px; }
+caption, th, td { text-align: left; font-weight: normal; }
+/* ::::: https://reservations.inkaterra.com/css/main.css ::::: */
+
+body { background: url('bgbody.jpg') repeat scroll 0% 0% transparent; font: 11px Arial,Helvetica,sans-serif; color: rgb(99, 85, 61); overflow-x: hidden; }
+body#home { background: url('bgbody.png') repeat scroll 0% 0% transparent; }
+a { text-decoration: none; outline: medium none; color: rgb(0, 0, 0); }
+a img { border: medium none; }
+p { line-height: 14px; margin-bottom: 8px; }
+.clearfix:after { content: "."; display: block; height: 0px; font-size: 0px; clear: both; visibility: hidden; }
+.clearfix { display: inline-block; }
+.clearfix { display: block; }
+/* ::::: https://reservations.inkaterra.com/css/layout.css ::::: */
+
+body, html { width: 100%; }
+#vertical-centering { height: 100%; position: absolute; width: 100%; overflow: hidden; }
+body#home #wrapper { position: relative; height: 100%; margin-top: 0px; width: 100%; z-index: 10; }
+body#home #header { position: absolute; top: 50px; right: 70px; }
+body#home #wrapper #sidebar-left { height: 650px; left: 0px; top: 50%; padding-top: 30px; width: 215px; margin: 0px; }
+#hotel-container { padding-bottom: 0px ! important; }
+body#home #wrapper #sidebar-left #reservations { position: relative; border-radius: 5px; }
+body#home #wrapper #sidebar-left .section { background: url('bgcontent.jpg') repeat scroll 0% 0% transparent ! important; border-top: 1px solid rgb(255, 255, 255); border-bottom: 1px solid rgb(255, 255, 255); border-right: 1px solid rgb(255, 255, 255); }
+body#home #wrapper #sidebar-left #reservations { background: url('bgreservationshome.jpg') repeat-x scroll 0% 0% rgb(235, 224, 206) ! important; }
+#lang { width: 100px; }
+#lang a { display: block; float: left; margin-right: 10px; }
+body#home #wrapper #sidebar-left .section-separate { height: 10px; }
+body#home #wrapper #sidebar-left #packages { background: url('text-packages.png') no-repeat scroll center top rgb(61, 55, 47); position: relative; padding: 0px 15px; display: none; z-index: 11; }
+.h1_, body#home #wrapper #sidebar-left .section h1 { padding: 0px 0px 7px; }
+body#home #wrapper #sidebar-left #hotel-container { background: url('bgmenuhome.jpg') repeat-x scroll 0% 0% transparent ! important; border-bottom-right-radius: 10px; padding-bottom: 5px; position: relative; }
+body#home #wrapper #sidebar-left #reservations form { width: 168px; margin: 0px auto; }
+body#home #wrapper #sidebar-left #reservations form select { z-index: 8; }
+body#home #wrapper #sidebar-left #reservations form table { width: 100%; }
+body#home #wrapper #sidebar-left #reservations form .row { margin-bottom: 10px; }
+body#home #wrapper #sidebar-left #reservations form label { color: rgb(44, 39, 33); display: block; font-size: 11px; margin-bottom: 5px; }
+body#home #wrapper #sidebar-left #reservations form input.text { background: url('bgreservationsselecthome.jpg') no-repeat scroll 0% 0% transparent; border: medium none; font-size: 11px; height: 21px; line-height: 21px; margin: 0px; width: 137px; }
+body#home #wrapper #sidebar-left #hotel-container .hotel {  }
+body#home #wrapper #sidebar-left #hotel-container .hotel-name { float: left; height: 49px; position: relative; width: 214px; }
+body#home #wrapper #sidebar-left #hotel-container .hotel-name a.propiedad1 { background: url('logo-home.png') no-repeat scroll center center transparent; height: 38px; margin-top: 5px; position: relative; cursor: pointer; }
+body#home #wrapper #sidebar-left #hotel-container .hotel-name a.propiedad4 { background: url('logo-home2.png') no-repeat scroll center center transparent; height: 18px ! important; margin-top: 15px; }
+body#home #wrapper #sidebar-left #hotel-container .hotel-name a.propiedad11 { background: url('logo-home2_001.png') no-repeat scroll center center transparent; height: 18px; margin: 15px 0px 0px; }
+body#home #wrapper #sidebar-left #hotel-container div.active a.propiedad11 { background: url('logo-home-active.png') no-repeat scroll center center transparent; height: 18px; margin-top: 15px; }
+body#home #wrapper #sidebar-left #hotel-container .hotel-name a { display: block; height: 38px; }
+body#home #wrapper #sidebar-left #packages p { color: rgb(185, 179, 159); }
+body#home #wrapper #sidebar-right { bottom: 70px; position: absolute; right: 0px; width: 500px; height: 162px; }
+body#home #wrapper #sidebar-right #live-weather { float: right; height: 43px; width: 326px; }
+body#home #wrapper #sidebar-right #live-weather-container { width: 326px; height: 42px; background-image: url('bg-home-menu-weather.png'); }
+body#home #wrapper #sidebar-right #home-menu { width: 400px; height: 45px; background-image: url('bg-home-menu-home.png'); float: right; }
+body#home #wrapper #sidebar-right #home-menu p { list-style: outside none none; padding-top: 17px; padding-left: 48px; }
+body#home #wrapper #sidebar-right #home-menu p { float: left; }
+body#home #wrapper #sidebar-right #home-menu p a { font-size: 12px; color: rgb(88, 79, 68); }
+body#home #wrapper #sidebar-right #home-menu p span { color: rgb(88, 79, 68); margin: 0px 22px; }
+body#home #wrapper #sidebar-right #sidebar-right-logos { margin: 20px 13px 0px 0px; float: right; }
+#bottom-optimizacion { background: url('bghomefooter.png') repeat-x scroll 0% 0% transparent; width: 100%; padding: 10px 0px 0px; margin: 50px auto 0px; height: 45px; }
+body#home #bottom-optimizacion { bottom: 0px; margin: 50px auto 0px; position: absolute; z-index: 10; }
+body#home #top-optimizacion { color: rgb(185, 179, 159); left: 0px; position: absolute; top: 0px; }
+#showPhones { position: absolute; font: 11px/23px Arial; width: 140px; color: rgb(185, 179, 159); top: 95px; left: 20px; }
+#home #showPhones { color: rgb(91, 86, 64); top: 16px; right: 80px; left: auto; font: 12px/23px Arial; }
+#showPhones span.ico { position: relative; float: left; top: 0px; }
+#showPhones:hover #phonesContainer { visibility: visible; }
+#showPhones #phonesContainer { visibility: hidden; background: url('bg_us3.png') repeat scroll 0% 0% transparent ! important; width: 273px ! important; height: 135px ! important; padding: 8px 10px 5px 0px ! important; position: absolute; top: -148px; left: -63px; }
+#showPhones #phonesContainer h3 { font-size: 14px; text-align: center; font-weight: bold; color: rgb(151, 80, 0); text-transform: uppercase; margin: 3px 0px 15px; }
+#showPhones #phonesContainer span { display: block; text-align: right; }
+#wrapper { position: relative; margin: -700px auto 0px; width: 997px; z-index: 10; }
+#wrapper #header { margin-top: 15px; }
+#live-weather-container { position: absolute; right: 0px; top: 0px; }
+#live-weather-container #live-weather-content { color: rgb(185, 179, 159); font: 12px Arial,Helvetica,sans-serif; float: left; margin-left: 20px; margin-top: 15px; width: 235px; }
+#live-weather-container #live-weather-img { height: 52px; margin-right: 20px; margin-top: -30px; position: absolute; right: 0px; top: 0px; width: 52px; }
+#live-weather-container #live-weather-location { margin: 0px 10px; }
+#live-weather-container #live-weather-temperature {  }
+#home #sidebar-right #lang { margin: 10px 290px 0px 0px; position: absolute; right: 0px; }
+.popUpTerminosCondiciones, .popUpVisa, .popUpUserHelp { display: block; cursor: pointer; text-decoration: underline; }
+.pngFix, #header a img, .sidebar-left-top center img, .sidebar-right-top center img, #bg-left-footer, #bg-right-footer, .links-web-20 a img, #hotel-container .hotel .hotel-name a, #live-weather-img img, .bg-sidebar-news center img, .full_day, #main-packages img {  }
+.tip { background: url('bg-tip-pasos.png') no-repeat scroll 0% 0% transparent; font-size: 10px ! important; display: none; width: 127px ! important; height: 33px; padding-top: 15px; text-align: center; color: rgb(226, 179, 58) ! important; font-weight: bold; cursor: pointer; }
+.textoGrupo, .textoGrupo a { color: rgb(66, 60, 52); font-size: 11px; padding-right: 10px; padding-top: 7px; text-align: left; }
+.packages_pp { background: url('bgreservationshome.jpg') repeat scroll 0% 0% transparent; left: 0px; top: 497px; margin: 0px; position: absolute; width: 215px; padding: 12px 0px 8px; text-align: center; border-radius: 5px; }
+.packages_pp a { color: rgb(59, 44, 31); }
+.packages_pp img { margin: 3px 0px; }
+/* ::::: https://reservations.inkaterra.com/js/jquery-coda-slider/coda-styles.css ::::: */
+
+/* ::::: https://reservations.inkaterra.com/css/basic-propiedad1.css ::::: */
+
+/* ::::: https://reservations.inkaterra.com/js/jquery-carousel/skins/rus_inkaterra/skin.css ::::: */
+
+/* ::::: https://reservations.inkaterra.com/js/jquery-carousel/rus_jquery.jcarousel.css ::::: */
+
+/* ::::: https://reservations.inkaterra.com/js/jquery-ui/css/ui-propiedad-11/jquery-ui-1.7.2.custom.css ::::: */
+
+.pngFix, #tip1, #tip2, #tip3, #tip4 {  }
+#tip2 { height: 37px; font-size: 12px ! important; left: 230px ! important; padding-top: 4px; text-align: center; width: 132px ! important; position: absolute; top: 52px ! important; background: url('bg-tip-home.png') no-repeat scroll 0% 0% transparent; }
+#tip5 { height: 37px; font-size: 12px ! important; left: 230px ! important; padding-top: 4px; text-align: center; width: 132px ! important; position: absolute; top: 102px ! important; background: url('bg-tip-home.png') no-repeat scroll 0% 0% transparent; }
+#tip4 { height: 37px; font-size: 12px ! important; left: 230px ! important; padding-top: 11px; text-align: center; width: 132px ! important; position: absolute; top: 52px ! important; background: url('bg-tip-home.png') no-repeat scroll 0% 0% transparent; }
+.tip { color: rgb(226, 179, 58); }
+.anula-reserva { border-bottom: 1px solid rgb(153, 102, 0); color: rgb(187, 130, 48); font-family: Arial,Helvetica,sans-serif; font-size: 12px; }
+.content-anular-reserva { padding-bottom: 10px; padding-left: 18px; text-align: justify; }

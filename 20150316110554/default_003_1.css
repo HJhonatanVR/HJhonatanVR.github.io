@@ -1,0 +1,33 @@
+/* ::::: https://reservations.inkaterra.com/iframe/css/normalize.css ::::: */
+
+audio:not([controls]) { display: none; height: 0px; }
+html { font-size: 100%; }
+html, button, input, select, textarea { font-family: Helvetica,Arial; }
+body { margin: 0px; }
+h1 { font-size: 2em; margin: 0.67em 0px; }
+p, pre { margin: 1em 0px; font: 13px/16px GeorgiaRegular; color: rgb(80, 71, 50); }
+svg:not(:root) { overflow: hidden; }
+form { margin: 0px; }
+button, input, select, textarea { font-size: 100%; margin: 0px; vertical-align: baseline; }
+button, input { line-height: normal; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0px none; padding: 0px; }
+/* ::::: https://reservations.inkaterra.com/iframe/css/calendar.css ::::: */
+
+body { margin: 0px; padding: 0px; background: none repeat scroll 0px 0px rgb(231, 223, 206) ! important; overflow: hidden; }
+.contentCaja { background: none repeat scroll 0px 0px rgb(231, 223, 206); padding: 0px; font-size: 12px; line-height: 24px; width: 230px; }
+.contentCaja h1 { padding: 0px; font-size: 2em; margin: 0.67em 0px; }
+.contentCaja select { width: 187px; border: 1px solid rgb(139, 134, 110); background-color: rgb(213, 206, 174); }
+.contentCaja select.sltmini { width: 87px; border: 1px solid rgb(139, 134, 110); background-color: rgb(213, 206, 174); }
+.contentCaja .calendar { width: 147px; border: 1px solid rgb(139, 134, 110); background-color: rgb(213, 206, 174); }
+.contentCaja .item { padding-top: 6px; }
+/* ::::: https://reservations.inkaterra.com/css/main.css ::::: */
+
+body { background: url('bgbody.jpg') repeat scroll 0% 0% transparent; font: 11px Arial,Helvetica,sans-serif; color: rgb(99, 85, 61); overflow-x: hidden; }
+body#home { background: url('bgbody.png') repeat scroll 0% 0% transparent; }
+p { line-height: 14px; margin-bottom: 8px; }
+/* ::::: https://reservations.inkaterra.com/css/layout.css ::::: */
+
+body, html { width: 100%; }
+/* ::::: https://reservations.inkaterra.com/js/jquery-ui/css/ui-propiedad-11/jquery-ui-1.7.2.custom.css ::::: */
+
+p.info { font-size: 11px; width: 230px; margin: 10px 0px 0px; padding: 0px; font-family: Arial; }

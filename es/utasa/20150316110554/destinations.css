@@ -1,0 +1,83 @@
+/* ::::: https://reservations.inkaterra.com/js/jquery-scrollpane/jScrollPane.css ::::: */
+
+/* ::::: https://reservations.inkaterra.com/js/jquery-carousel/skins/news/skin.css ::::: */
+
+.li-news { height: 180px ! important; }
+/* ::::: https://reservations.inkaterra.com/js/jquery-carousel/jquery.jcarousel.css ::::: */
+
+/* ::::: https://reservations.inkaterra.com/css/reset.css ::::: */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0px; padding: 0px; border: 0px none; outline: 0px none; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; }
+:focus { outline: 0px none; }
+body { line-height: 1; color: #33FFFF; background: none repeat scroll 0% 0% white; }
+ol, ul { list-style: outside none none; }
+table { border-collapse: separate; border-spacing: 0px; }
+caption, th, td { text-align: left; font-weight: normal; }
+/* ::::: https://reservations.inkaterra.com/css/main.css ::::: */
+
+body { background: url('bgbody.jpg') repeat scroll 0% 0% transparent; font: 11px Arial,Helvetica,sans-serif; color: #660000; overflow-x: hidden; }
+a { text-decoration: none; outline: medium none; color: #996600; }
+strong { font-weight: bold; }
+a img { border: medium none; }
+p { line-height: 14px; margin-bottom: 8px; }
+.alignCenter { text-align: center ! important; }
+.clearfix:after { content: "."; display: block; height: 0px; font-size: 0px; clear: both; visibility: hidden; }
+.clearfix { display: inline-block; }
+.clearfix { display: block; }
+.right { float: right; }
+.left { float: left; }
+/* ::::: https://reservations.inkaterra.com/css/layout.css ::::: */
+
+body, html { width: 100%; }
+#lang { width: 100px; }
+#lang a { display: block; float: left; margin-right: 10px; }
+#showPhones { position: absolute; font: 11px/23px Arial; width: 140px; color: rgb(185, 179, 159); top: 95px; left: 20px; }
+#showPhones span.ico { position: relative; float: left; top: 0px; }
+#showPhones:hover #phonesContainer { visibility: visible; }
+#showPhones #phonesContainer { visibility: hidden; background: url('bg_us3.png') repeat scroll 0% 0% transparent ! important; width: 273px ! important; height: 135px ! important; padding: 8px 10px 5px 0px ! important; position: absolute; top: -148px; left: -63px; }
+#showPhones #phonesContainer h3 { font-size: 14px; text-align: center; font-weight: bold; color: rgb(151, 80, 0); text-transform: uppercase; margin: 3px 0px 15px; }
+#showPhones #phonesContainer span { display: block; text-align: right; }
+#slider-internas { height: 700px; margin: 0px auto; width: 100%; z-index: 9; }
+#wrapper { position: relative; margin: -700px auto 0px; width: 997px; z-index: 10; }
+#content { position: relative; }
+.bgContent { background: none repeat scroll 0px 0px rgb(224, 218, 202) ! important; border: 1px solid rgb(171, 164, 152); }
+#wrapper #header { margin-top: 15px; }
+.bg-interna { background: none repeat scroll 0% 0% rgb(224, 218, 202) ! important; }
+#content #sidebar-news { background: url('bgcontent.jpg') repeat scroll 0% 0% transparent; padding: 20px; border: 1px solid rgb(171, 164, 152); }
+#content #sidebar-left-extra { float: left; margin-top: 235px; width: 726px; }
+#footer { height: 161px; margin-top: 20px; position: relative; }
+#footer #bg-right-footer { background: url('bg-footer-right.png') no-repeat scroll right top transparent; height: 190px; margin-top: -17px; margin-right: -4px; position: absolute; right: 0px; top: 0px; width: 133px; }
+#footer #bg-left-footer { background: url('bg-footer-left.png') no-repeat scroll left bottom transparent; left: 0px; margin: 0px 0px -20px -20px; bottom: 0px; height: 162px; position: absolute; width: 173px; }
+#footer #inner-footer { background: url('bg-footer.png') repeat-x scroll 0% 0% transparent; border: 1px solid rgb(80, 79, 75); height: 140px; }
+#footer #inner-footer .inner-footer-left { background: url('bg-separator-footer.png') no-repeat scroll right top transparent; float: left; padding: 20px 40px 20px 80px; height: 100px; }
+#footer #inner-footer .inner-footer-left p a, #footer #inner-footer .inner-footer-right p a { color: rgb(185, 179, 159); }
+#footer #inner-footer .inner-footer-right { float: left; position: relative; padding: 20px 80px 20px 20px; }
+#footer #inner-footer .inner-footer-right p.links-web-20 { margin-top: 20px; }
+#footer #inner-footer .inner-footer-right p.links-web-20 a { margin-right: 10px; }
+#footer #inner-footer p { color: rgb(185, 179, 159); }
+#menu-destinations { background: url('bg-menu-internas.png') no-repeat scroll 0% 0% transparent; color: rgb(205, 199, 177); margin: 190px auto 0px; width: 970px; }
+#menu-destinations ul li { float: left; list-style: outside none none; height: 45px; text-align: center; width: 194px; z-index: 100; }
+#menu-destinations ul li a { position: relative; top: 25%; }
+#menu-destinations ul li.no-bg-separator { background: none repeat scroll 0% 0% transparent; }
+#menu-destinations ul li a { color: rgb(205, 199, 177); font: 16px Arial,Helvetica,sans-serif; }
+#menu-destinations ul li a.active { color: rgb(255, 126, 0); font: 16px Arial,Helvetica,sans-serif; }
+#menu-destinations ul li a:hover { color: rgb(255, 126, 0); font: 16px Arial,Helvetica,sans-serif; }
+.destination-container { background: url('bg-destinations-content.png') no-repeat scroll 223px 11% rgb(228, 219, 203); margin: 0px auto 20px; padding: 20px 0px 20px 20px; width: 950px; }
+.destination-container #sidebar-left-extra { float: left; margin-top: 0px ! important; width: 230px ! important; margin-right: 23px; }
+.destination-container #sidebar-right-extra { float: left; margin-top: 0px ! important; width: 669px; }
+.destination-container #sidebar-right-extra .destination-item { padding-bottom: 20px; padding-top: 20px; padding-left: 30px; }
+.bg-destination-item { background: url('bg-destination-item.png') no-repeat scroll left bottom transparent; }
+.destination-container #sidebar-right-extra .destination-item .destinatiom-item-logo { float: left; width: 354px; }
+.destination-container #sidebar-right-extra .destination-item .destinatiom-item-container { float: left; margin-left: 30px; text-align: justify; width: 255px; }
+.pngFix, #header a img, .sidebar-left-top center img, .sidebar-right-top center img, #bg-left-footer, #bg-right-footer, .links-web-20 a img, #hotel-container .hotel .hotel-name a, #live-weather-img img, .bg-sidebar-news center img, .full_day, #main-packages img {  }
+.read-more { font-size: 12px; font-weight: bold; }
+.blockPackagesInternal { text-align: center; margin: 90px 0px 0px; padding: 0px; }
+.blockPackagesInternal.blockBordered { border: 1px solid rgb(171, 164, 152); margin: 20px 0px 0px; background: none repeat scroll 0% 0% rgb(224, 218, 202) ! important; }
+.blockPackagesInternal .h1 { margin: 0px; }
+.blockPackagesInternal.blockBordered .h1 { margin: 0px; padding: 25px 0px 20px; }
+.blockPackagesInternal a { display: block; }
+.blockPackagesInternal.blockBordered a { padding: 0px 0px 20px; }
+#sidebar-left-extra #jcarousel-news-inkaterra { width: 185px ! important; }
+/* ::::: https://reservations.inkaterra.com/js/jquery-ui/css/ui-lightness/jquery-ui-1.7.2.custom.css ::::: */
+
+#slider-internas { background: url('bgdestinations.jpg') no-repeat scroll center top transparent; }

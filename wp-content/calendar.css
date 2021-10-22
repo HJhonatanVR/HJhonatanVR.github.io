@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(linksredes.png);
+    overflow: hidden;
+}
+
+a{color:#4A5702;}
+
+
+
+.contentCaja{
+/*padding-left:25px;
+padding-top:10px;
+padding-right:15px;*/
+background: url(.png);
+padding: 0;
+font-size:12px;
+z-index:200px;
+line-height: 24px;
+width: 230px;
+}
+
+.contentCaja h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+.contentCaja select
+{
+    width:187px;
+    border:1px solid #8b866e;
+    background-color:#d5ceae;
+}
+.contentCaja select.sltmini
+{
+    width:87px;
+    border:1px solid #8b866e;
+    background-color:#d5ceae;
+}
+.contentCaja .calendar
+{
+    width:147px;
+    border:1px solid #8b866e;
+    background-color:#d5ceae;
+}
+.contentCaja .ui-datepicker-trigger
+{
+    float: right;
+    margin-right: 45px;
+}
+.contentCaja .item
+{
+    padding-top:6px;
+}
+#ui-datepicker-div
+{
+    font-size:12px;
+}
+
+.ui-widget-overlay {
+    background: none!important;
+}

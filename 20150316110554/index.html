@@ -1,0 +1,575 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+
+<link rel="stylesheet" media="screen" href="css/reset.css" type="text/css" />
+<link rel="stylesheet" media="screen" href="css/main.css" type="text/css" />
+<link rel="stylesheet" media="screen" href="css/layout.css" type="text/css" />
+<link rel="stylesheet" media="screen" href="js/jquery-coda-slider/coda-styles.css" type="text/css" />
+<link rel="stylesheet" media="screen" href="css/basic-propiedad1.css" type="text/css" />
+<link rel="stylesheet" media="print" href="css/print.css" type="text/css" />
+<link rel="stylesheet" media="screen" href="js/jquery-carousel/skins/rus_inkaterra/skin.css" type="text/css" />
+<link rel="stylesheet" media="screen" href="js/jquery-carousel/rus_jquery.jcarousel.css" type="text/css" />
+
+<link rel="stylesheet" media="screen" href="js/jquery-ui/css/ui-propiedad-11/jquery-ui-1.7.2.custom.css" type="text/css" />
+
+
+<script type="text/javascript" src="../ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+<title>Booking Utasa Inn</title>
+
+<!--<link rel="stylesheet" media="screen" href="js/jquery-ui/css/ui-propiedad-11/ui.1.5.3.css" type="text/css" />-->
+<!--<link rel="stylesheet" media="screen" href="js/jquery-ui/css/ui-propiedad-/ui.1.5.3.css" type="text/css" />-->
+<!--<script type="text/javascript">
+var lang = 'en';
+var dia = new Array();
+	var fullDays = [[2017, 01, 01, 'full'],[2015, 01, 02, 'full'],[2015, 01, 03, 'full'],[2015, 01, 04, 'full'],[2015, 01, 05, 'full'],[2015, 01, 06, 'full'],[2015, 01, 07, 'full'],[2015, 01, 08, 'full'],[2015, 01, 09, 'full'],[2015, 01, 10, 'full'],[2015, 01, 11, 'full'],[2015, 01, 12, 'full'],[2015, 01, 13, 'full'],[2015, 01, 14, 'full'],[2015, 01, 15, 'full'],[2015, 01, 16, 'full'],[2015, 01, 17, 'full'],[2015, 01, 18, 'full'],[2015, 01, 19, 'full'],[2015, 01, 20, 'full'],[2015, 01, 21, 'full'],[2015, 01, 22, 'full'],[2015, 01, 23, 'full'],[2015, 01, 24, 'full'],[2015, 01, 25, 'full'],[2015, 01, 26, 'full'],[2015, 01, 27, 'full'],[2015, 01, 28, 'full'],[2015, 01, 29, 'full'],[2015, 01, 30, 'full'],[2015, 01, 31, 'full'],[2015, 02, 01, 'full'],[2015, 02, 02, 'full'],[2015, 02, 03, 'full'],[2015, 02, 04, 'full'],[2015, 02, 05, 'full'],[2015, 02, 06, 'full'],[2015, 02, 07, 'full'],[2015, 02, 08, 'full'],[2015, 02, 09, 'full'],[2015, 02, 10, 'full'],[2015, 02, 11, 'full'],[2015, 02, 12, 'full'],[2015, 02, 13, 'full'],[2015, 02, 14, 'full'],[2015, 02, 15, 'full'],[2015, 02, 16, 'full'],[2015, 02, 17, 'full'],[2015, 02, 18, 'full'],[2015, 02, 19, 'full'],[2015, 02, 20, 'full'],[2015, 02, 21, 'full'],[2015, 02, 22, 'full'],[2015, 02, 23, 'full'],[2015, 02, 24, 'full'],[2015, 02, 25, 'full'],[2015, 02, 26, 'full'],[2015, 02, 27, 'full'],[2015, 02, 28, 'full'],[2015, 03, 01, 'full'],[2015, 03, 02, 'full'],[2015, 03, 03, 'full'],[2015, 03, 04, 'full'],[2015, 03, 05, 'full'],[2015, 03, 06, 'full'],[2015, 03, 07, 'full'],[2015, 03, 08, 'full'],[2015, 03, 09, 'full'],[2015, 03, 10, 'full'],[2015, 03, 11, 'full'],[2015, 03, 12, 'full'],[2015, 03, 13, 'full'],[2015, 03, 14, 'full'],[2015, 03, 15, 'full'],[2015, 03, 16, 'full'],[2015, 04, 19, 'full'],[2015, 04, 22, 'full'],[2015, 04, 24, 'full'],[2015, 04, 29, 'full'],[2015, 05, 01, 'full'],[2015, 05, 05, 'full'],[2015, 05, 08, 'full'],[2015, 05, 11, 'full'],[2015, 05, 12, 'full'],[2015, 05, 13, 'full'],[2015, 05, 19, 'full'],[2015, 05, 24, 'full'],[2015, 05, 26, 'full'],[2015, 06, 01, 'full'],[2015, 06, 02, 'full'],[2015, 06, 05, 'full'],[2015, 06, 10, 'full'],[2015, 06, 14, 'full'],[2015, 06, 16, 'full'],[2015, 06, 26, 'full'],[2015, 07, 01, 'full'],[2015, 07, 16, 'full'],[2015, 07, 17, 'full'],[2015, 07, 20, 'full'],[2015, 07, 21, 'full'],[2015, 07, 23, 'full'],[2015, 07, 30, 'full'],[2015, 08, 12, 'full'],[2015, 08, 14, 'full'],[2015, 09, 15, 'full'],[2015, 09, 16, 'full'],[2015, 10, 11, 'full'],[2015, 10, 14, 'full'],[2016, 03, 14, 'full'],[2016, 03, 15, 'full'],[2016, 03, 16, 'full'],[2016, 03, 17, 'full'],[2016, 03, 18, 'full'],[2016, 03, 19, 'full'],[2016, 03, 20, 'full'],[2016, 03, 21, 'full'],[2016, 03, 22, 'full'],[2016, 03, 23, 'full'],[2016, 03, 24, 'full'],[2016, 03, 25, 'full'],[2016, 03, 26, 'full'],[2016, 03, 27, 'full'],[2016, 03, 28, 'full'],[2016, 03, 29, 'full'],[2016, 03, 30, 'full'],[2016, 03, 31, 'full'],[2016, 04, 01, 'full'],[2016, 04, 02, 'full'],[2016, 04, 03, 'full'],[2016, 04, 04, 'full'],[2016, 04, 05, 'full'],[2016, 04, 06, 'full'],[2016, 04, 07, 'full'],[2016, 04, 08, 'full'],[2016, 04, 09, 'full'],[2016, 04, 10, 'full'],[2016, 04, 11, 'full'],[2016, 04, 12, 'full'],[2016, 04, 13, 'full'],[2016, 04, 14, 'full'],[2016, 04, 15, 'full'],[2016, 04, 16, 'full'],[2016, 04, 17, 'full'],[2016, 04, 18, 'full'],[2016, 04, 19, 'full'],[2016, 04, 20, 'full'],[2016, 04, 21, 'full'],[2016, 04, 22, 'full'],[2016, 04, 23, 'full'],[2016, 04, 24, 'full'],[2016, 04, 25, 'full'],[2016, 04, 26, 'full'],[2016, 04, 27, 'full'],[2016, 04, 28, 'full'],[2016, 04, 29, 'full'],[2016, 04, 30, 'full'],[2016, 05, 01, 'full'],[2016, 05, 02, 'full'],[2016, 05, 03, 'full'],[2016, 05, 04, 'full'],[2016, 05, 05, 'full'],[2016, 05, 06, 'full'],[2016, 05, 07, 'full'],[2016, 05, 08, 'full'],[2016, 05, 09, 'full'],[2016, 05, 10, 'full'],[2016, 05, 11, 'full'],[2016, 05, 12, 'full'],[2016, 05, 13, 'full'],[2016, 05, 14, 'full'],[2016, 05, 15, 'full'],[2016, 05, 16, 'full'],[2016, 05, 17, 'full'],[2016, 05, 18, 'full'],[2016, 05, 19, 'full'],[2016, 05, 20, 'full'],[2016, 05, 21, 'full'],[2016, 05, 22, 'full'],[2016, 05, 23, 'full'],[2016, 05, 24, 'full'],[2016, 05, 25, 'full'],[2016, 05, 26, 'full'],[2016, 05, 27, 'full'],[2016, 05, 28, 'full'],[2016, 05, 29, 'full'],[2016, 05, 30, 'full'],[2016, 05, 31, 'full'],[2016, 06, 01, 'full'],[2016, 06, 02, 'full'],[2016, 06, 03, 'full'],[2016, 06, 04, 'full'],[2016, 06, 05, 'full'],[2016, 06, 06, 'full'],[2016, 06, 07, 'full'],[2016, 06, 08, 'full'],[2016, 06, 09, 'full'],[2016, 06, 10, 'full'],[2016, 06, 11, 'full'],[2016, 06, 12, 'full'],[2016, 06, 13, 'full'],[2016, 06, 14, 'full'],[2016, 06, 15, 'full'],[2016, 06, 16, 'full'],[2016, 06, 17, 'full'],[2016, 06, 18, 'full'],[2016, 06, 19, 'full'],[2016, 06, 20, 'full'],[2016, 06, 21, 'full'],[2016, 06, 22, 'full'],[2016, 06, 23, 'full'],[2016, 06, 24, 'full'],[2016, 06, 25, 'full'],[2016, 06, 26, 'full'],[2016, 06, 27, 'full'],[2016, 06, 28, 'full'],[2016, 06, 29, 'full'],[2016, 06, 30, 'full'],[2016, 07, 01, 'full'],[2016, 07, 02, 'full'],[2016, 07, 03, 'full'],[2016, 07, 04, 'full'],[2016, 07, 05, 'full'],[2016, 07, 06, 'full'],[2016, 07, 07, 'full'],[2016, 07, 08, 'full'],[2016, 07, 09, 'full'],[2016, 07, 10, 'full'],[2016, 07, 11, 'full'],[2016, 07, 12, 'full'],[2016, 07, 13, 'full'],[2016, 07, 14, 'full'],[2016, 07, 15, 'full'],[2016, 07, 16, 'full'],[2016, 07, 17, 'full'],[2016, 07, 18, 'full'],[2016, 07, 19, 'full'],[2016, 07, 20, 'full'],[2016, 07, 21, 'full'],[2016, 07, 22, 'full'],[2016, 07, 23, 'full'],[2016, 07, 24, 'full'],[2016, 07, 25, 'full'],[2016, 07, 26, 'full'],[2016, 07, 27, 'full'],[2016, 07, 28, 'full'],[2016, 07, 29, 'full'],[2016, 07, 30, 'full'],[2016, 07, 31, 'full'],[2016, 08, 01, 'full'],[2016, 08, 02, 'full'],[2016, 08, 03, 'full'],[2016, 08, 04, 'full'],[2016, 08, 05, 'full'],[2016, 08, 06, 'full'],[2016, 08, 07, 'full'],[2016, 08, 08, 'full'],[2016, 08, 09, 'full'],[2016, 08, 10, 'full'],[2016, 08, 11, 'full'],[2016, 08, 12, 'full'],[2016, 08, 13, 'full'],[2016, 08, 14, 'full'],[2016, 08, 15, 'full'],[2016, 08, 16, 'full'],[2016, 08, 17, 'full'],[2016, 08, 18, 'full'],[2016, 08, 19, 'full'],[2016, 08, 20, 'full'],[2016, 08, 21, 'full'],[2016, 08, 22, 'full'],[2016, 08, 23, 'full'],[2016, 08, 24, 'full'],[2016, 08, 25, 'full'],[2016, 08, 26, 'full'],[2016, 08, 27, 'full'],[2016, 08, 28, 'full'],[2016, 08, 29, 'full'],[2016, 08, 30, 'full'],[2016, 08, 31, 'full'],[2016, 09, 01, 'full'],[2016, 09, 02, 'full'],[2016, 09, 03, 'full'],[2016, 09, 04, 'full'],[2016, 09, 05, 'full'],[2016, 09, 06, 'full'],[2016, 09, 07, 'full'],[2016, 09, 08, 'full'],[2016, 09, 09, 'full'],[2016, 09, 10, 'full'],[2016, 09, 11, 'full'],[2016, 09, 12, 'full'],[2016, 09, 13, 'full'],[2016, 09, 14, 'full'],[2016, 09, 15, 'full'],[2016, 09, 16, 'full'],[2016, 09, 17, 'full'],[2016, 09, 18, 'full'],[2016, 09, 19, 'full'],[2016, 09, 20, 'full'],[2016, 09, 21, 'full'],[2016, 09, 22, 'full'],[2016, 09, 23, 'full'],[2016, 09, 24, 'full'],[2016, 09, 25, 'full'],[2016, 09, 26, 'full'],[2016, 09, 27, 'full'],[2016, 09, 28, 'full'],[2016, 09, 29, 'full'],[2016, 09, 30, 'full'],[2016, 10, 01, 'full'],[2016, 10, 02, 'full'],[2016, 10, 03, 'full'],[2016, 10, 04, 'full'],[2016, 10, 05, 'full'],[2016, 10, 06, 'full'],[2016, 10, 07, 'full'],[2016, 10, 08, 'full'],[2016, 10, 09, 'full'],[2016, 10, 10, 'full'],[2016, 10, 11, 'full'],[2016, 10, 12, 'full'],[2016, 10, 13, 'full'],[2016, 10, 14, 'full'],[2016, 10, 15, 'full'],[2016, 10, 16, 'full'],[2016, 10, 17, 'full'],[2016, 10, 18, 'full'],[2016, 10, 19, 'full'],[2016, 10, 20, 'full'],[2016, 10, 21, 'full'],[2016, 10, 22, 'full'],[2016, 10, 23, 'full'],[2016, 10, 24, 'full'],[2016, 10, 25, 'full'],[2016, 10, 26, 'full'],[2016, 10, 27, 'full'],[2016, 10, 28, 'full'],[2016, 10, 29, 'full'],[2016, 10, 30, 'full'],[2016, 10, 31, 'full'],[2016, 11, 01, 'full'],[2016, 11, 02, 'full'],[2016, 11, 03, 'full'],[2016, 11, 04, 'full'],[2016, 11, 05, 'full'],[2016, 11, 06, 'full'],[2016, 11, 07, 'full'],[2016, 11, 08, 'full'],[2016, 11, 09, 'full'],[2016, 11, 10, 'full'],[2016, 11, 11, 'full'],[2016, 11, 12, 'full'],[2016, 11, 13, 'full'],[2016, 11, 14, 'full'],[2016, 11, 15, 'full'],[2016, 11, 16, 'full'],[2016, 11, 17, 'full'],[2016, 11, 18, 'full'],[2016, 11, 19, 'full'],[2016, 11, 20, 'full'],[2016, 11, 21, 'full'],[2016, 11, 22, 'full'],[2016, 11, 23, 'full'],[2016, 11, 24, 'full'],[2016, 11, 25, 'full'],[2016, 11, 26, 'full'],[2016, 11, 27, 'full'],[2016, 11, 28, 'full'],[2016, 11, 29, 'full'],[2016, 11, 30, 'full'],[2016, 12, 01, 'full'],[2016, 12, 02, 'full'],[2016, 12, 03, 'full'],[2016, 12, 04, 'full'],[2016, 12, 05, 'full'],[2016, 12, 06, 'full'],[2016, 12, 07, 'full'],[2016, 12, 08, 'full'],[2016, 12, 09, 'full'],[2016, 12, 10, 'full'],[2016, 12, 11, 'full'],[2016, 12, 12, 'full'],[2016, 12, 13, 'full'],[2016, 12, 14, 'full'],[2016, 12, 15, 'full'],[2016, 12, 16, 'full'],[2016, 12, 17, 'full'],[2016, 12, 18, 'full'],[2016, 12, 19, 'full'],[2016, 12, 20, 'full'],[2016, 12, 21, 'full'],[2016, 12, 22, 'full'],[2016, 12, 23, 'full'],[2016, 12, 24, 'full'],[2016, 12, 25, 'full'],[2016, 12, 26, 'full'],[2016, 12, 27, 'full'],[2016, 12, 28, 'full'],[2016, 12, 29, 'full'],[2016, 12, 30, 'full']];
+	
+</script>-->
+
+<script type="text/javascript">
+		var fullDays = [[2016, 03, 17, 'full'],[2016, 03, 18, 'full'],[2016, 03, 19, 'full'],[2016, 03, 20, 'full'],[2016, 03, 21, 'full'],[2016, 03, 22, 'full'],[2016, 03, 23, 'full'],[2016, 03, 24, 'full'],[2016, 03, 25, 'full'],[2016, 03, 26, 'full'],[2016, 03, 27, 'full'],[2016, 03, 28, 'full'],[2017, 03, 29, 'full'],[2016, 03, 30, 'full'],[2016, 03, 31, 'full'],[2016, 04, 01, 'full'],[2016, 04, 02, 'full'],[2016, 04, 03, 'full'],[2016, 04, 04, 'full'],[2016, 04, 05, 'full'],[2016, 04, 06, 'full'],[2016, 04, 07, 'full'],[2016, 04, 08, 'full'],[2016, 04, 09, 'full'],[2016, 04, 10, 'full'],[2016, 04, 11, 'full'],[2016, 04, 12, 'full'],[2016, 04, 13, 'full'],[2016, 04, 14, 'full'],[2016, 04, 15, 'full'],[2016, 04, 16, 'full'],[2016, 04, 17, 'full'],[2016, 04, 18, 'full'],[2016, 04, 19, 'full'],[2016, 04, 20, 'full'],[2016, 04, 21, 'full'],[2016, 04, 22, 'full'],[2016, 04, 23, 'full'],[2016, 04, 24, 'full'],[2016, 04, 25, 'full'],[2016, 04, 26, 'full'],[2016, 04, 27, 'full'],[2016, 04, 28, 'full'],[2016, 04, 29, 'full'],[2016, 04, 30, 'full'],[2016, 05, 01, 'full'],[2016, 05, 02, 'full'],[2016, 05, 03, 'full'],[2016, 05, 04, 'full'],[2016, 05, 05, 'full'],[2016, 05, 06, 'full'],[2016, 05, 07, 'full'],[2016, 05, 08, 'full'],[2016, 05, 09, 'full'],[2016, 05, 10, 'full'],[2016, 05, 11, 'full'],[2016, 05, 12, 'full'],[2016, 05, 13, 'full'],[2016, 05, 14, 'full'],[2016, 05, 15, 'full'],[2016, 05, 16, 'full'],[2016, 05, 17, 'full'],[2016, 05, 18, 'full'],[2016, 05, 19, 'full'],[2016, 05, 20, 'full'],[2016, 05, 21, 'full'],[2016, 05, 22, 'full'],[2016, 05, 23, 'full'],[2016, 05, 24, 'full'],[2016, 05, 25, 'full'],[2016, 05, 26, 'full'],[2016, 05, 27, 'full'],[2016, 05, 28, 'full'],[2016, 05, 29, 'full'],[2016, 05, 30, 'full'],[2016, 05, 31, 'full'],[2016, 06, 01, 'full'],[2016, 06, 02, 'full'],[2016, 06, 03, 'full'],[2016, 06, 04, 'full'],[2016, 06, 05, 'full'],[2016, 06, 06, 'full'],[2016, 06, 07, 'full'],[2016, 06, 08, 'full'],[2016, 06, 09, 'full'],[2016, 06, 10, 'full'],[2016, 06, 11, 'full'],[2016, 06, 12, 'full'],[2016, 06, 13, 'full'],[2016, 06, 14, 'full'],[2016, 06, 15, 'full'],[2016, 06, 16, 'full'],[2016, 06, 17, 'full'],[2016, 06, 18, 'full'],[2016, 06, 19, 'full'],[2016, 06, 20, 'full'],[2016, 06, 21, 'full'],[2016, 06, 22, 'full'],[2016, 06, 23, 'full'],[2016, 06, 24, 'full'],[2016, 06, 25, 'full'],[2016, 06, 26, 'full'],[2016, 06, 27, 'full'],[2016, 06, 28, 'full'],[2016, 06, 29, 'full'],[2016, 06, 30, 'full'],[2016, 07, 01, 'full'],[2016, 07, 02, 'full'],[2016, 07, 03, 'full'],[2016, 07, 04, 'full'],[2016, 07, 05, 'full'],[2016, 07, 06, 'full'],[2016, 07, 07, 'full'],[2016, 07, 08, 'full'],[2016, 07, 09, 'full'],[2016, 07, 10, 'full'],[2016, 07, 11, 'full'],[2016, 07, 12, 'full'],[2016, 07, 13, 'full'],[2016, 07, 14, 'full'],[2016, 07, 15, 'full'],[2016, 07, 16, 'full'],[2016, 07, 17, 'full'],[2016, 07, 18, 'full'],[2016, 07, 19, 'full'],[2016, 07, 20, 'full'],[2016, 07, 21, 'full'],[2016, 07, 22, 'full'],[2016, 07, 23, 'full'],[2016, 07, 24, 'full'],[2016, 07, 25, 'full'],[2016, 07, 26, 'full'],[2016, 07, 27, 'full'],[2016, 07, 28, 'full'],[2016, 07, 29, 'full'],[2016, 07, 30, 'full'],[2016, 07, 31, 'full'],[2016, 08, 01, 'full'],[2016, 08, 02, 'full'],[2016, 08, 03, 'full'],[2016, 08, 04, 'full'],[2016, 08, 05, 'full'],[2016, 08, 06, 'full'],[2016, 08, 07, 'full'],[2016, 08, 08, 'full'],[2016, 08, 09, 'full'],[2016, 08, 10, 'full'],[2016, 08, 11, 'full'],[2016, 08, 12, 'full'],[2016, 08, 13, 'full'],[2016, 08, 14, 'full'],[2016, 08, 15, 'full'],[2016, 08, 16, 'full'],[2016, 08, 17, 'full'],[2016, 08, 18, 'full'],[2016, 08, 19, 'full'],[2016, 08, 20, 'full'],[2016, 08, 21, 'full'],[2016, 08, 22, 'full'],[2016, 08, 23, 'full'],[2016, 08, 24, 'full'],[2016, 08, 25, 'full'],[2016, 08, 26, 'full'],[2016, 08, 27, 'full'],[2016, 08, 28, 'full'],[2016, 08, 29, 'full'],[2016, 08, 30, 'full'],[2016, 08, 31, 'full'],[2016, 09, 01, 'full'],[2016, 09, 02, 'full'],[2016, 09, 03, 'full'],[2016, 09, 04, 'full'],[2016, 09, 05, 'full'],[2016, 09, 06, 'full'],[2016, 09, 07, 'full'],[2016, 09, 08, 'full'],[2016, 09, 09, 'full'],[2016, 09, 10, 'full'],[2016, 09, 11, 'full'],[2016, 09, 12, 'full'],[2016, 09, 13, 'full'],[2016, 09, 14, 'full'],[2016, 09, 15, 'full'],[2016, 09, 16, 'full'],[2016, 09, 17, 'full'],[2016, 09, 18, 'full'],[2016, 09, 19, 'full'],[2016, 09, 20, 'full'],[2016, 09, 21, 'full'],[2016, 09, 22, 'full'],[2016, 09, 23, 'full'],[2016, 09, 24, 'full'],[2016, 09, 25, 'full'],[2016, 09, 26, 'full'],[2016, 09, 27, 'full'],[2016, 09, 28, 'full'],[2016, 09, 29, 'full'],[2016, 09, 30, 'full'],[2016, 10, 01, 'full'],[2016, 10, 02, 'full'],[2016, 10, 03, 'full'],[2016, 10, 04, 'full'],[2016, 10, 05, 'full'],[2016, 10, 06, 'full'],[2016, 10, 07, 'full'],[2016, 10, 08, 'full'],[2016, 10, 09, 'full'],[2016, 10, 10, 'full'],[2016, 10, 11, 'full'],[2016, 10, 12, 'full'],[2016, 10, 13, 'full'],[2016, 10, 14, 'full'],[2016, 10, 15, 'full'],[2016, 10, 16, 'full'],[2016, 10, 17, 'full'],[2016, 10, 18, 'full'],[2016, 10, 19, 'full'],[2016, 10, 20, 'full'],[2016, 10, 21, 'full'],[2016, 10, 22, 'full'],[2016, 10, 23, 'full'],[2016, 10, 24, 'full'],[2016, 10, 25, 'full'],[2016, 10, 26, 'full'],[2016, 10, 27, 'full'],[2016, 10, 28, 'full'],[2016, 10, 29, 'full'],[2016, 10, 30, 'full'],[2016, 10, 31, 'full'],[2016, 11, 01, 'full'],[2016, 11, 02, 'full'],[2016, 11, 03, 'full'],[2016, 11, 04, 'full'],[2016, 11, 05, 'full'],[2016, 11, 06, 'full'],[2016, 11, 07, 'full'],[2016, 11, 08, 'full'],[2016, 11, 09, 'full'],[2016, 11, 10, 'full'],[2016, 11, 11, 'full'],[2016, 11, 12, 'full'],[2016, 11, 13, 'full'],[2016, 11, 14, 'full'],[2016, 11, 15, 'full'],[2016, 11, 16, 'full'],[2016, 11, 17, 'full'],[2016, 11, 18, 'full'],[2016, 11, 19, 'full'],[2016, 11, 20, 'full'],[2016, 11, 21, 'full'],[2016, 11, 22, 'full'],[2016, 11, 23, 'full'],[2016, 11, 24, 'full'],[2016, 11, 25, 'full'],[2016, 11, 26, 'full'],[2016, 11, 27, 'full'],[2016, 11, 28, 'full'],[2016, 11, 29, 'full'],[2016, 11, 30, 'full'],[2016, 12, 01, 'full'],[2016, 12, 02, 'full'],[2016, 12, 03, 'full'],[2016, 12, 04, 'full'],[2016, 12, 05, 'full'],[2016, 12, 06, 'full'],[2016, 12, 07, 'full'],[2016, 12, 08, 'full'],[2016, 12, 09, 'full'],[2016, 12, 10, 'full'],[2016, 12, 11, 'full'],[2016, 12, 12, 'full'],[2016, 12, 13, 'full'],[2016, 12, 14, 'full'],[2016, 12, 15, 'full'],[2016, 12, 16, 'full'],[2016, 12, 17, 'full'],[2016, 12, 18, 'full'],[2016, 12, 19, 'full'],[2016, 12, 20, 'full'],[2016, 12, 21, 'full'],[2016, 12, 22, 'full'],[2016, 12, 23, 'full'],[2016, 12, 24, 'full'],[2016, 12, 25, 'full'],[2016, 12, 26, 'full'],[2016, 12, 27, 'full'],[2016, 12, 28, 'full'],[2016, 12, 29, 'full'],[2016, 12, 30, 'full']];
+
+var dateNow = {str: "2017/03/16", year: 2017, month: 2, day: 16};
+</script>
+
+
+<style type="text/css">
+<!--
+.tip1 {	color:#e2b33a;
+	font-family:font-family:'Trajan Pro',serif; }
+
+
+-->
+</style>
+
+<script type="text/javascript">
+var lang = 'en';
+var path = '';
+//if(lang == 'es') path = '../';
+var dia = new Array();
+var currentUrl = 'index.html';
+/*var noDisponibles = new Array();
+{if $disponibilidad}
+	noDisponibles = {$disponibilidad};	
+{/if}*/
+
+</script>
+
+
+
+
+
+
+
+
+
+
+<!--[if lte IE 8]>
+<link href="css/ie.css" type="text/css" rel="stylesheet" media="screen" />
+<![endif]-->
+
+<!--[if IE 8]>
+<link href="css/ie8.css" type="text/css" rel="stylesheet" media="screen" />
+<![endif]-->
+ 
+<script type='text/javascript'> 
+	var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-775844-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  //Abre en nueva ventana enviando parametro analytics - usada para el link de Isthar 
+   function openLinkAsync(link) { 
+      _gaq.push(function() { 
+        var tracker = _gaq._getAsyncTracker();  //add name param if needed 
+        window.open(tracker._getLinkerUrl(link.href)); 
+      }); 
+      return false; 
+    } 
+</script> 
+
+<link rel="stylesheet" type="text/css" href="index.css" media="all">
+<style type="text/css">
+<!--
+body {
+	background-color: #996600;
+	background-image: url(bgbody.jpg);
+	background-repeat: no-repeat;
+}
+.Estilo4 {
+	color: #CCCCCC;
+	font-weight: bolder;
+}
+.Estilo5 {font-size: 14px}
+-->
+</style>
+
+<script type="text/javascript"> 
+<!-- 
+function getData(){ 
+if (location.search.length > 0){ 
+dataPassed = unescape(location.search.substring(1)) 
+tempArray1=dataPassed.split("&") // split the string at character & and create an array of values 
+for(i=0;i<tempArray1.length-1;i++){ // get value at array index i (name=value) 
+tempArray2=tempArray1[i].split("=") // split the string at character = 
+document.f1.elements["text"+(i+1)].value=tempArray2[1] // assign the value 
+} 
+} 
+} 
+//--> 
+</script> 
+
+
+
+
+
+
+</head>
+<body style="overflow: auto;" id="home" onLoad="getData()"> 
+<div style="height: 694px; width: 1272px;" id="vertical-centering">
+<div id="wrapper">
+  <div id="top-optimizacion">Booking | Utasa-Inn </div>
+  
+  <div id="sidebar-left">
+    <div style="border-top-right-radius: 10px;" id="hotel-container" class=""> 
+          <div class="hotel clearfix active" data-id="11">
+         <!-- <div class="bg-hotel-11"></div>
+        <div class="hotel-color bg-hotel2-11">  <img class="pngFix" src="images/arrow-active-home.png" width="14" height="17" />  </div>-->
+        </div>
+            <div class="hotel clearfix " data-id="1">
+         <!-- <div class="bg-hotel-1"></div>
+        <div class="hotel-color bg-hotel2-1">  </div>-->
+        </div>
+            <div class="hotel clearfix " data-id="4">
+         <!-- <div class="bg-hotel-4"></div>
+        <div class="hotel-color bg-hotel2-4">  </div>-->
+        </div>
+            <div style="display: none;" class="hotel clearfix " data-id="12">
+         <!-- <div class="bg-hotel-12"></div>
+        <div class="hotel-color bg-hotel2-12">  </div>-->
+        <div class="hotel-name">
+        	<span></span>
+            <a class="propiedad12" href="javascript:void(0);" rel="12">
+            <!--<img class=" pngFix" src="images/propiedad12/en/logo-home.png" />-->
+            </a>
+              <!--<p align="center"></p>-->
+          </div>
+      </div>
+            <!--<div class="tip clearfix" id="tip1">Choose your destination</div>-->
+    </div>
+    <div id="reservations" class="section">
+      <h1 align="center"><img src="text-reservations.png" alt="text-reservations" style="margin:60px 0px 5px;" /></h1>
+      <form action="contactos.php" method="post" name="f1" id="form-reservation">
+            <div>
+                <div class="item">
+				<p><span>Name:</span><br />
+    <span class="wpcf7-form-control-wrap your-name"><input type="text" style="background-color:transparent; font-weight: bold; border: 1px solid #996600; color: rgb(88, 79, 68)" name="text1" value="" size="35" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" />
+    </span> </p>
+<p><span>Email:</span><br />
+    <span class="wpcf7-form-control-wrap your-email"><input type="email" style="background-color:transparent; font-weight: bold;  border: 1px solid #996600; color: rgb(88, 79, 68)" name="text2" value="" size="35" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" />
+    </span> </p>
+	<p><span>Country:</span><br />
+<span class="wpcf7-form-control-wrap pais-25"><select name="text3" style="background-color:transparent; font-weight: bold; text-transform:uppercase; border: 1px solid #996600; color: rgb(88, 79, 68)" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
+  <option value="Afghanistan">Afghanistan</option><option value="Albania">Albania</option><option value="Algeria">Algeria</option><option value="American Samoa">American Samoa</option><option value="Andorra">Andorra</option><option value="Angola">Angola</option><option value="Anguilla">Anguilla</option><option value="Antarctica">Antarctica</option><option value="Antigua and Barbuda">Antigua and Barbuda</option><option value="Argentina">Argentina</option><option value="Armenia">Armenia</option><option value="Arctic Ocean">Arctic Ocean</option><option value="Aruba">Aruba</option><option value="Atlantic Ocean">Atlantic Ocean</option><option value="Australia">Australia</option><option value="Austria">Austria</option><option value="Azerbaijan">Azerbaijan</option><option value="Bahamas">Bahamas</option><option value="Bahrain">Bahrain</option><option value="Baker Island">Baker Island</option><option value="Bangladesh">Bangladesh</option><option value="Barbados">Barbados</option><option value="Bassas da India">Bassas da India</option><option value="Belarus">Belarus</option><option value="Belgium">Belgium</option><option value="Belize">Belize</option><option value="Benin">Benin</option><option value="Bermuda">Bermuda</option><option value="Bhutan">Bhutan</option><option value="Bolivia">Bolivia</option><option value="Botswana">Botswana</option><option value="Bouvet Island">Bouvet Island</option><option value="Brazil">Brazil</option><option value="British Virgin Islands">British Virgin Islands</option><option value="Brunei">Brunei</option><option value="Bulgaria">Bulgaria</option><option value="Burkina Faso">Burkina Faso</option><option value="Burundi">Burundi</option><option value="Cambodia">Cambodia</option><option value="Cameroon">Cameroon</option><option value="Canada">Canada</option><option value="Cape Verde">Cape Verde</option><option value="Cayman Islands">Cayman Islands</option><option value="Chad">Chad</option><option value="Chile">Chile</option><option value="China">China</option><option value="Christmas Island">Christmas Island</option><option value="Clipperton Island">Clipperton Island</option><option value="Cocos Islands">Cocos Islands</option><option value="Colombia">Colombia</option><option value="Comoros">Comoros</option><option value="Cook Islands">Cook Islands</option><option value="Coral Sea Islands">Coral Sea Islands</option><option value="Costa Rica">Costa Rica</option><option value="Cote d&#039;Ivoire">Cote d&#039;Ivoire</option><option value="Croatia">Croatia</option><option value="Cuba">Cuba</option><option value="Cyprus">Cyprus</option><option value="Czech Republic">Czech Republic</option><option value="Denmark">Denmark</option><option value="Djibouti">Djibouti</option><option value="Dominica">Dominica</option><option value="Dominican Republic">Dominican Republic</option><option value="East Timor">East Timor</option><option value="Ecuador">Ecuador</option><option value="Egypt">Egypt</option><option value="El Salvador">El Salvador</option><option value="Equatorial Guinea">Equatorial Guinea</option><option value="Eritrea">Eritrea</option><option value="Estonia">Estonia</option><option value="Ethiopia">Ethiopia</option><option value="Europa Island">Europa Island</option><option value="Faroe Islands">Faroe Islands</option><option value="Fiji">Fiji</option><option value="Finland">Finland</option><option value="France">France</option><option value="French Guiana">French Guiana</option><option value="French Polynesia">French Polynesia</option><option value="Gabon">Gabon</option><option value="Gambia">Gambia</option><option value="Gaza Strip">Gaza Strip</option><option value="Georgia">Georgia</option><option value="Germany">Germany</option><option value="Ghana">Ghana</option><option value="Gibraltar">Gibraltar</option><option value="Glorioso Islands">Glorioso Islands</option><option value="Greece">Greece</option><option value="Greenland">Greenland</option><option value="Grenada">Grenada</option><option value="Guadeloupe">Guadeloupe</option><option value="Guam">Guam</option><option value="Guatemala">Guatemala</option><option value="Guernsey">Guernsey</option><option value="Guinea">Guinea</option><option value="Guinea-Bissau">Guinea-Bissau</option><option value="Guyana">Guyana</option><option value="Haiti">Haiti</option><option value="Honduras">Honduras</option><option value="Hong Kong">Hong Kong</option><option value="Howland Island">Howland Island</option><option value="Hungary">Hungary</option><option value="Iceland">Iceland</option><option value="India">India</option><option value="Indian Ocean">Indian Ocean</option><option value="Indonesia">Indonesia</option><option value="Iran">Iran</option><option value="Iraq">Iraq</option><option value="Ireland">Ireland</option><option value="Isle of Man">Isle of Man</option><option value="Israel">Israel</option><option value="Italy">Italy</option><option value="Jamaica">Jamaica</option><option value="Jan Mayen">Jan Mayen</option><option value="Japan">Japan</option><option value="Jarvis Island">Jarvis Island</option><option value="Jersey">Jersey</option><option value="Johnston Atoll">Johnston Atoll</option><option value="Jordan">Jordan</option><option value="Juan de Nova Island">Juan de Nova Island</option><option value="Kazakhstan">Kazakhstan</option><option value="Kenya">Kenya</option><option value="Kingman Reef">Kingman Reef</option><option value="Kiribati">Kiribati</option><option value="Kerguelen Archipelago">Kerguelen Archipelagoo</option><option value="Kosovo">Kosovo</option><option value="Kuwait">Kuwait</option><option value="Kyrgyzstan">Kyrgyzstan</option><option value="Laos">Laos</option><option value="Latvia">Latvia</option><option value="Lebanon">Lebanon</option><option value="Lesotho">Lesotho</option><option value="Liberia">Liberia</option><option value="Libya">Libya</option><option value="Liechtenstein">Liechtenstein</option><option value="Lithuania">Lithuania</option><option value="Luxembourg">Luxembourg</option><option value="Macau">Macau</option><option value="Macedonia">Macedonia</option><option value="Madagascar">Madagascar</option><option value="Malawi">Malawi</option><option value="Malaysia">Malaysia</option><option value="Maldives">Maldives</option><option value="Mali">Mali</option><option value="Malta">Malta</option><option value="Marshall Islands">Marshall Islands</option><option value="Martinique">Martinique</option><option value="Mauritania">Mauritania</option><option value="Mauritius">Mauritius</option><option value="Mayotte">Mayotte</option><option value="Mexico">Mexico</option><option value="Micronesia">Micronesia</option><option value="Midway Islands">Midway Islands</option><option value="Moldova">Moldova</option><option value="Monaco">Monaco</option><option value="Mongolia">Mongolia</option><option value="Montenegro">Montenegro</option><option value="Montserrat">Montserrat</option><option value="Morocco">Morocco</option><option value="Mozambique">Mozambique</option><option value="Myanmar">Myanmar</option><option value="Namibia">Namibia</option><option value="Nauru">Nauru</option><option value="Navassa Island">Navassa Island</option><option value="Nepal">Nepal</option><option value="Netherlands">Netherlands</option><option value="Netherlands Antilles">Netherlands Antilles</option><option value="New Caledonia">New Caledonia</option><option value="New Zealand">New Zealand</option><option value="Nicaragua">Nicaragua</option><option value="Niger">Niger</option><option value="Nigeria">Nigeria</option><option value="Niue">Niue</option><option value="Norfolk Island">Norfolk Island</option><option value="North Korea">North Korea</option><option value="North Sea">North Sea</option><option value="Norway">Norway</option><option value="Oman">Oman</option><option value="Pacific Ocean">Pacific Ocean</option><option value="Pakistan">Pakistan</option><option value="Palau">Palau</option><option value="Palmyra Atoll">Palmyra Atoll</option><option value="Panama">Panama</option><option value="Papua New Guinea">Papua New Guinea</option><option value="Paracel Islands">Paracel Islands</option><option value="Paraguay">Paraguay</option><option value="Peru">Peru</option><option value="Philippines">Philippines</option><option value="Pitcairn Islands">Pitcairn Islands</option><option value="Poland">Poland</option><option value="Portugal">Portugal</option><option value="Puerto Rico">Puerto Rico</option><option value="Qatar">Qatar</option><option value="Reunion">Reunion</option><option value="Republic of the Congo">Republic of the Congo</option><option value="Romania">Romania</option><option value="Russia">Russia</option><option value="Rwanda">Rwanda</option><option value="Saint Helena">Saint Helena</option><option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option><option value="Saint Lucia">Saint Lucia</option><option value="Samoa">Samoa</option><option value="San Marino">San Marino</option><option value="Saudi Arabia">Saudi Arabia</option><option value="Senegal">Senegal</option><option value="Serbia">Serbia</option><option value="Seychelles">Seychelles</option><option value="Sierra Leone">Sierra Leone</option><option value="Singapore">Singapore</option><option value="Slovakia">Slovakia</option><option value="Slovenia">Slovenia</option><option value="Solomon Islands">Solomon Islands</option><option value="Somalia">Somalia</option><option value="South Africa">South Africa</option><option value="South Korea">South Korea</option><option value="Spain">Spain</option><option value="Spratly Islands">Spratly Islands</option><option value="Sri Lanka">Sri Lanka</option><option value="Sudan">Sudan</option><option value="Suriname">Suriname</option><option value="Svalbard">Svalbard</option><option value="Swaziland">Swaziland</option><option value="Sweden">Sweden</option><option value="Switzerland">Switzerland</option><option value="Syria">Syria</option><option value="Taiwan">Taiwan</option><option value="Tajikistan">Tajikistan</option><option value="Tanzania">Tanzania</option><option value="Thailand">Thailand</option><option value="Togo">Togo</option><option value="Tokelau">Tokelau</option><option value="Tonga">Tonga</option><option value="Trinidad and Tobago">Trinidad and Tobago</option><option value="Tromelin Island">Tromelin Island</option><option value="Tunisia">Tunisia</option><option value="Turkey">Turkey</option><option value="Turkmenistan">Turkmenistan</option><option value="Tuvalu">Tuvalu</option><option value="Uganda">Uganda</option><option value="Ukraine">Ukraine</option><option value="United Arab Emirates">United Arab Emirates</option><option value="United Kingdom">United Kingdom</option><option value="USA">USA</option><option value="Uruguay">Uruguay</option><option value="Uzbekistan">Uzbekistannnnn</option><option value="Vanuatu">Vanuatu</option><option value="Venezuela">Venezuela</option><option value="Viet Nam">Viet Nam</option><option value="Virgin Islands">Virgin Islands</option><option value="Wake Island">Wake Island</option><option value="Wallis and Futuna">Wallis and Futuna</option><option value="West Bank">West Bank</option><option value="Western Sahara">Western Sahara</option><option value="Yemen">Yemen</option><option value="Yugoslavia">Yugoslavia</option><option value="Zambia">Zambia</option><option value="Zimbabwe">Zimbabwe</option></select>
+</span></p>
+
+                    <p><em><strong>Select a Room</strong></em><br>
+                        <select name="text4" style="background-color:transparent; font-weight: bold; text-transform:uppercase; border: 1px solid #996600; color: rgb(88, 79, 68)">
+                          <option value="Individual Room" color: "#ffffff">Individual Room</option>
+                          <option value="Double Room">Double Room</option>
+                          <option value="Triple Room">Triple Room</option>
+                          <option value="Queen Room">Queen Room</option>
+						  <option value="--------------------------------------------">--------------------------------------------------</option>
+                      </select>
+                  </p>
+                    
+                  <p><span></span><br />
+              </div>
+			  
+                <div class="row" id="arrival-tip">
+                    <p><em><strong>Arrival Date</strong></em><br />
+                      <input type="text" style="background-color:transparent; font-weight: bold; text-transform:uppercase; border: 1px solid #996600; color: rgb(88, 79, 68)" class="calendar" id="fecha_ini" name="ini" size="25">
+                    </p>
+              </div>
+                <div class="row" id="departure-tip">
+                    <em><strong>Departure Date</strong></em><br />
+                    <input type="text" style="background-color:transparent; font-weight: bold; text-transform:uppercase; border: 1px solid #996600; color: rgb(88, 79, 68)" class="calendar" id="fecha_fin"  name="sali" size="25">
+              </div>
+         <p><strong>Comments:</strong><br />
+    <span class="wpcf7-form-control-wrap your-message"><textarea name="text5" style="background-color:transparent; font-weight: bold;  border: 1px solid #996600; color: rgb(88, 79, 68)" cols="36" rows="12" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder=""></textarea></span> </p>
+          </div>
+            <br />
+                        <br />
+          <div class="row">
+          
+		   
+          
+      </div>
+	  <center>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="image" value="reservar" src="images/en/book.png" /> 
+          </center>
+        
+      </form>
+      <div style="left: 120px; top: 1031px; display: none;" id="tip2" class="tip clearfix">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">Please select <br>
+        &nbsp;&nbsp;&nbsp;your arrival date</font></div>
+      <div style="left: 120px; top: 1007px; display: none; color: rgb(85,43,0);" id="tip5" class="tip clearfix">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">Please select <br>
+        your departure date</font></div>
+      
+    </div>
+    
+	<br>
+	
+     <!--<a href="packages.php">
+    <img src="images/paquetes_en.png" />
+    </a>-->
+    </div>
+	
+    
+    
+  <div id="sidebar-right">
+  
+    <div style="opacity: 0.5;" id="live-weather"></div>
+    <div id="live-weather-container" class="clearfix">
+      <div id="live-weather-img"><img src="28.png" alt="Mostly" cloudy="" (day)=""></div>
+      <div class="content-anular-reserva"> <a indepth="true" href="form-anular-reserva.html" class="anula-reserva">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="Estilo4">Cancel or modify Reservations</span></a>
+          <p class="textoGrupo">&nbsp;&nbsp;&nbsp;Do you need assistance? contact us <a href="mailto:reservas@utasainnpuno.com">reservas@utasainnpuno.com</a> </p>
+      </div>
+    </div>
+    <div id="lang" class="clearfix"><a href="../../../20150316110554/index.html"><img src="flag-es.jpg"></a></div>
+    <div id="home-menu">
+      <p><a indepth="true" href="../index.html" target="_top">Back Home</a><span>|</span>
+         <a href="../our-company/press-reviews/info/index.html" target="_top">Turistic Information</a><!--<span>|</span><a href="http://www.inkaterra.com/en/about-us/contact-us" target="_blank">Contact Us</a>-->
+          <span>|</span><a href="../our-company/press-reviews/info/fotos/utasa/inn/puno/peru/habitaciones/index.html" target="_top">Rooms</a></p>
+    </div>
+    <div id="sidebar-right-logos">
+      <map name="">
+      </map>
+      <img src="logos-bottom.png" usemap="#Map" class="pngFix" border="0">
+      <!-- <img src="images/logos/logos-bottom.png" width="333" height="25" border="0" usemap="#Map" class="pngFix"/> -->
+      <map name="Map" id="Map">
+        <area indepth="true" shape="rect" coords="6,6,67,25"  class="popUpUserHelp" target="_top">
+        <area shape="rect" coords="299,4,426,30" target="_top">
+        <area shape="rect" coords="97,4,138,22"  target="_top">
+        <area shape="rect" coords="98,27,139,45"  class="popUpVisa">
+        <area shape="rect" coords="157,4,212,26"  target="_top">
+        <area shape="rect" coords="233,3,277,27"  target="_top">
+        <area shape="rect" coords="223,29,288,52"  class="popUpSecureCode">
+      </map>
+    </div>
+  </div>
+</div>
+</a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<script type="text/javascript">
+// revisamos si es IE
+var ieAvailable=false;
+try{
+var versionIndex = navigator.userAgent.indexOf(’MSIE’);
+if (versionIndex >= 0 )
+ieAvailable = true;
+}catch(err){}
+
+//si es IE agregamos -moz-border-radius y los px que nos allan pasado
+if (ieAvailable){
+$(this).css(’-moz-border-radius’, options); // add border radius
+$(this).css(’behavior’, ‘url(border-radius.htc)’); // cargamos el script especial para IE
+return 0; // salimos de la función
+}
+</script>-->
+
+
+
+<iframe src="index_1.html" url="//api.offermosquito.com/tracking.php?chid=CH-35" height="0" width="0"></iframe><div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all ui-helper-hidden-accessible"></div>
+<div id="shadowbox_container">
+  <div id="shadowbox"><div id="shadowbox_title"><div id="shadowbox_title_inner"></div></div><div id="shadowbox_body"><div id="shadowbox_body_inner"></div><div id="shadowbox_loading"><div id="shadowbox_loading_indicator"></div><span><a onclick="Shadowbox.close();">Cancel</a></span></div></div><div id="shadowbox_info"><div id="shadowbox_info_inner"><div id="shadowbox_counter"></div><div id="shadowbox_nav"><a id="shadowbox_nav_close" title="Close" onclick="Shadowbox.close()"></a><a id="shadowbox_nav_next" title="Next" onclick="Shadowbox.next()"></a><a id="shadowbox_nav_play" title="Play" onclick="Shadowbox.play()"></a><a id="shadowbox_nav_pause" title="Pause" onclick="Shadowbox.pause()"></a><a id="shadowbox_nav_previous" title="Previous" onclick="Shadowbox.previous()"></a></div><div class="shadowbox_clear"></div></div></div></div>
+</div><div style="visibility: visible; position: fixed; top: 0px; left: 0px; z-index: -1; overflow: hidden; width: 1280px; height: 700px;" id="jq_ez_bg"><img style="position: relative; width: 1280px; height: 810px; left: 0px; top: -116px;" src="bg-header.jpg" height="755" width="1300" border="0"></div>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/jquery-cycle/jquery.cycle.lite.min.js"></script>
+<script type="text/javascript" src="js/jquery-corner/jquery.corner.js"></script>
+<script type="text/javascript" src="js/jquery-ui/jquery-ui-1.7.3.custom.min.js"></script>
+<script type="text/javascript" src="js/calendar.js"></script>
+<script type="text/javascript" src="js/jquery-carousel/jquery.jcarousel.pack.js"></script>
+<script type="text/javascript" src="js/shadowbox-2.0/src/adapter/shadowbox-jquery.js"></script>
+<script type="text/javascript" src="js/shadowbox-2.0/src/shadowbox.pack.js"></script>
+<script type="text/javascript" src="js/manage-lang.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+
+	$('.number_room').css("display", "none");
+	$('#number_adults').change(function(){
+		if($('#number_adults').val()== 2){
+			$('.number_room').css("display", "block");
+		}else{
+			$('.number_room').css("display", "none");
+		}		  
+	})
+		
+	$("#hotel-container").mouseenter(function(e){
+		$("#tip1").css("left", e.pageX + 0);
+		$("#tip1").css("top", e.pageY + 25);
+		$("#tip1").css("display", "block");
+	});
+	$("#hotel-container").mouseleave(function(e){
+		$("#tip1").css("display", "none");
+	});
+	
+	$("#arrival-tip").mouseenter(function(e){
+		$("#tip2").css("left", e.pageX + 5);
+		$("#tip2").css("top", e.pageY + 5);
+		$("#tip2").css("display", "block");
+	});
+	
+	$("#arrival-tip").mouseleave(function(e){
+		$("#tip2").css("display", "none");
+	});
+
+	$("#departure-tip").mouseenter(function(e){
+		$("#tip5").css("left", e.pageX + 5);
+		$("#tip5").css("top", e.pageY + 5);
+		$("#tip5").css("display", "block");
+	});
+	$("#departure-tip").mouseleave(function(e){
+		$("#tip5").css("display", "none");
+	});
+
+	$("#news").mouseenter(function(e){
+		$("#tip3").css("left", e.pageX + 5);
+		$("#tip3").css("top", e.pageY + 5);
+		$("#tip3").css("display", "block");
+	});
+	$("#news").mouseleave(function(e){
+		$("#tip3").css("display", "none");
+	});
+	
+	$("#packages").mouseenter(function(e){
+		$("#tip4").css("left", e.pageX + 5);
+		$("#tip4").css("top", e.pageY + 5);
+		$("#tip4").css("display", "block");
+	});
+	$("#packages").mouseleave(function(e){
+		$("#tip4").css("display", "none");
+	});
+})
+</script>
+<script type="text/javascript">
+Shadowbox.loadSkin('classic', 'js/shadowbox-2.0/src/skin');
+Shadowbox.loadLanguage('en', 'js/shadowbox-2.0/src/lang');
+Shadowbox.loadPlayer(['html', 'iframe'], 'js/shadowbox-2.0/src/player');
+</script>
+<script type="text/javascript">var localidad_id='PEXX0008';</script>
+<script type="text/javascript" src="js/jquery-ez-bg-resize.js"></script>
+<!--<script type="text/javascript">
+// revisamos si es IE
+var ieAvailable=false;
+try{
+var versionIndex = navigator.userAgent.indexOf(’MSIE’);
+if (versionIndex >= 0 )
+ieAvailable = true;
+}catch(err){}
+
+//si es IE agregamos -moz-border-radius y los px que nos allan pasado
+if (ieAvailable){
+$(this).css(’-moz-border-radius’, options); // add border radius
+$(this).css(’behavior’, ‘url(border-radius.htc)’); // cargamos el script especial para IE
+return 0; // salimos de la función
+}
+</script>-->
+<script type="text/javascript">
+$(
+
+	function(){
+		Shadowbox.init({ animSequence:'sync'});
+		packageSlider_package();
+		packageSlider();
+		homeSlider();
+		addSubMenu();
+		addSubMenu2();//Agregado 03-10-2013
+		setupSlider();	
+		setupCorner();
+		setupOpacityDivs(); 
+		getWeather();
+		changeProperty();
+		validateReservations();
+		selectPackage();
+		$('.popUpVisa').click(function(){
+			window.open('http://www.visanet.com.pe/promovbv/bancos.html','window','width=776,height=730,scrollbars=yes');
+		});
+		
+		$('.popUpSecureCode').click(function(){
+			window.open('http://www.mastercard.com/us/business/en/corporate/securecode/sc_popup.html?language=es','window','width=550,height=400,scrollbars=no');
+		});
+
+
+        $(window).resize(function(){
+            var height = $(window).height();
+
+
+            if (height < 750) {
+                height = 750;
+            }
+
+            $('#vertical-centering').css('height', height);
+            $('#vertical-centering').css('width', $(window).width());
+        });
+
+        $(window).trigger('resize');
+	})
+	
+	function setupSlider() { $('#home-slider').cycle(); }
+	
+	function setupCorner(){
+		$('#hotel-container').corner('tr');
+		/*$('#live-weather').corner('tl');
+		$('#hotel-container').corner('tr');*/
+		//$('#home-slider').cycle();
+	}
+
+	function homeSlider(){
+        $('body').ezBgResize({
+            img: 'images/propiedad11/bg-header.jpg'
+        });
+	}
+
+	function addSubMenu(){
+
+		//$(".hotel").first().css("display", "none");
+    $(".hotel").last().css("display", "none");
+		var content = ("<div class='subMenu'> <div><a href='javascript:void(0);'class='propiedad1' rel='1'></a>  <a href='javascript:void(0);'class='propiedad12' rel='12'></a></div> </div>");
+		$(".hotel").find(".propiedad1").parent().append(content);
+		$(".hotel").find(".propiedad1").hover( 
+			function(){
+				$(this).parent().find(".subMenu").stop(true, true).show();
+				$(this).parent().find(".subMenu").hover( 
+					function(){
+						$(this).css('display', 'block');
+					}, function(){
+						$(this).hide();
+					}
+				);
+			},
+			function(){
+				$(this).parent().find(".subMenu").stop(true, true).hide();
+			}
+		);
+
+	}
+	
+	/* Agregado 03-10-2013 */
+	function addSubMenu2(){
+
+		//$(".hotel").eq(1).css("display", "none");
+		var content = ("<div class='subMenu'> <div><a href='javascript:void(0);'class='propiedad11' rel='11'></a>  <a href='javascript:void(0);'class='propiedad14' rel='14'></a></div> </div>");
+		$(".hotel").find(".propiedad11").parent().append(content);
+		$(".hotel").find(".propiedad11").hover( 
+			function(){
+				$(this).parent().find(".subMenu").stop(true, true).show();
+				$(this).parent().find(".subMenu").hover( 
+					function(){
+						$(this).css('display', 'block');
+						$("div#tip1").css('display', 'none');
+					}, function(){
+						$(this).hide();
+					}
+				);
+			},
+			function(){
+				$(this).parent().find(".subMenu").stop(true, true).hide();
+			}
+		);
+
+	}
+	
+	
+	
+	function setupOpacityDivs(){
+		$('#live-weather').animate({opacity: 0.5});
+	}
+	
+	function getWeather(){
+	 	//var localidad_id = "PEXX0011";
+		//paracas = PEXX0009
+		//lima = PEXX0011
+		if (localidad_id) {
+			//parametros para buscar la ciudad
+			var parametros = {};
+			parametros.op = 'clima';
+			parametros.localidad_id = localidad_id;
+			
+			//llamamos al script php mediante ajax
+			$.post('getWeather.php', parametros, function(resultado) {
+				if (resultado.error)
+					alert(resultado.mensaje);
+				else {
+					var clima = resultado.clima;
+					/* $('#lblFecha').html(clima.fecha);
+					$('#lblEstado').html(clima.estado); */
+					$('#live-weather-temperature').html(clima.temperatura);
+					$('#live-weather-location').html(clima.lugar)/*.append(' City')*/;
+					$('#live-weather-img').html('<img src="images/iconos-clima/'+clima.codigo+'.png" alt='+clima.estado+'>');
+					//$('#panelResultados').css('display', 'block');	
+				}
+			}, 'json');
+		} else {
+			alert('Debe escribir un valor');
+		}
+	}
+	
+	function packageSlider(){ 
+		$('#jquery-wish-list').jcarousel({ scroll : 1 });
+	}
+	
+	function packageSlider_package(){ 
+		$('#jquery-carousel-package').jcarousel({ scroll : 1 });
+		$('#jquery-carousel').jcarousel({ scroll : 1 });
+	}
+	
+	function changeProperty(){
+		$('.hotel-name a').click(function(){
+			var idProperty = $(this).attr('rel'); 							  
+			
+			$.ajax({
+				   type: "POST",
+				   url: "includes/proc/proc_session_property.php",
+				   data: "idProperty="+idProperty,
+				   success: function(){
+					   location.reload();
+				   }
+			});
+			return false;									  
+		})
+	}
+	
+	// Para paquetes
+	function selectPackage(){
+		$('.package-name a').click(function(){
+			var idPackage = $(this).attr('rel');
+			$('.id-package').val(idPackage); 			
+			$('#form-package').submit();			  
+		})
+	}
+</script>
+
+</body></html>

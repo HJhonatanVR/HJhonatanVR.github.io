@@ -1,0 +1,117 @@
+/*
+ * Project: CirclePlayer
+ * http://www.jplayer.org
+ *
+ * Copyright (c) 2011 Happyworm Ltd
+ *
+ * Author: Silvia Benvenuti
+ * Edited by: Mark J Panaghiston
+ * Date: 6th May 2011
+ * Artwork inspired by: http://forrst.com/posts/Untitled-CJz
+ */
+
+.cp-container {
+	float:left;
+	display: block;
+	position: relative;
+	width: 33px; /* 200 - (2 * 48) */
+	height: 33px;
+	background: url("bgr.jpg") 0 0 no-repeat;
+	padding: 0;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+.cp-container :focus {
+	border:none; 
+	outline:0;
+}
+
+.cp-buffer-1,
+.cp-buffer-2,
+.cp-progress-1,
+.cp-progress-2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1px;
+	height: 1px;
+}
+
+.cp-buffer-1,
+.cp-buffer-2 {
+	display: none;
+}     
+
+
+/* FALLBACK for .progress
+ * (24 steps starting from 1hr filled progress, Decrease second value by 104px for next step)
+ * (It needs the container selector to work. Or use div)
+ */ 
+
+.cp-container .cp-fallback {
+	display: none;
+}
+
+.cp-progress-1,
+.cp-progress-2 {
+	display: none;
+} 
+
+.cp-buffer-holder,
+.cp-progress-holder,
+.cp-circle-control {
+	display: none;
+} 
+
+.cp-circle-control {
+	cursor:pointer;
+}
+
+.cp-buffer-holder,
+.cp-progress-holder {
+	display: none;
+}
+
+
+/* This is needed when progress is greater than 50% or for fallback */
+
+.cp-buffer-holder.cp-gt50,
+.cp-progress-holder.cp-gt50,
+.cp-progress.cp-fallback{
+	clip:rect(auto, auto, auto, auto);
+}  
+
+.cp-controls {
+	margin:0;
+	padding: 0px;
+}
+
+.cp-controls li{
+	list-style-type:none;
+	display: block;
+
+	/*IE Fix*/  
+	position:absolute;
+}
+
+.cp-controls li a{
+	position: relative;
+	display: block;
+	width:33px;
+	height:33px;
+	text-indent:-9999px;
+	z-index:1;      
+}
+
+.cp-controls .cp-play {
+	background: url("controls.gif") 0 0 no-repeat;
+}
+
+.cp-controls .cp-pause {
+	background: url("controls.gif") 0 -33px no-repeat;
+}
+
+.cp-jplayer {
+	width: 0;
+	height: 0; 
+}

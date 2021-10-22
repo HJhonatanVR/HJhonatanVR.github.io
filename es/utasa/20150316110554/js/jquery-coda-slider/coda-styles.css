@@ -1,0 +1,16 @@
+/*html { font-size: 100%; }
+body { font: 62.5%/1.5 "Trebuchet MS",sans-serif; background: #eee; color: #333; text-align: left; }
+p { padding-bottom: 10px; font-size: 1.2em; }
+h1,h2 { font-size: 2.2em; margin-bottom: 14px; }
+h2 { font-size: 1.6em; }
+.hide { display: none; }
+#wrapper { width: 980px; margin: 20px auto; }
+#slider { width: 720px; margin: 20px auto; position: relative; }*/
+.scroll { height: 260px; width: 180px; /*overflow: auto;*/ position: relative; clear: left; background: #fff; }
+.scrollContainer div.panel { /*padding: 15px; height: 225px; width: 688px; */}
+/*ul.navigation { list-style: none; text-align: center; }
+ul.navigation li { display: inline; margin: 0 20px 0 0;  }
+ul.navigation a { line-height: 2.4em; padding: 10px; text-decoration: none; color: #333; font-size: 14px; font-weight: bold; }
+ul.navigation a:hover { background: #ddd; }
+ul.navigation a.selected { background: #fff; cursor: default; }
+ul.navigation a:focus { outline: none; }*/

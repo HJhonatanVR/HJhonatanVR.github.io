@@ -1,0 +1,400 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from www.inkaterra.com/librodereclamaciones/ by HTTrack Website Copier/3.x [XR&CO'2013], Wed, 18 Feb 2015 01:38:51 GMT -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Hoja de Reclamaci&oacute;n</title>
+<link type="text/css" rel="stylesheet" href="css/style.css" />
+<script type="text/javascript" src="../../ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#formReclamacion").validate({
+		rules: {
+			nombre_completo: "required",
+			"captcha[input]": "required",
+			apellido_paterno: "required",
+			apellido_materno: "required",
+			direccion: "required",
+			numero_documento: {
+				required: true,
+				number: true
+			},
+			correo_electronico: {
+				required: true,
+				email: true
+			},
+			numero_telefono: {
+				required: true,
+				number: true
+			},
+			descripcion_contratado: "required",
+			detalle_reclamacion: "required"
+		},
+		messages: {
+			nombre_completo: "<br />Ingrese su nombre",
+			apellido_paterno: "<br />Ingrese su apellido paterno",
+			apellido_materno: "<br />Ingrese su apellido materno",
+			direccion: "<br />Ingrese su dirección",
+			numero_documento: {
+				required: "<br />Ingrese su número de documento",
+				number: "<br />Ingrese solo números"
+			},
+			correo_electronico: {
+				required: "<br />Ingese su dirección de correo electrónico",
+				email: "<br />Ingrese una dirección de correo válida"
+			},
+			numero_telefono: {
+				required: "<br />Ingrese su número de documento",
+				number: "<br />Ingrese solo números"
+			},
+			descripcion_contratado: "<br />Ingrese la descripción de lo contratado",
+			detalle_reclamacion: "<br />Ingrese el detalle de la reclamación",
+			"captcha[input]": "Por favor escriba las palabras que se muestran ",
+		}
+	});
+});
+
+function activarBoton(o){
+	var obj = $(o);
+	var btn = $("#btn_submit");
+	if(obj.is(':checked')){
+		btn.attr("disabled",false);
+	}else{
+		btn.attr("disabled",true);
+	}
+	//$('#checkboxId').is(':checked');
+}
+</script>
+</head>
+<body style="background:#996600; background-image: url(../utasa.jpg);">
+
+
+
+<div style="background:#996600; color:#FFF; border-bottom:1px solid #FFF; background-image: url(../utasa.jpg);">
+    <table width="950" height="78" cellpadding="0" cellspacing="0" border="0" align="center">
+        <tr>
+            <td><img src="public/img/logo.jpg" /></td>
+            <td style="text-align:right; font-size:16px; padding-right:35px;">
+	            AYÚDENOS A MEJORAR<i> / BOOK OF SUGGESTIONS</i>
+                <div style="padding-top:6px; font-size:14px;">
+	                <b>W0000197-2015</b>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<table width="950" height="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="color:#EEEEEE; font-size:12px!important; background-image: url(../q.png);">
+    <tr>
+    	<td bgcolor="transparent">
+            <form action="http://www.inkaterra.com/librodereclamaciones/index/" method="post" id="formReclamacion">
+            
+            <div class="blockSeccion">
+            	<div class="colLeft">
+                	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+                    	<tr>
+                        	<td valign="top" width="286">
+                            	FECHA / <i>DATE</i>
+                            </td>
+                            
+                            <td>
+                            	<table cellpadding="0" cellspacing="0" border="0">
+                                	<tr>
+                                    	<td width="88">
+                                        	Día / <i>Date</i><br />
+                                            <select name="dia" enabled="enabled" style="width:72px;">
+                                            	<option value="01">01</option>
+												<option value="02">02</option>
+												<option value="03">03</option>
+												<option value="04">04</option>
+												<option value="05">05</option>
+												<option value="06">06</option>
+												<option value="07">07</option>
+												<option value="08">08</option>
+												<option value="09">09</option>
+												<option value="10">10</option>
+												<option value="11">11</option>
+												<option value="12">12</option>
+												<option value="13">13</option>
+												<option value="14">14</option>
+												<option value="15">15</option>
+												<option value="16">16</option>
+												<option value="17">17</option>
+												<option value="18">18</option>
+												<option value="19">19</option>
+												<option value="20">20</option>
+												<option value="21">21</option>
+												<option value="22">22</option>
+												<option value="23">23</option>
+												<option value="24">24</option>
+												<option value="25">25</option>
+												<option value="26">26</option>
+												<option value="27">27</option>
+												<option value="28">28</option>
+												<option value="29">29</option>
+												<option value="30">30</option>
+												<option value="31">31</option>
+                                            </select>
+                                        </td>
+                                        <td width="88">
+                                        	Mes / <i>Month</i><br />
+                                            <select name="mes" enabled="enabled" style="width:72px;" class="disabled">
+                                            	<option value="01">01</option>
+												<option value="02">02</option>
+												<option value="03">03</option>
+												<option value="04">04</option>
+												<option value="05">05</option>
+												<option value="06">06</option>
+												<option value="07">07</option>
+												<option value="08">08</option>
+												<option value="09">09</option>
+												<option value="10">10</option>
+												<option value="11">11</option>
+												<option value="12">12</option>
+                                            </select>
+                                        </td>
+                                        <td width="88">
+                                        	Año / <i>Year</i><br />
+                                            <select name="anio" enabled="enabled" style="width:72px;" class="disabled">
+                                            	<option value="2015">2015</option>
+												<option value="2016">2016</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        
+                    	<tr>
+                        	<td colspan="2" height="11" style="font:0px Arial;"></td>
+                        </tr>
+                        
+                        <tr>
+                        	<td valign="top" width="286">
+                            	<label for="hotel">ASUNTO / <i>ISSUE</i></label>
+                            </td>
+                            
+                            <td>
+                            	<input type="text" id="hotel" name="hotel" style="width:612px;"/>
+                              
+                            </td>
+                        </tr>
+                    </table>
+				</div>
+            	<div class="clear"></div>
+            </div>
+            
+            
+            <div class="blockSeccion">
+            	<div class="colLeft">
+                	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+                    	<tr>
+                        	<td valign="top">
+                            	1.- IDENTIFICACIÓN DEL CONSUMIDOR / <i>GUEST IDENTIFICATION</i>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                        	<td valign="top" height="28" style="padding-left:19px;">
+                                <table cellpadding="0" cellspacing="0" border="0">
+                                	<tr>
+                                    	 <td width="265"><label for="nombre_completo">(*) Nombre Completo / <i>Name</i></label></td>
+                                         <td><input type="text" id="nombre_completo" name="nombre_completo" value="" style="width:608px;" /></td>
+                                    </tr>
+                                    
+                                    <tr><td colspan="2" height="5" style="font:0 Arial;"></td></tr>
+                                    
+                                	<tr>
+                                    	 <td><label for="direccion">(*) Domicilio / <i>Address</i></label></td>
+                                         <td><input type="text" id="direccion" name="direccion" value="" style="width:608px;" /></td>
+                                    </tr>
+                                    
+                                    <tr><td colspan="2" height="5" style="font:0 Arial;"></td></tr>
+                                    
+                                	<tr>
+                                    	 <td><label for="numero_documento">(*) DNI / <i>Passport</i></label></td>
+                                         <td><input type="text" id="numero_documento" name="numero_documento" value="" style="width:304px;" /></td>
+                                    </tr>
+                                    
+                                    <tr><td colspan="2" height="5" style="font:0 Arial;"></td></tr>
+                                    
+                                	<tr>
+                                    	 <td><label for="numero_telefono">(*) Teléfono / <i>Phone</i></label></td>
+                                         <td><input type="text" id="numero_telefono" name="numero_telefono" value="" style="width:304px;" /></td>
+                                    </tr>
+                                    
+                                    <tr><td colspan="2" height="5" style="font:0 Arial;"></td></tr>
+                                    
+                                	<tr>
+                                    	 <td><label >(*) Correo Electrónico / <i>E-mail</i></label></td>
+                                         <td><input type="text" id="correo_electronico" name="correo_electronico" value="" style="width:304px;" /></td>
+                                    </tr>
+                                    
+                                    <tr><td colspan="2" height="5" style="font:0 Arial;"></td></tr>
+                                </table>
+                                <table cellpadding="0" cellspacing="0" border="0">
+                                	<tr>
+                                    	<td width="350">
+                                        	<label for="nombre_apoderado">
+                                            	Nombre del Padre o Madre (Para el caso de menores de edad)<br />
+                                            	Father or Mother name (In case of minors)
+                                            </label>
+                                        </td>
+                                        
+                                        <td valign="top">
+                                        	<input type="text" id="nombre_apoderado" name="nombre_apoderado" value="" style="width:523px;" />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    <br />
+                    <br />
+                	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+                    	<tr>
+                        	<td valign="top">&nbsp;</td>
+                        </tr>
+                        
+                        <tr>
+                       	  <td valign="top" height="28" style="padding-left:19px;">&nbsp;</td>
+                        </tr>
+                    </table>
+				</div>
+            	<div class="clear"></div>
+            </div>
+            
+            <div class="blockSeccion">
+            	<div class="colLeft">
+                	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+                    	<tr>
+                        	<td valign="top">
+                            	3. DETALLE DE LA SUGERENCIA / <i>DETAIL OF THE SUGGESTION </i>
+                            </td>
+                        </tr>
+                        
+                        <tr><td height="10" style="font:0 Arial;"></td></tr>
+                        
+                        <tr>
+                        	<td valign="top" height="28" style="padding-left:19px;">
+                                <table cellpadding="0" cellspacing="0" border="0">
+                                	<tr>
+                                    	 <td width="118"><label for="tipo_reclamacion_1">Sugerencia / <i>Suggestion &sup1;</i></label></td>
+                                         <td width="148"><input type="radio" id="tipo_reclamacion_1" name="tipo_reclamacion" value="RECLAMO" checked="checked"/></td>
+                                         <td><label for="detalle_reclamacion">(*) Descripción / <i>Description</i></label></td>
+                                    </tr>
+                                    
+                                	<tr>
+                                    	 <td width="118" valign="top"><label for="tipo_reclamacion_2">Queja / <i>Complaint &sup2;</i></label></td>
+                                         <td width="148" valign="top"><input type="radio" id="tipo_reclamacion_2" name="tipo_reclamacion" value="QUEJA"/></td>
+                                         <td>
+                                         	<textarea id="detalle_reclamacion" name="detalle_reclamacion" rows="4" style="width:608px;"></textarea>
+										</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+				</div>
+            	<div class="clear"></div>
+            </div>
+            
+            <div class="blockSeccion">
+            	<div class="colLeft">
+                	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+                    	<tr>
+                        	<td valign="top" width="150">
+                            	SUGERENCIAS &sup1; / <i>SUGGESTIONS </i>&sup1; :
+                            </td>
+                            
+                            <td>
+                            	Disconformidad relacionada a los productos o servicios. / <i>Disagreement related to the products of services.</i>
+                            </td>
+                        </tr>
+                        
+                    	<tr>
+                        	<td colspan="2" height="11" style="font:0px Arial;"></td>
+                        </tr>
+                        
+                        <tr>
+                        	<td valign="top">
+                            	QUEJA &sup2; / <i>COMPLAINT </i>&sup2; :
+                            </td>
+                            
+                            <td>
+                            	Disconformidad no relacionada a los productos o servicios; o malestar o descontento respecto a la atención al público. / <i>Disagreement<br />
+                                not related to the products or services; or discomfort or dissatisfaction with respect to the customer service.</i>
+                            </td>
+                        </tr>
+                        
+                    	<tr>
+                        	<td colspan="2" height="11" style="font:0px Arial;"></td>
+                        </tr>
+                        
+                        <tr>
+                        	<td valign="top">
+                            	NOTA / <i>NOTE</i> :
+                            </td>
+                            
+                            <td>
+                            	(*)"UTASA INN,queda facultada a efectuar respuesta de la queja en el correo electrónico consignado por el consumidor, la misma que se<br />
+                                realizará en los términos concedidos por la norma. UTASA INN mantendrá un registro de los correos electrónicos remitidos como respu-<br />
+                                esta". / <i>(*)"UTASA INN is empowered to carry out response from the complainant in the e-mail address entered by the consumer, it will be on<br />
+                                the terms granted by the law. UTASA INN shall maintain a register of the mails sent in response."</i>
+                            </td>
+                        </tr>
+                    </table>
+				</div>
+            	<div class="clear"></div>
+            </div>
+            
+            <div class="blockSeccion">
+           	  <div class="colLeft"> 
+            	    <dt id="captcha-input-label"><label for="captcha-input" class="required">Por favor escriba las palabras que se muestran / please write the words that are show</label></dt>
+<dd id="captcha-element">
+<img width="150" height="50" alt="" src="public/captcha/c6c212018d74c64ad73180d2239b46aa.png">
+<input type="hidden" name="captcha[id]" value="c6c212018d74c64ad73180d2239b46aa" id="captcha-id">
+<input type="text" name="captcha[input]" id="captcha-input" value="">
+<ul class="errors"><li></li></ul></dd>            	    <span style="color: yellow;">
+										</span>            	</div>
+            	<div class="clear"></div>
+            </div>
+                        
+            <div class="blockSeccion">
+            	<div class="colLeft">
+                	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+                    	<tr>
+                        	<td valign="top" width="150">
+                            	<button type="submit" id="btn_submit" disabled="disabled">Enviar</button>
+                            </td>
+                            
+                            <td>
+                            	<input type="checkbox" name="deacuerdo" id="deacuerdo" onclick="activarBoton(this);" />
+                                Estoy de acuerdo con lo ingresado en esta Hoja de Reclamaciones. / <i>I do agree with what is stated in this claim sheet.</i>
+                            </td>
+                        </tr>
+                    </table>
+				</div>
+            	<div class="clear"></div>
+            </div>
+            </form>
+      </td>
+    </tr>
+</table>
+</body>
+
+<!-- Mirrored from www.inkaterra.com/librodereclamaciones/ by HTTrack Website Copier/3.x [XR&CO'2013], Wed, 18 Feb 2015 01:38:54 GMT -->
+</html>
+
+<style>
+	#captcha-input{						
+	    margin-top: 10px;
+	    margin-left: 0px;
+	    display: inherit;		
+	}            
+	input[type=text].error{
+		color:black;
+	}
+</style>

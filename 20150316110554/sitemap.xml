@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../sitemap.xsl" type="text/xsl" media="all"?>
+<site>
+<page file="index.html" text="Inkaterra Perú hotels official booking enginee" title="Inkaterra Perú hotels official booking engine">
+<page file="default.html" text="" title="Inkaterra Perú hotels official booking engine"/>
+<page file="package-list.html" text="" title="Packages List | Inkaterra Reservas">
+<page file="destinations.html" text="Destinations" title="Inkaterra - Motor de Reservas"/>
+</page>
+<page file="form-anular-reserva.html" text="Modify / Cancel Reservations" title="Request Form Registration | Inkaterra Reservas"/>
+<page file="default_002.html" text="Home" title="Cusco Machu Picchu Amazon Hotel - Peru Hotels">
+<page file="default_004.html" text="                                                                          Inkaterra  Reserva Amazóni..." title="Inkaterra Reserva Amazónica | Inkaterra"/>
+</page>
+<page file="info-visa.html" text="" title="Cusco Machu Picchu Amazon Hotel - Peru Hotels"/>
+</page>
+</site>

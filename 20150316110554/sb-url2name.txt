@@ -1,0 +1,8 @@
+https://reservations.inkaterra.com/	index
+https://reservations.inkaterra.com/index.php	default
+https://reservations.inkaterra.com/package-list.php	package-list
+https://reservations.inkaterra.com/form-anular-reserva.php	form-anular-reserva
+http://www.inkaterra.com/	default_002
+https://reservations.inkaterra.com/info-visa.php	info-visa
+https://reservations.inkaterra.com/destinations.php	destinations
+http://www.inkaterra.com/inkaterra/reserva-amazonica/	default_004

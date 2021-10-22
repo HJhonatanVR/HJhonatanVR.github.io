@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="normalize.css" />
+    <link rel="stylesheet" type="text/css" href="calendar.css" />
+    <link rel="stylesheet" media="screen" href="main.css" type="text/css" />
+    <link rel="stylesheet" media="screen" href="layout.css" type="text/css" />
+    <link rel="stylesheet" media="screen" href="jquery-ui-1.7.2.custom.css" type="text/css" />
+
+    <script language="javascript" type="text/javascript">
+        var arrCalendar = [];
+                    arrCalendar[11] = 
+                    
+                    arrCalendar[4] = 
+                    arrCalendar[12] =
+					arrCalendar[14] = [[2015, 01, 01, 'full'],[2015, 01, 02, 'full'],[2015, 01, 03, 'full'],[2015, 01, 04, 'full'],[2015, 01, 05, 'full'],[2015, 01, 06, 'full'],[2015, 01, 07, 'full'],[2015, 01, 08, 'full'],[2015, 01, 09, 'full'],[2015, 01, 10, 'full'],[2015, 01, 11, 'full'],[2015, 01, 12, 'full'],[2015, 01, 13, 'full'],[2015, 01, 14, 'full'],[2015, 01, 15, 'full'],[2015, 01, 16, 'full'],[2015, 01, 17, 'full'],[2015, 01, 18, 'full'],[2015, 01, 19, 'full'],[2015, 01, 20, 'full'],[2015, 01, 21, 'full'],[2015, 01, 22, 'full'],[2015, 01, 23, 'full'],[2015, 01, 24, 'full'],[2015, 01, 25, 'full'],[2015, 01, 26, 'full'],[2015, 01, 27, 'full'],[2015, 01, 28, 'full'],[2015, 01, 29, 'full'],[2015, 01, 30, 'full'],[2015, 01, 31, 'full'],[2015, 02, 01, 'full'],[2015, 02, 02, 'full'],[2015, 02, 03, 'full'],[2015, 02, 04, 'full'],[2015, 02, 05, 'full'],[2015, 02, 06, 'full'],[2015, 02, 07, 'full'],[2015, 02, 08, 'full'],[2015, 02, 09, 'full'],[2015, 02, 10, 'full'],[2015, 02, 11, 'full'],[2015, 02, 12, 'full'],[2015, 02, 13, 'full'],[2015, 02, 14, 'full'],[2015, 02, 15, 'full'],[2015, 02, 16, 'full'],[2015, 02, 17, 'full'],[2015, 02, 18, 'full'],[2015, 02, 19, 'full'],[2015, 02, 20, 'full'],[2015, 02, 21, 'full'],[2015, 02, 22, 'full'],[2015, 02, 23, 'full'],[2015, 02, 24, 'full'],[2015, 02, 25, 'full'],[2015, 02, 26, 'full'],[2015, 02, 27, 'full'],[2015, 02, 28, 'full'],[2016, 12, 30, 'full']];
+        
+        var lang = 'en';
+        var fullDays = arrCalendar[11];
+
+
+        var selectItemsChildren = "<option value='0'>0</option><option value='1'>1</option><option value='2'>2</option>";
+        var selectItemsChildrenOptional = "<option value='0'>0</option><option value='1'>1</option>";
+
+        var isIframe = true;
+
+        var dateNow = {str: "2015/03/09", year: 2015, month: 3, day: 9};
+    </script>
+    <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>-->
+    <script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+    
+    <script type="text/javascript" src="jquery-ui-1.7.3.custom.min.js"></script>
+    <script type="text/javascript" src="calendar.js"></script>
+    <script type="text/javascript" src="manage-lang.js"></script>
+
+    
+    <style type="text/css">
+        a:hover {
+            text-decoration: underline;
+        }
+
+        p.info {
+            font-size: 11px;
+            width: 230px;
+			margin: 10px 0 0 0;
+			padding: 0;
+			font-family: Arial;
+			
+        }
+    </style>
+    <script language="javascript" type="text/javascript">
+    
+        $(function(){
+            validateReservations();
+
+            $('#property_id').change(function(){
+                var propertyId = $(this).val();
+                fullDays = arrCalendar[propertyId];
+
+                if (propertyId == 4 || propertyId == 12) {
+                    $('#number_childs').html(selectItemsChildrenOptional);
+                } else {
+                    $('#number_childs').html(selectItemsChildren);
+                }
+
+                $.datepicker._clearDate($('#fecha_ini'));
+                $.datepicker._clearDate($('#fecha_fin'));
+
+                setupCalendar();
+            });
+        });
+    
+    </script>
+	
+	
+	
+	<script type="text/javascript"> 
+<!-- 
+myString="" 
+
+function passdata(){ 
+myForm=document.f1 
+for(i=0;i<myForm.length-1;i++){ // run through form elements 
+myString+=add_delimiters(myForm.elements[i].name,myForm.elements[i].value) // get element name and value 
+
+location.href = '20150316110554/index.html' + '?' + escape(myString) 
+} 
+
+function add_delimiters(n,v){ 
+if(n!=""){ // add = and & characters to identify name and value pairs 
+return n+"="+v+"&" 
+} 
+} 
+} 
+// --> 
+</script>
+	
+	
+	
+	
+    
+</head>
+<body id="home">
+
+    <div class="contentCaja" style="overflow: visible;">
+        <h1 style="font-weight: bold;font-family: 'GeorgiaRegular';">BOOK ONLINE</h1>
+        <form action="20150316110554/index.html" method="post" name="f1" id="form-reservation">
+            <div>
+                <div class="item">
+                    <em><strong>Select a Hotel</strong></em><br>
+                    <select name="text1" >
+                                                    <option value="Habitacion Individual">Habitacion Simple</option>
+                                                    <option value="Habitacion Doble">Habitacion Doble</option>
+                                                    <option value="Habitacion Triple">Habitacion Triple</option>
+                                                    <option value="Habitacion Matrimonial">Habitacion Matrimonial </option>
+                                                    
+                  </select>
+              </div>
+                <div class="item">
+                    <em><strong>Arrival Date</strong></em><br />
+                    <input type="text" class="calendar" id="fecha_ini" name="fecha_ini">
+              </div>
+                <div class="item">
+                    <em><strong>Departure Date</strong></em><br />
+                    <input type="text" class="calendar" id="fecha_fin"  name="fecha_fin">
+              </div>
+                <div style="float:left" class="item">
+                    <em><strong>Adults</strong></em><br />
+                    <select name="number_adults" class="sltmini">
+                        <option value="1">1</option>
+                        <option value="2" selected="selected">2</option>
+                        <option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="más...">más...</option>
+					</select>
+              </div>
+                <div style="float:left; margin-left:12px;" class="item">
+                    <em><strong>Children</strong></em><br />
+                    <select  class="sltmini" name="number_childs" id="number_childs">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+                    <option value="más...">más...</option>
+					
+					</select>
+					
+              </div>
+            </div>
+            <br />
+            <div style="clear:left; margin-left:33px;">
+                <br />
+                                    <input name="Botón" type="button" onClick="passdata()" value="Botón">  
+          </div>
+            
+      </form>
+
+        <p class="info">
+            
+        </p>
+    </div>
+	
+</body>
+</html>

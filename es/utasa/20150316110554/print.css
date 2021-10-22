@@ -1,0 +1,18 @@
+body { font:12px Arial, Helvetica, sans-serif; }
+
+#header .right { display:none; }
+#header .left { display:none; }
+
+#slider-internas { display:none; }
+
+.printStuff { display:block; }
+.noPrint { display:none! important; }
+.section h1 { 
+	color:#606F11;
+	font:20px Georgia,"Times New Roman",Times,serif; }
+	
+.content-buy-general #sidebar-extra-top { display:none !important; } 
+.content-buy-general .section ul li { list-style:none; margin-bottom:0px !important; }
+.content-buy-general .section h2 {
+	color:#606F11;
+	font:14px Georgia,"Times New Roman",Times,serif; }

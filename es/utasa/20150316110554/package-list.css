@@ -1,0 +1,78 @@
+/* ::::: https://reservations.inkaterra.com/css/reset.css ::::: */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0px; padding: 0px; border: 0px none; outline: 0px none; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; }
+:focus { outline: 0px none; }
+body { line-height: 1; color: black; background: none repeat scroll 0% 0% white; }
+ol, ul { list-style: outside none none; }
+table { border-collapse: separate; border-spacing: 0px; }
+caption, th, td { text-align: left; font-weight: normal; }
+/* ::::: https://reservations.inkaterra.com/css/main.css ::::: */
+
+body { background: url('bgbody.jpg') repeat scroll 0% 0% transparent; font: 11px Arial,Helvetica,sans-serif; color: rgb(99, 85, 61); overflow-x: hidden; }
+a { text-decoration: none; outline: medium none; color: rgb(0, 0, 0); }
+a img { border: medium none; }
+p { line-height: 14px; margin-bottom: 8px; }
+.clearfix:after { content: "."; display: block; height: 0px; font-size: 0px; clear: both; visibility: hidden; }
+.clearfix { display: inline-block; }
+.clearfix { display: block; }
+.left { float: left; }
+/* ::::: https://reservations.inkaterra.com/css/layout.css ::::: */
+
+body, html { width: 100%; }
+#lang { width: 100px; }
+#lang a { display: block; float: left; margin-right: 10px; }
+#showPhones { position: absolute; font: 11px/23px Arial; width: 140px; color: rgb(185, 179, 159); top: 95px; left: 20px; }
+#showPhones span.ico { position: relative; float: left; top: 0px; }
+#showPhones:hover #phonesContainer { visibility: visible; }
+#showPhones #phonesContainer { visibility: hidden; background: url('bg_us3.png') repeat scroll 0% 0% transparent ! important; width: 273px ! important; height: 135px ! important; padding: 8px 10px 5px 0px ! important; position: absolute; top: -148px; left: -63px; }
+#showPhones #phonesContainer h3 { font-size: 14px; text-align: center; font-weight: bold; color: rgb(151, 80, 0); text-transform: uppercase; margin: 3px 0px 15px; }
+#showPhones #phonesContainer span { display: block; text-align: right; }
+#slider-internas { height: 700px; margin: 0px auto; width: 100%; z-index: 9; }
+#wrapper { position: relative; margin: -700px auto 0px; width: 997px; z-index: 10; }
+#content { position: relative; }
+.bgContent { background: none repeat scroll 0px 0px rgb(224, 218, 202) ! important; border: 1px solid rgb(171, 164, 152); }
+#wrapper #header { margin-top: 15px; }
+div.logos { padding: 20px; }
+div.big-logos ul { width: 360px ! important; }
+div.logos ul { margin: 0px auto; width: 276px; }
+div.logos ul li { float: left; width: 80px; text-align: center; position: relative; display: block; margin-left: 10px; }
+div.logos ul li a { display: block; top: 25%; }
+div.logos ul li a.popUpUserHelp { color: rgb(112, 99, 76); margin-top: 10px; font-weight: bold; text-decoration: underline; }
+#footer { height: 161px; margin-top: 20px; position: relative; }
+#footer #bg-right-footer { background: url('bg-footer-right.png') no-repeat scroll right top transparent; height: 190px; margin-top: -17px; margin-right: -4px; position: absolute; right: 0px; top: 0px; width: 116px; }
+#footer #bg-left-footer { background: url('bg-footer-left.png') no-repeat scroll left bottom transparent; left: 0px; margin: 0px 0px -20px -20px; bottom: 0px; height: 162px; position: absolute; width: 173px; }
+#footer #inner-footer { background: url('bg-footer.png') repeat-x scroll 0% 0% transparent; border: 1px solid rgb(80, 79, 75); height: 140px; }
+#footer #inner-footer .inner-footer-left { background: url('bg-separator-footer.png') no-repeat scroll right top transparent; float: left; padding: 20px 40px 20px 80px; height: 100px; }
+#footer #inner-footer .inner-footer-left p a, #footer #inner-footer .inner-footer-right p a { color: rgb(185, 179, 159); }
+#footer #inner-footer .inner-footer-right { float: left; position: relative; padding: 20px 80px 20px 20px; }
+#footer #inner-footer .inner-footer-right p.links-web-20 { margin-top: 20px; }
+#footer #inner-footer .inner-footer-right p.links-web-20 a { margin-right: 10px; }
+#footer #inner-footer p { color: rgb(185, 179, 159); }
+#menu-destinations { background: url('bg-menu-internas.png') no-repeat scroll 0% 0% transparent; color: rgb(205, 199, 177); margin: 190px auto 0px; width: 970px; }
+#menu-destinations ul li { float: left; list-style: outside none none; height: 45px; text-align: center; width: 194px; z-index: 100; }
+#menu-destinations ul li a { position: relative; top: 25%; }
+#menu-destinations ul li.no-bg-separator { background: none repeat scroll 0% 0% transparent; }
+#menu-destinations ul li a { color: rgb(205, 199, 177); font: 16px Arial,Helvetica,sans-serif; }
+#menu-destinations ul li a.active { color: rgb(255, 126, 0); font: 16px Arial,Helvetica,sans-serif; }
+#menu-destinations ul li a:hover { color: rgb(255, 126, 0); font: 16px Arial,Helvetica,sans-serif; }
+.package-container { background: url('bg-one-sidebar.png') repeat-y scroll left top rgb(228, 219, 203); margin: 0px auto; padding: 25px; width: 920px; }
+.package-container div.package-item { float: left; margin-right: 47px; width: 275px; }
+.package-container div.package-item-no-margin { margin-right: 0px ! important; }
+.package-container div.package-list ul li .package-buttons .more_btns { color: rgb(249, 178, 51); }
+.package-container div.package-list ul li .package-buttons { float: right; }
+.package-container div.package-list ul li .package-name { float: left; font-size: 12px; width: 248px; }
+.package-container div.package-list ul li .package-name span { color: rgb(99, 85, 61); font-size: 11px; }
+.package-container div.package-list ul li { color: rgb(96, 111, 17); padding: 15px; }
+.package-container div.package-item div.package-list { background: none repeat scroll 0% 0% rgb(240, 231, 215); border: 1px solid rgb(190, 177, 153); }
+.package-container div {  }
+.popUpTerminosCondiciones, .popUpVisa, .popUpUserHelp { display: block; cursor: pointer; text-decoration: underline; }
+p.terms-conditions { text-align: center; margin-top: 30px; }
+p.terms-conditions a { color: rgb(125, 112, 89) ! important; font-weight: bold; text-decoration: underline; }
+.pngFix, #header a img, .sidebar-left-top center img, .sidebar-right-top center img, #bg-left-footer, #bg-right-footer, .links-web-20 a img, #hotel-container .hotel .hotel-name a, #live-weather-img img, .bg-sidebar-news center img, .full_day, #main-packages img {  }
+.more_btns, .addWishList { background: url('btn_1_1.png') no-repeat scroll 0% 0% transparent; border: medium none; color: rgb(239, 244, 205) ! important; cursor: pointer; font-size: 11px; font-family: Arial; height: 26px; line-height: 26px; padding: 0px 0px 0px 7px; width: 133px; text-align: center; float: left; margin: 0px 5px 0px 0px; }
+.more_btns, .addWishList img { vertical-align: middle; line-height: 26px; }
+/* ::::: https://reservations.inkaterra.com/js/jquery-ui/css/ui-lightness/jquery-ui-1.7.2.custom.css ::::: */
+
+#slider-internas { background: url('bg-header-interna.jpg') no-repeat scroll center top transparent; }
+#menu-destinations { margin: 20px auto 0px ! important; }
+.line-paquete { border-bottom: 1px dotted; }

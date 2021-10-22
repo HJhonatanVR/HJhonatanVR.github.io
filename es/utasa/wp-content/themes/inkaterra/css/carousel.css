@@ -1,0 +1,57 @@
+.jcarousel-container {
+    width: 436px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.jcarousel-direction-rtl {
+	direction: rtl;
+}
+
+.jcarousel-container-horizontal {
+    width: 436px;
+    padding: 0;
+}
+
+.jcarousel-container-vertical {
+    /*width: 75px;
+    height: 245px;
+    padding: 40px 20px;*/
+}
+
+.jcarousel-clip {
+    overflow: hidden;
+}
+
+.jcarousel-clip-horizontal {
+    width:  100%;
+}
+
+.jcarousel-clip-vertical {
+    width:  75px;
+    height: 245px;
+}
+
+.jcarousel-item {
+    width: 130px;
+    height:80px;
+}
+
+.jcarousel-item-horizontal {
+	margin-left: 0;
+    margin-right: 100px;
+}
+
+.jcarousel-direction-rtl .jcarousel-item-horizontal {
+	margin-left: 10px;
+    margin-right: 0;
+}
+
+.jcarousel-item-vertical {
+    margin-bottom: 10px;
+}
+
+.jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}

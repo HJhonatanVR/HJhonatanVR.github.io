@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: none repeat scroll 0 0 !important;
+    overflow: hidden;
+}
+
+a{color:#996600;}
+
+
+
+.contentCaja{
+/*padding-left:25px;
+padding-top:10px;
+padding-right:15px;*/
+background: none repeat scroll 0 0;
+padding: 0;
+font-size:13px;
+z-index:200px;
+line-height: 18px;
+width: 230px;
+}
+
+.contentCaja h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+.contentCaja select
+{
+    width:187px;
+    border:1px solid #8b866e;
+    background-color:#d5ceae;
+}
+.contentCaja select.sltmini
+{
+    width:87px;
+    border:1px solid #8b866e;
+    background-color:#d5ceae;
+}
+.contentCaja .calendar
+{
+    width:147px;
+    border:1px solid #8b866e;
+    background-color:#d5ceae;
+}
+.contentCaja .ui-datepicker-trigger
+{
+    float: right;
+    margin-right: 45px;
+}
+.contentCaja .item
+{
+    padding-top:6px;
+}
+#ui-datepicker-div
+{
+    font-size:11px;
+}
+
+.ui-widget-overlay {
+    background: none!important;
+}

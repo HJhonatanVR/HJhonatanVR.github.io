@@ -1,0 +1,99 @@
+/** Reset **/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, font, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, ul, li, fieldset, form, label, legend, caption{border:0; font-family: inherit; font-size:100%; font-style:inherit; font-weight:inherit; margin:0; outline:0; padding:0; vertical-align:baseline;}
+:focus{outline:0;}
+body{background:#fff; line-height:1;}
+ul{list-style: none;}
+caption, th, td{font-weight:normal; text-align:left;}
+blockquote:before, blockquote:after,q:before, q:after{content:"";}
+blockquote, q{quotes:"" "";}
+a{text-decoration:none;}
+a img{border:0;}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section{display:block;}
+
+/** Global **/
+body{color:#454545; font-family:Arial,Helvetica,sans-serif; font-size:13px; line-height:20px;}
+a{color:#008EE8;}
+.login{background:#ECEFF1;}
+
+.front{position:absolute;}
+.backlink{background: url("http://www.inkaterra.com/librodereclamaciones/img/admin/sep_top.gif") repeat-y 0 0 transparent; color: #BBBBBB; float: right; font-weight: bold; line-height: 50px; padding: 0 20px 0 30px; text-decoration: none;}
+form input.text{border:1px solid #BBBBBB; border-radius:3px 3px 3px 3px; color:#333333; font-family:Arial,Helvetica,sans-serif; font-size:14px; outline:none; padding:7px; vertical-align:middle;}
+form input.submit{background:url("http://www.inkaterra.com/librodereclamaciones/img/admin/mbg.jpg") repeat-x center #085A9F; border:1px solid #014076; border-radius:3px 3px 3px 3px; box-shadow:0 1px 0 #73B9F3 inset; color:#FFFFFF; cursor:pointer; font-family:Arial,Helvetica,sans-serif; font-size:14px; font-weight:bold; padding:7px 15px; text-shadow:0 1px 0 #000000; vertical-align:middle;}
+form input.submit:hover{background:url("http://www.inkaterra.com/librodereclamaciones/img/admin/mbgh.jpg") repeat-x center #ED9C34; border:1px solid #C05F05; box-shadow:0 1px 0 #F3CF8C inset; text-shadow:0 1px 0 #6E3704;}
+.message{border-radius:3px 3px 3px 3px; font-weight:bold; margin-bottom:15px; overflow:hidden; padding:10px 15px 10px 40px;}
+.message.info{background:url("http://www.inkaterra.com/librodereclamaciones/img/admin/info.gif") no-repeat 12px 12px #ECF9FF; border:1px solid #BBDBE0; color:#0888C3;}
+.message .close{background:url("http://www.inkaterra.com/librodereclamaciones/img/admin/close.png") no-repeat 0 0 transparent; cursor:pointer; display:block; float:right; height:16px; margin-top:2px; opacity:0.7; width:16px;}
+.message .close:hover{opacity:1;}
+.message p{float:left; padding:0; width:93%;}
+
+#front-top{height:50px; left:0; top:0; right:0; background:#35383D; padding:0 20px;}
+#front-top h1{float:left; font-size:18px; font-weight:bold; line-height:50px;}
+#front-top h1 a{color:#FFFFFF; text-shadow: 1px 1px 1px #000000;}
+#front-left{width:200px; left:0; top:50px; bottom:0; background:#ECEFF1 url(http://www.inkaterra.com/librodereclamaciones/img/admin/bg_sidebar.jpg) repeat-y right;}
+
+#front-left li a{
+	display: block;
+	padding: 10px 0 10px 20px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid #BEC9D0;
+	color: #5E6A80;
+	text-decoration: none;
+	text-shadow: 0 1px 0 white;
+	font-weight: bold;
+}
+
+#front-left li a.red{color:red;}
+#front-left li a.orange{color:orange;}
+#front-left li a.green{color:green;}
+
+#front-left li a:hover{
+	background: #005598 url(http://www.inkaterra.com/librodereclamaciones/img/admin/mbg.jpg) 0 0 repeat-x;
+	border-top: 1px solid #0095D8;
+	border-bottom: 1px solid #003868;
+	color: white;
+	text-shadow: 0 1px 0 #014076;
+}
+
+#front-right{left:200px; top:50px; right:0; bottom:0; background:#FFF; overflow:auto;}
+
+#front-center{background: none repeat 0 0 #FFFFFF; border:1px solid #B0BEC6; border-radius:5px 5px 5px 5px; box-shadow:0 1px 0 #FFFFFF; margin:200px auto 100px; padding:20px 0 0; width:400px;}
+#front-center form dt,
+#front-center form dd{padding:0 20px;}
+#front-center form label{color: #333333; font-family:Arial,Helvetica,sans-serif; font-size:13px; font-weight:bold; margin-right:5px; vertical-align:middle;}
+#front-center form dd{padding-bottom:20px;}
+#front-center form dt#Enviar-label{display:none;}
+#front-center form dd#Enviar-element{background:#EEEEEE; border-bottom-left-radius:5px; border-bottom-right-radius:5px; border-top:1px solid #BBBBBB; box-shadow:0 1px 0 #FFFFFF inset; padding-top:20px;}
+#front-center form input.text{width:344px;}
+#front-center .message{margin:0 20px 10px 20px;}
+
+#content.loginbox form input.submit{margin-right:10px;}
+
+#content{padding:0 20px;}
+#content h1,
+#content h2{color:#333333; font-size:24px; line-height:36px; padding-bottom:5px;}
+
+.formBook{background:#435434; color:#4B5D61; line-height:normal!important; font-size:12px;}
+.formBook .tablePrincipal{background:#FFF;}
+.formBook span{font-size:10px; font-style:italic; color:gray;}
+.formBook .titulo{font-size:16px; font-weight:bold; color:#4B5D61;}
+.formBook .center{text-align:center;}
+.formBook input,
+.formBook textarea{BORDER-RIGHT: #555555 1px solid; font-size: 7.5pt; color: #000000; background:#F2F2F2; font-family: Verdana, Arial, Helvetica, sans-serif; border:1px solid #555; padding:2px;}
+
+.text_small{font-size:11px;}
+
+.t_head td{font-weight:bold; text-align:center;}
+
+td.detail{text-align:right; padding-right:5px; font-weight:bold;}
+td.value{text-align:left; padding-left:5px;}
+
+.hidden{display:none;}
+
+.error{color:#FFFFCC;}
+
+.blockSeccion{border-bottom:1px solid #FFF; padding:25px 28px 20px 20px;}
+
+.clear{font:0 Arial; clear:both;}
+
+.disabled{background:#FFF; border:1px solid #CCC; color:#000;}

@@ -1,0 +1,194 @@
+/* ::::: http://www.inkaterra.com/wp-content/plugins/sitepress-multilingual-cms/res/css/language-selector.css?v=3.1.8.4 ::::: */
+
+/* ::::: http://www.inkaterra.com/wp-content/themes/inkaterra/style.css ::::: */
+
+/* ::::: http://www.inkaterra.com/wp-content/themes/inkaterra/css/normalize.css ::::: */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
+audio:not([controls]) { display: none; height: 0px; }
+html { font-size: 100%; }
+html, button, input, select, textarea { font-family: Helvetica,Arial; }
+body { margin: 0px; }
+a { text-decoration: none; }
+a:focus { outline: thin dotted; }
+a:hover, a:active { outline: 0px none; }
+dl, menu, ol, ul { margin: 0px; }
+menu, ol, ul { padding: 0px; }
+nav ul, nav ol { list-style: outside none none; margin: 0px; padding: 0px; }
+nav a { text-decoration: none; }
+img { border: 0px none; }
+svg:not(:root) { overflow: hidden; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0px none; padding: 0px; }
+table { border-collapse: collapse; border-spacing: 0px; }
+/* ::::: http://www.inkaterra.com/wp-content/themes/inkaterra/css/typography.css ::::: */
+
+@font-face {
+	font-family: "TrajanProBold";
+	font-style: normal;
+	font-weight: normal;
+	src: url('trajanpro-bold-webfont.eot') format("embedded-opentype"), url('trajanpro-bold-webfont.woff') format("woff"), url('trajanpro-bold-webfont.ttf') format("truetype"), url('trajanpro-bold-webfont.svg') format("svg");
+}
+@font-face {
+	font-family: "TrajanProRegular";
+	font-style: normal;
+	font-weight: normal;
+	src: url('trajanpro-regular-webfont.eot') format("embedded-opentype"), url('trajanpro-regular-webfont.woff') format("woff"), url('trajanpro-regular-webfont.ttf') format("truetype"), url('trajanpro-regular-webfont.svg') format("svg");
+}
+@font-face {
+	font-family: "GeorgiaRegular";
+	font-style: normal;
+	font-weight: normal;
+	src: url('georgia-webfont.eot') format("embedded-opentype"), url('georgia-webfont.woff') format("woff"), url('georgia-webfont.ttf') format("truetype"), url('georgia-webfont.svg') format("svg");
+}
+@font-face {
+	font-family: "GeorgiaBold";
+	font-style: normal;
+	font-weight: normal;
+	src: url('georgiab-webfont.eot') format("embedded-opentype"), url('georgiab-webfont.woff') format("woff"), url('georgiab-webfont.ttf') format("truetype"), url('georgiab-webfont.svg') format("svg");
+}
+@font-face {
+	font-family: "GeorgiaItalic";
+	font-style: normal;
+	font-weight: normal;
+	src: url('georgiai-webfont.eot') format("embedded-opentype"), url('georgiai-webfont.woff') format("woff"), url('georgiai-webfont.ttf') format("truetype"), url('georgiai-webfont.svg') format("svg");
+}
+@font-face {
+	font-family: "GeorgiaBoldItalic";
+	font-style: normal;
+	font-weight: normal;
+	src: url('georgiaz-webfont.eot') format("embedded-opentype"), url('georgiaz-webfont.woff') format("woff"), url('georgiaz-webfont.ttf') format("truetype"), url('georgiaz-webfont.svg') format("svg");
+}
+body { background: url('bg-body.jpg') repeat scroll 0px 0px transparent; overflow-x: hidden; }
+a { color: rgb(74, 87, 2); }
+.clear { clear: both; }
+.hide { display: none; }
+#back-slide { background-color: rgb(0, 0, 0); height: auto; left: 0px; overflow: hidden; position: absolute; top: 0px; width: 100%; z-index: -1; }
+#nivo-slider { font-size: 0px; margin: 0px; padding: 0px; text-align: center; }
+.bg-menu-second { background: url('bgmenusecundary.png') repeat-x scroll 0px 0px rgb(238, 233, 224); height: 61px; width: 100%; }
+#branding { height: 390px; }
+nav#first ul li:first-child { background: none repeat scroll 0% 0% transparent ! important; }
+#live-weather tr td { font: 300 0.75em sans-serif; color: rgb(63, 51, 48); }
+#bookOnLine { top: 0px; left: 0px; position: absolute; width: 295px; }
+#contentTextBook { background: none repeat scroll 0px 0px rgb(231, 223, 206); border-radius: 0px 10px 10px 0px; box-shadow: 1px 2px 3px rgb(18, 18, 18); color: rgb(63, 51, 48); left: 0px; line-height: 24px; min-height: 83px; position: absolute; top: 216px; width: 95px; z-index: 22; }
+#contentTextBook a { color: rgb(63, 51, 48); display: block; font: 16px/20px TrajanProRegular; min-height: 28px; padding: 24px 0px 19px 11px; vertical-align: middle; }
+.sub-menu { display: none; }
+.contentBookOnline { background: none repeat scroll 0px 0px rgb(231, 223, 206); border-radius: 0px 10px 10px 0px; box-shadow: 1px 2px 3px rgb(18, 18, 18); color: rgb(63, 51, 48); line-height: 24px; min-height: 105px; top: 120px; width: 270px; z-index: 100; display: none; }
+.absoluto { position: absolute ! important; display: block; }
+.contentCaja { padding-left: 25px; padding-top: 10px; padding-right: 15px; font-size: 12px; z-index: 200; }
+#contentHome, .bg-menu-second { background: url('bgmenusecundary.png') repeat-x scroll 0px 0px rgb(238, 233, 224); height: 61px; width: 100%; }
+#newtop { width: 100%; height: 50px; background: url('bg-newtop.png') repeat-x scroll 0% 0% transparent; }
+#pagetop { margin: 0px auto; width: 87.5em; height: 50px; }
+#menu-newtop { float: left; height: 50px; width: 90.5em; }
+#menulogotop { float: left; width: auto; margin-left: 186px; height: 50px; }
+#theclima { float: left; height: 50px; width: 180px; padding-top: 8px; padding-left: 20px; }
+#bg-fondologo { float: left; background-image: url('bg-logo.png'); width: 230px; height: 80px; padding: 16px 10px 4px; text-align: center; }
+#menunewtop { float: left; width: auto; height: 50px; }
+#newidoma { float: left; }
+header #headerRighBottomntop { padding: 5px 0px 0px; }
+header #headerRighBottomntop nav#first { width: auto; }
+header #headerRighBottomntop nav#first ul { margin: 0px; padding: 0px 13px; overflow: hidden; }
+header #headerRighBottomntop nav#first ul li { background: url('separacionlimenu.png') no-repeat scroll left top transparent; padding: 0px; font: 14px/40px TrajanProRegular; float: left; height: 45px; margin: 0px; }
+header #headerRighBottomntop nav#first ul li a { color: rgb(63, 51, 48); display: block; vertical-align: middle; padding: 0px 13px; }
+header #headerRighBottomntop nav#first ul li a:hover, header #headerRighBottomntop nav#first ul li a.active { color: rgb(134, 81, 9); }
+header #headerRighBottomntop ul.sub-menu { display: none; position: absolute; top: 50px; width: 130px ! important; background: url('bg-submenu.png') repeat-x scroll 0% 0% rgb(236, 230, 217) ! important; opacity: 0.95; list-style-type: none; z-index: 10; padding: 12px 0px 0px ! important; border-bottom-right-radius: 10% 5%; border-bottom-left-radius: 10% 5%; }
+header #headerRighBottomntop ul.sub-menu li { width: 108px; padding: 2px 11px ! important; height: 26px ! important; line-height: 22px ! important; background: url('line-bg-submenu.png') repeat-x scroll left bottom transparent ! important; }
+header #headerRighBottomntop ul.sub-menu li:first-child { border-top: medium none; }
+header #headerRighBottomntop ul.sub-menu li a { width: 96px; margin: 0px; padding: 0px; height: 22px ! important; font-size: 11px; }
+header #headerRighBottomntop ul.sub-menu li a:hover { width: 96px; margin: 0px; color: rgb(156, 1, 1); background: none repeat scroll 0% 0% transparent; height: 22px ! important; font-size: 11px; }
+header #headerRighBottomntop ul.sub-menu li.toolfree a { background: url('tollfree.png') no-repeat scroll 0px 2px transparent ! important; padding: 0px 0px 0px 23px ! important; }
+header #headerRighBottomntop ul.sub-menu li.mail a { background: url('mail.png') no-repeat scroll 0px 2px transparent ! important; padding: 0px 0px 0px 23px ! important; }
+header #headerRighBottomntop ul.sub-menu li.tellfrie a { background: url('tellfrie.png') no-repeat scroll 0px 3px transparent ! important; padding: 0px 0px 0px 23px ! important; }
+header #headerRighBottomntop ul.sub-menu li.chat a { background: url('chat.png') no-repeat scroll 0px 4px transparent ! important; padding: 0px 0px 0px 23px ! important; }
+body { background: url('bg-body.jpg') repeat scroll 0px 0px transparent; overflow-x: hidden; }
+a { color: rgb(74, 87, 2); }
+.clear { clear: both; }
+.hide { display: none; }
+#back-slide { background-color: rgb(0, 0, 0); height: auto; left: 0px; overflow: hidden; position: absolute; top: 0px; width: 100%; z-index: -1; }
+#nivo-slider { font-size: 0px; margin: 0px; padding: 0px; text-align: center; }
+#page { margin: 0px auto; }
+.bg-menu-second { background: url('bgmenusecundary.png') repeat-x scroll 0px 0px rgb(238, 233, 224); height: 61px; width: 100%; }
+#branding { height: 390px; }
+nav#first ul li:first-child { background: none repeat scroll 0% 0% transparent ! important; }
+#live-weather tr td { font: 300 0.75em sans-serif; color: rgb(63, 51, 48); }
+#bookOnLine { top: 0px; left: 0px; position: absolute; width: 295px; }
+#contentTextBook { background: none repeat scroll 0px 0px rgb(231, 223, 206); border-radius: 0px 10px 10px 0px; box-shadow: 1px 2px 3px rgb(18, 18, 18); color: rgb(63, 51, 48); left: 0px; line-height: 24px; min-height: 83px; position: absolute; top: 216px; width: 95px; z-index: 22; }
+#contentTextBook a { color: rgb(63, 51, 48); display: block; font: 16px/20px TrajanProRegular; min-height: 28px; padding: 24px 0px 19px 11px; vertical-align: middle; }
+.sub-menu { display: none; }
+.contentBookOnline { background: none repeat scroll 0px 0px rgb(231, 223, 206); border-radius: 0px 10px 10px 0px; box-shadow: 1px 2px 3px rgb(18, 18, 18); color: rgb(63, 51, 48); line-height: 24px; min-height: 105px; top: 120px; width: 270px; z-index: 100; display: none; }
+.absoluto { position: absolute ! important; display: block; }
+.contentCaja { padding-left: 25px; padding-top: 10px; padding-right: 15px; font-size: 12px; z-index: 200; }
+#contentHome, .bg-menu-second { background: url('bgmenusecundary.png') repeat-x scroll 0px 0px rgb(238, 233, 224); height: 61px; width: 100%; }
+#newtop { width: 100%; height: 50px; background-image: url('bg-newtop.png'); }
+#pagetop { margin: 0px auto; width: 87.5em; height: 50px; }
+#menu-newtop { float: left; height: 50px; width: 90.5em; }
+#menulogotop { float: left; width: auto; margin-left: 186px; height: 50px; }
+#theclima { float: left; height: 50px; width: 180px; padding-top: 8px; padding-left: 20px; }
+#bg-fondologo { float: left; background-image: url('bg-logo.png'); width: 230px; height: 80px; padding: 16px 10px 4px; text-align: center; }
+#menunewtop { float: left; width: auto; height: 50px; }
+#newidoma { float: left; }
+header #headerRighBottomntop ul.sub-menu { background: none repeat scroll 0% 0% rgb(236, 230, 217); }
+header #headerRighBottomntop { padding: 5px 0px 0px; }
+header #headerRighBottomntop nav#first { width: auto; }
+header #headerRighBottomntop nav#first ul { margin: 0px; padding: 0px 13px; overflow: hidden; }
+header #headerRighBottomntop nav#first ul li { background: url('separacionlimenu.png') no-repeat scroll left top transparent; padding: 0px; font: 14px/40px TrajanProRegular; float: left; height: 45px; margin: 0px; }
+header #headerRighBottomntop nav#first ul li a { color: rgb(63, 51, 48); display: block; vertical-align: middle; padding: 0px 13px; }
+header #headerRighBottomntop nav#first ul li a:hover, header #headerRighBottomntop nav#first ul li a.active { color: rgb(134, 81, 9); }
+header #headerRighBottomntop ul.sub-menu { display: none; position: absolute; top: 50px; width: 130px ! important; background: url('bg-submenu.png') repeat-x scroll 0% 0% rgb(236, 230, 217) ! important; opacity: 0.95; list-style-type: none; z-index: 10; padding: 12px 0px 0px ! important; border-bottom-right-radius: 10% 5%; border-bottom-left-radius: 10% 5%; }
+header #headerRighBottomntop ul.sub-menu li { width: 108px; padding: 2px 11px ! important; height: 26px ! important; line-height: 22px ! important; background: url('line-bg-submenu.png') repeat-x scroll left bottom transparent ! important; }
+header #headerRighBottomntop ul.sub-menu li:first-child { border-top: medium none; }
+header #headerRighBottomntop ul.sub-menu li a { width: 96px; margin: 0px; padding: 0px; height: 22px ! important; font-size: 11px; }
+header #headerRighBottomntop ul.sub-menu li a:hover { width: 96px; margin: 0px; color: rgb(156, 1, 1); background: none repeat scroll 0% 0% transparent; height: 22px ! important; font-size: 11px; }
+header #headerRighBottomntop ul.sub-menu li.toolfree a { background: url('tollfree.png') no-repeat scroll 0px 2px transparent ! important; padding: 0px 0px 0px 23px ! important; }
+header #headerRighBottomntop ul.sub-menu li.mail a { background: url('mail.png') no-repeat scroll 0px 2px transparent ! important; padding: 0px 0px 0px 23px ! important; }
+header #headerRighBottomntop ul.sub-menu li.tellfrie a { background: url('tellfrie.png') no-repeat scroll 0px 3px transparent ! important; padding: 0px 0px 0px 23px ! important; }
+header #headerRighBottomntop ul.sub-menu li.chat a { background: url('chat.png') no-repeat scroll 0px 4px transparent ! important; padding: 0px 0px 0px 23px ! important; }
+@media screen and (max-width: 1024px) {
+	.pmovil { width: 1000px ! important; margin-left: 10% ! important; }
+	.slidemovil { width: 190% ! important; margin: 0px auto ! important; }
+	.newtopmovil { width: 190% ! important; margin: 0px auto ! important; }
+}
+/* ::::: http://www.inkaterra.com/wp-content/themes/inkaterra/css/shadowbox.css ::::: */
+
+/* ::::: http://www.inkaterra.com/wp-content/themes/inkaterra/css/nivo-slider.css ::::: */
+
+#nivo-slider { position: relative; width: 1400px; height: 440px; margin: 0px auto; }
+#nivo-slider img { position: absolute; top: 0px; left: 0px; }
+/* ::::: http://www.inkaterra.com/wp-content/themes/inkaterra/css/jcarousel.css ::::: */
+
+/* ::::: http://www.inkaterra.com/wp-content/themes/inkaterra/css/rhino-slider.css ::::: */
+
+/* ::::: http://www.inkaterra.com/wp-content/themes/inkaterra/css/circle.player.css ::::: */
+
+/* ::::: http://www.inkaterra.com/wp-content/themes/inkaterra/css/stylebyinkaterra.css ::::: */
+
+.single {  }
+/* ::::: http://www.inkaterra.com/wp-content/themes/inkaterra/css/home.css ::::: */
+
+.clearfix:after { content: "."; display: block; height: 0px; font-size: 0px; clear: both; visibility: hidden; }
+.clearfix { display: inline-block; }
+.clearfix { display: block; }
+/* ::::: http://www.inkaterra.com/wp-content/themes/inkaterra/estiloslenguaje.css ::::: */
+
+header #headerRighTops { padding: 14px 0px 0px; text-align: right; }
+header #headerRighTops li { margin: 0px 18px 0px 0px; list-style: outside none none; float: left; width: inherit; }
+header #headerRighTops li:first-child { margin-right: 0px; }
+header #headerRighTops li.lang { background: none repeat scroll 0% 0% rgb(220, 214, 197); color: rgb(78, 71, 60); font: 10px/20px Arial,Helvetica,sans-serif; vertical-align: middle; text-align: left; height: 20px; padding: 0px 0px 0px 8px; position: relative; border-radius: 6px; width: 76px; z-index: 5; }
+header #headerRighTops li.lang a { color: rgb(63, 51, 48); }
+header #headerRighTops li a { color: rgb(255, 255, 255); display: block; font: 14px/21px "Calibri",Helvetica,sans-serif; height: 21px; text-decoration: none; vertical-align: middle; }
+header #headerRighTops li.lang a { color: rgb(0, 0, 0); background: none repeat scroll 0% 0% transparent; }
+/* ::::: http://www.inkaterra.com/wp-content/themes/inkaterra/css/cycle.css ::::: */
+
+/* ::::: http://www.inkaterra.com/wp-content/themes/inkaterra/css/jpagestyle.css ::::: */
+
+/* ::::: http://www.inkaterra.com/wp-content/plugins/captcha/css/style.css ::::: */
+
+/* ::::: http://www.inkaterra.com/wp-content/plugins/contact-form-7/includes/css/styles.css ::::: */
+
+/* ::::: https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css ::::: */
+
+button.ui-button::-moz-focus-inner { border: 0px none; padding: 0px; }
+/* ::::: http://www.inkaterra.com/wp-content/themes/inkaterra/nuevobook/js/jquery.booklet.1.4.0.css ::::: */
+
+body { z-index: 0; }
+/* ::::: http://www.inkaterra.com/wp-content/themes/inkaterra/js/fancybox/jquery.fancybox-1.3.4.css ::::: */
+

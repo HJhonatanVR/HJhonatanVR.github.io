@@ -1,0 +1,75 @@
+/* ::::: https://reservations.inkaterra.com/css/reset.css ::::: */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0px; padding: 0px; border: 0px none; outline: 0px none; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; }
+:focus { outline: 0px none; }
+body { line-height: 1; color: black; background: none repeat scroll 0% 0% white; }
+table { border-collapse: separate; border-spacing: 0px; }
+caption, th, td { text-align: left; font-weight: normal; }
+/* ::::: https://reservations.inkaterra.com/css/main.css ::::: */
+
+body { background: url('bgbody.jpg') repeat scroll 0% 0% transparent; font: 11px Arial,Helvetica,sans-serif; color: rgb(99, 85, 61); overflow-x: hidden; }
+a { text-decoration: none; outline: medium none; color: rgb(0, 0, 0); }
+a img { border: medium none; }
+p { line-height: 14px; margin-bottom: 8px; }
+.alignCenter { text-align: center ! important; }
+.clearfix:after { content: "."; display: block; height: 0px; font-size: 0px; clear: both; visibility: hidden; }
+.clearfix { display: inline-block; }
+.clearfix { display: block; }
+.left { float: left; }
+/* ::::: https://reservations.inkaterra.com/css/layout.css ::::: */
+
+body, html { width: 100%; }
+#lang { width: 100px; }
+#lang a { display: block; float: left; margin-right: 10px; }
+#showPhones { position: absolute; font: 11px/23px Arial; width: 140px; color: rgb(185, 179, 159); top: 95px; left: 20px; }
+#showPhones span.ico { position: relative; float: left; top: 0px; }
+#showPhones:hover #phonesContainer { visibility: visible; }
+#showPhones #phonesContainer { visibility: hidden; background: url('bg_us3.png') repeat scroll 0% 0% transparent ! important; width: 273px ! important; height: 135px ! important; padding: 8px 10px 5px 0px ! important; position: absolute; top: -148px; left: -63px; }
+#showPhones #phonesContainer h3 { font-size: 14px; text-align: center; font-weight: bold; color: rgb(151, 80, 0); text-transform: uppercase; margin: 3px 0px 15px; }
+#showPhones #phonesContainer span { display: block; text-align: right; }
+#slider-internas { height: 700px; margin: 0px auto; width: 100%; z-index: 9; }
+#wrapper { position: relative; margin: -700px auto 0px; width: 997px; z-index: 10; }
+#content { position: relative; }
+#wrapper #header { margin-top: 15px; }
+#content #sidebar-extra-top {  }
+#content #sidebar-extra-top .left { margin-top: 10px; }
+#content form#form-registration div.div-row { margin: 0px auto; padding-top: 20px; width: 600px; }
+#content form#form-registration div.row { margin-bottom: 10px; }
+#content form#form-registration .form-left, #content form#form-registration .form-right { float: left; width: 300px; }
+#content form#form-registration .form-left .row label, #content form#form-registration .form-right .row label { float: left; width: 89px; }
+#content form#form-registration input.text { border: 1px solid rgb(152, 135, 107); color: rgb(97, 76, 21); font: 11px Arial,Helvetica,sans-serif; padding: 2px 5px 0px; width: 150px; height: 17px; }
+#content .section { padding-top: 5px; padding-left: 20px; }
+#content h1 { font: 18px Georgia,"Times New Roman",Times,serif; color: rgb(96, 111, 17); text-shadow: 1px 1px 0px rgb(255, 255, 255); }
+#footer { height: 161px; margin-top: 20px; position: relative; }
+#footer #bg-right-footer { background: url('bg-footer-right.png') no-repeat scroll right top transparent; height: 184px; margin-top: -17px; margin-right: -4px; position: absolute; right: -38px; top: 0px; width: 154px; }
+#footer #bg-left-footer { background: url('bg-footer-left.png') no-repeat scroll left bottom transparent; left: 0px; margin: 0px 0px -20px -20px; bottom: 0px; height: 162px; position: absolute; width: 173px; }
+#footer #inner-footer { background: url('bg-footer.png') repeat-x scroll 0% 0% transparent; border: 1px solid rgb(80, 79, 75); height: 140px; }
+#footer #inner-footer .inner-footer-left { background: url('bg-separator-footer.png') no-repeat scroll right top transparent; float: left; padding: 20px 40px 20px 80px; height: 100px; }
+#footer #inner-footer .inner-footer-left p a, #footer #inner-footer .inner-footer-right p a { color: rgb(185, 179, 159); }
+#footer #inner-footer .inner-footer-right { float: left; position: relative; padding: 20px 80px 20px 20px; }
+#footer #inner-footer .inner-footer-right p.links-web-20 { margin-top: 20px; }
+#footer #inner-footer .inner-footer-right p.links-web-20 a { margin-right: 10px; }
+#footer #inner-footer p { color: rgb(185, 179, 159); }
+#one-sidebar { background: none repeat scroll 0% 0% rgb(228, 219, 203); }
+.content-buy .section { padding: 10px 85px ! important; }
+.content-buy-general { margin: auto; width: 726px; }
+.content-buy-general { margin-top: 150px; }
+.pngFix, #header a img, .sidebar-left-top center img, .sidebar-right-top center img, #bg-left-footer, #bg-right-footer, .links-web-20 a img, #hotel-container .hotel .hotel-name a, #live-weather-img img, .bg-sidebar-news center img, .full_day, #main-packages img {  }
+/* ::::: https://reservations.inkaterra.com/css/basic-propiedad11.css ::::: */
+
+#content .sidebar-left-top, #content .main-content-top, #content .sidebar-right-top { background: url('bg-package-title.png') repeat-x scroll 0% 0% transparent; }
+#sidebar-extra-top { height: 35px; padding: 0px 10px; background: url('bg-sidebar-extra-top.png') repeat scroll 0% 0% transparent ! important; width: 706px; }
+#slider-internas { background: url('bg-header-interna.jpg') no-repeat scroll center top transparent; }
+#content form#form-registration textarea { color: rgb(112, 99, 76); padding: 2px; font: 12px Arial,Helvetica,sans-serif; }
+/* ::::: https://reservations.inkaterra.com/js/jquery-carousel/skins/inkaterra/skin.css ::::: */
+
+/* ::::: https://reservations.inkaterra.com/js/jquery-carousel/jquery.jcarousel.css ::::: */
+
+/* ::::: https://reservations.inkaterra.com/js/jquery-carousel/skins/wish-list-skin/skin.css ::::: */
+
+/* ::::: https://reservations.inkaterra.com/js/jquery-ui/css/ui-propiedad-11/ui.1.5.3.css ::::: */
+
+/* ::::: https://reservations.inkaterra.com/js/jquery-ui/css/ui-propiedad-11/jquery-ui-1.7.2.custom.css ::::: */
+
+#content form#form-registration .form-left .row label, #content form#form-registration .form-right .row label { width: 106px ! important; }
+.row { width: 345px ! important; }

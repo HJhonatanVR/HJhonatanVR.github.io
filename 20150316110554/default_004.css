@@ -1,0 +1,408 @@
+/* ::::: http://www.inkaterra.com/wp-content/plugins/sitepress-multilingual-cms/res/css/language-selector.css?v=3.1.8.4 ::::: */
+
+/* ::::: http://www.inkaterra.com/wp-content/themes/inkaterra/style.css ::::: */
+
+/* ::::: http://www.inkaterra.com/wp-content/themes/inkaterra/css/normalize.css ::::: */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
+audio:not([controls]) { display: none; height: 0px; }
+html { font-size: 100%; }
+html, button, input, select, textarea { font-family: Helvetica,Arial; }
+body { margin: 0px; }
+a { text-decoration: none; }
+a:focus { outline: thin dotted; }
+a:hover, a:active { outline: 0px none; }
+h1 { font-size: 2em; margin: 0.67em 0px; }
+h2 { font-size: 1.5em; margin: 0.83em 0px; }
+h3 { color: rgb(48, 36, 24); font-size: 1.2em; display: block; font-weight: normal; }
+h4 { font-size: 1em; margin: 0px; }
+p, pre { margin: 1em 0px; font: 13px/16px GeorgiaRegular; color: rgb(80, 71, 50); }
+dl, menu, ol, ul { margin: 0px; }
+menu, ol, ul { padding: 0px; }
+nav ul, nav ol { list-style: outside none none; margin: 0px; padding: 0px; }
+nav a { text-decoration: none; }
+img { border: 0px none; }
+svg:not(:root) { overflow: hidden; }
+form { margin: 0px; }
+button, input, select, textarea { font-size: 100%; margin: 0px; vertical-align: baseline; }
+button, input { line-height: normal; }
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0px none; padding: 0px; }
+textarea { overflow: auto; vertical-align: top; }
+table { border-collapse: collapse; border-spacing: 0px; }
+/* ::::: http://www.inkaterra.com/wp-content/themes/inkaterra/css/typography.css ::::: */
+
+@font-face {
+	font-family: "TrajanProBold";
+	font-style: normal;
+	font-weight: normal;
+	src: url('trajanpro-bold-webfont.eot') format("embedded-opentype"), url('trajanpro-bold-webfont.woff') format("woff"), url('trajanpro-bold-webfont.ttf') format("truetype"), url('trajanpro-bold-webfont.svg') format("svg");
+}
+@font-face {
+	font-family: "TrajanProRegular";
+	font-style: normal;
+	font-weight: normal;
+	src: url('trajanpro-regular-webfont.eot') format("embedded-opentype"), url('trajanpro-regular-webfont.woff') format("woff"), url('trajanpro-regular-webfont.ttf') format("truetype"), url('trajanpro-regular-webfont.svg') format("svg");
+}
+@font-face {
+	font-family: "GeorgiaRegular";
+	font-style: normal;
+	font-weight: normal;
+	src: url('georgia-webfont.eot') format("embedded-opentype"), url('georgia-webfont.woff') format("woff"), url('georgia-webfont.ttf') format("truetype"), url('georgia-webfont.svg') format("svg");
+}
+@font-face {
+	font-family: "GeorgiaBold";
+	font-style: normal;
+	font-weight: normal;
+	src: url('georgiab-webfont.eot') format("embedded-opentype"), url('georgiab-webfont.woff') format("woff"), url('georgiab-webfont.ttf') format("truetype"), url('georgiab-webfont.svg') format("svg");
+}
+@font-face {
+	font-family: "GeorgiaItalic";
+	font-style: normal;
+	font-weight: normal;
+	src: url('georgiai-webfont.eot') format("embedded-opentype"), url('georgiai-webfont.woff') format("woff"), url('georgiai-webfont.ttf') format("truetype"), url('georgiai-webfont.svg') format("svg");
+}
+@font-face {
+	font-family: "GeorgiaBoldItalic";
+	font-style: normal;
+	font-weight: normal;
+	src: url('georgiaz-webfont.eot') format("embedded-opentype"), url('georgiaz-webfont.woff') format("woff"), url('georgiaz-webfont.ttf') format("truetype"), url('georgiaz-webfont.svg') format("svg");
+}
+body { background: url('bg-body.jpg') repeat scroll 0px 0px transparent; overflow-x: hidden; }
+a { color: rgb(74, 87, 2); }
+.clear { clear: both; }
+.full-height { width: 100%; overflow: hidden; position: relative; }
+.hide { display: none; }
+.left { float: left; position: relative; }
+.relativo { position: relative ! important; }
+#link1.hotel-menu li, #hotels-list.hotel-menu li { vertical-align: top; width: 185px; }
+#page > #main { margin: 0px auto; width: 1000px; }
+#arrowPage { position: absolute; top: -13px; width: 1000px; z-index: 5; left: 50%; margin-left: -500px; height: 38px; }
+#arrowPage img { position: relative; z-index: 11; left: 466px; }
+#back-slide { background-color: rgb(0, 0, 0); height: auto; left: 0px; overflow: hidden; position: absolute; top: 0px; width: 100%; z-index: -1; }
+#content-right { float: right; padding-right: 7.2%; width: 58.3%; }
+#left-menu { width: 25%; }
+#nivo-slider { font-size: 0px; margin: 0px; padding: 0px; text-align: center; }
+#primary { background-color: rgb(246, 242, 235); box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5); margin-top: 0px; width: 1000px ! important; }
+#secondary ul { margin: 0px auto; min-height: 59px; padding: 0px; width: 1000px; }
+#secondary ul li { background: url('separacionlimenusecundary.png') no-repeat scroll left bottom transparent; float: left; font-family: "TrajanProRegular"; font-size: 14px; line-height: 59px; min-height: 59px; position: relative; text-align: center; text-transform: uppercase; width: 250px; }
+#secondary ul li a { color: rgb(63, 51, 48); display: block; position: relative; text-shadow: 1px 1px 0px rgb(239, 239, 239); vertical-align: middle; z-index: 15; }
+#secondary ul li a:hover, #secondary ul li a.active { color: rgb(151, 80, 0); }
+.bg-menu-second { background: url('bgmenusecundary.png') repeat-x scroll 0px 0px rgb(238, 233, 224); height: 61px; width: 100%; }
+.entry-content img[alt="header"] { display: none; }
+#branding { height: 390px; }
+header #wrapperHeader { margin: 0px auto; min-height: 390px; position: relative; width: 1000px; }
+header #wrapperHeader .seo-header { color: rgb(91, 86, 64); font: 12px GeorgiaRegular; left: 12px; position: absolute; top: 53px; }
+nav#first ul li:first-child { background: none repeat scroll 0% 0% transparent ! important; }
+#live-weather tr td { font: 300 0.75em sans-serif; color: rgb(63, 51, 48); }
+#referenceTextPage { bottom: 60px; color: rgb(255, 255, 255); right: 0px; position: absolute; text-align: center; z-index: 1; width: auto ! important; }
+#bookOnLine { top: 0px; left: 0px; position: absolute; width: 295px; }
+.tooltipredes { background-image: url('bglinkredes.png'); color: rgb(59, 44, 31); display: none; font-size: 8px; height: 15px; margin-left: -80px; margin-top: -32px; padding: 7px 13px 0px 5px; text-align: center; text-transform: uppercase; width: 55px; z-index: 1000; }
+#linksredes { z-index: 22; top: 200px; right: -1px; position: fixed; }
+#iconoredes { padding-top: 5px; top: 200px; right: 0px; width: 38px; height: 159px; background-image: url('linksredes.png'); }
+.iconredes { padding-top: 0px; }
+#contentTextBook { background: none repeat scroll 0px 0px rgb(231, 223, 206); border-radius: 0px 10px 10px 0px; box-shadow: 1px 2px 3px rgb(18, 18, 18); color: rgb(63, 51, 48); left: 0px; line-height: 24px; min-height: 83px; position: absolute; top: 216px; width: 95px; z-index: 22; }
+#contentTextBook a { color: rgb(63, 51, 48); display: block; font: 16px/20px TrajanProRegular; min-height: 28px; padding: 24px 0px 19px 11px; vertical-align: middle; }
+#left-menu { padding: 35px 0px 35px 20px; }
+#left-menu ul.menu { background: url('bg-vertical.png') repeat-y scroll right top transparent; padding-bottom: 35px; width: 100%; }
+#left-menu ul li { background: url('dashed-in.png') repeat-x scroll left bottom transparent; margin-right: 5px; min-height: 30px; font: 1em TrajanProRegular; padding-top: 10px; }
+#left-menu ul li .sub-menu { margin: 5px 0px 0px; padding: 5px 0px; }
+#left-menu ul li .sub-menu li { background: none repeat scroll 0% 0% transparent; font-size: 14px; min-height: 20px; padding-top: 5px; }
+#left-menu ul li .sub-menu li a { background-image: url('vineta-circle.png'); background-position: 10px 8px; background-repeat: no-repeat; font-size: 14px; padding-left: 25px; }
+#left-menu ul li .sub-menu ul li a { background: none repeat scroll 0% 0% transparent; padding-left: 0px; }
+#left-menu ul li .sub-menu ul li { list-style-type: disc; margin-left: 25px; }
+#left-menu ul li a { display: block; color: rgb(65, 48, 44); height: 23px; line-height: 23px; padding-left: 8px; }
+#left-menu ul li a:hover, #left-menu li.current-menu-item > a { background-color: rgb(95, 105, 36) ! important; color: rgb(229, 217, 203) ! important; }
+.sub-menu .current-menu-item .sub-menu, .sub-menu .sub-menu { padding-left: 15px ! important; }
+.sub-menu .sub-menu li a { font-size: 13px ! important; }
+.sub-menu { display: none; }
+#content-right .entry-title { background: url('dashed-in.png') repeat-x scroll left bottom transparent; color: rgb(74, 87, 2); font: 30px TrajanProRegular; margin: 0px; padding-bottom: 12px; }
+#content-right .entry-content { color: rgb(80, 71, 50); font: 13px/16px GeorgiaRegular; text-align: justify; margin-top: 10px; }
+#content-right .entry-content p { line-height: 18px; margin-bottom: 20px; margin-top: 0px; }
+.list-button { min-height: 30px; list-style: outside none none; margin: 0px; }
+#content-right .entry-content ul.list-button li { min-height: 30px; list-style: outside none none; margin: -9px 0px 0px 9px; padding: 0px; }
+.list-button li a, .btn_input { background: url('btn-grey.png') no-repeat scroll 0px 2px transparent; color: rgb(206, 213, 162); display: block; height: 27px; line-height: 27px; text-align: center; text-shadow: 1px 2px 3px rgb(18, 18, 18); width: 100px; border: medium none; font-size: 11px; }
+.list-button li a span { background: url('icon-botones.png') no-repeat scroll 0px 0px transparent; display: inline-block; line-height: 28px; width: 17px ! important; height: 29px ! important; }
+.data-icon-friend { background-position: 0px -39px ! important; }
+.data-icon-social { background-position: 0px -84px ! important; }
+.li-horizontal li { float: left; padding-left: 14px; }
+.li-horizontal li:first-child { padding-left: 0px; margin-right: -8px; }
+#list-titnerary { background: url('bg-horizontal.png') no-repeat scroll 0px 0px transparent; height: 220px; padding-top: 0px; padding-bottom: 20px; }
+#list-titnerary h2, .carousel-content h2 { color: rgb(74, 87, 2); font: 1.375em TrajanProRegular; margin: 0px; padding: 20px 0px 16px 20px; }
+#list-titnerary .itinerary { float: left; padding-left: 25px; }
+#list-titnerary .itinerary h3 { color: rgb(76, 66, 63); font: 1em georgia,times; margin: 0px; }
+#list-titnerary .itinerary a { color: rgb(76, 66, 63); font: italic 0.7em georgia,times; }
+#list-titnerary .itinerary a:hover { color: rgb(52, 52, 52); text-decoration: underline; }
+footer { width: 100%; margin: 0px; }
+#wrapperFooterTop { background: url('bgfootertop.png') repeat-x scroll 0% 0% transparent; min-height: 185px; width: 100%; }
+#wrapperFooterTop article { background: url('separcionborder.png') no-repeat scroll right top transparent; margin: 0px auto; padding: 20px 22px 0px 0px; width: 978px; }
+#wrapperFooterTop article div { background: url('separcionborder.png') no-repeat scroll left top transparent; float: left; min-height: 129px; padding: 18px 0px 0px 24px; width: 190px; }
+#wrapperFooterTop article div h4 { color: rgb(103, 72, 38); font: 13px GeorgiaRegular; }
+#wrapperFooterTop article div span { display: block; text-align: right; }
+#wrapperFooterTop article div span img { padding: 0px 0px 0px 10px; }
+#wrapperFooterTop article div ul { margin: 0px; padding: 12px 0px 0px; }
+#wrapperFooterTop article div li { margin: 0px; font: 12px/18px GeorgiaRegular; color: rgb(91, 86, 64); list-style: outside none none; float: none; padding: 0px; }
+#wrapperFooterTop article div a { color: rgb(91, 86, 64); text-decoration: none; margin: 0px; float: none; padding: 0px; }
+#wrapperFooterTop article div a:hover { text-decoration: underline; }
+#wrapperFooterBottom { background: url('bgfooterbottom.png') repeat-x scroll 0% 0% transparent; min-height: 80px; width: 100%; }
+#wrapperFooterBottom > div { margin: 0px auto; padding: 24px 0px 0px; width: 1000px; }
+#wrapperFooterTop .social-footer { display: block; text-align: center; width: 33%; float: left; }
+#wrapperFooterSeo { background: none repeat scroll 0% 0% rgb(234, 223, 208); min-height: 80px; width: 100%; padding-top: 20px; }
+#wrapperFooterSeo > div { margin: 0px auto; padding: 24px 0px 0px; width: 1000px; border-top: 1px solid rgb(204, 204, 204); }
+#wrapperFooterSeo > div { text-align: center; color: rgb(91, 86, 64); font: 11px GeorgiaRegular; }
+#bread-crumbs { color: rgb(167, 106, 22); font-size: 11px; height: 45px; line-height: 45px; }
+.btn-submit-contact input[type="submit"] { background: url('btn-grey.png') no-repeat scroll 0px 0px transparent; color: rgb(206, 213, 162); display: block; height: 28px; line-height: 28px; text-align: center; text-shadow: 1px 2px 3px rgb(18, 18, 18); width: 100px; border: 1px none; }
+#hotels-list, .hotel-menu { display: none; background-color: rgb(213, 198, 177); border-bottom: 1px solid rgb(248, 244, 238); box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.5) inset; }
+#hotels-list ul, .hotel-menu ul { border-bottom: 1px solid rgb(161, 144, 116); text-align: center; padding-top: 25px; padding-bottom: 10px; }
+#hotels-list ul li, .hotel-menu ul li { display: inline-block; padding: 0px 7px; }
+#hotels-list ul li a, .hotel-menu ul li a { color: rgb(65, 48, 44); }
+#hotels-list ul li img, .hotel-menu ul li img { border: 1px solid rgb(227, 217, 202); }
+#hotels-list h2, .hotel-menu h2 { font: lighter 12px "TrajanProRegular"; margin-top: 0px; }
+.entry-content img { margin: 1px 2px; }
+#secondary ul li.spaceBetspoke { width: 237px ! important; }
+#secondary ul li.borderRight { width: 260px ! important; }
+.contentBookOnline { background: none repeat scroll 0px 0px rgb(231, 223, 206); border-radius: 0px 10px 10px 0px; box-shadow: 1px 2px 3px rgb(18, 18, 18); color: rgb(63, 51, 48); line-height: 24px; min-height: 105px; top: 120px; width: 270px; z-index: 100; display: none; }
+.absoluto { position: absolute ! important; display: block; }
+.contentCaja { padding-left: 25px; padding-top: 10px; padding-right: 15px; font-size: 12px; z-index: 200; }
+#secondary { padding-bottom: 2px; }
+#contentHome, .bg-menu-second { background: url('bgmenusecundary.png') repeat-x scroll 0px 0px rgb(238, 233, 224); height: 61px; width: 100%; }
+#content-right .full-height li { margin-left: 40px; margin-top: 7px; margin-bottom: 8px; }
+#newtop { width: 100%; height: 50px; background: url('bg-newtop.png') repeat-x scroll 0% 0% transparent; }
+#pagetop { margin: 0px auto; width: 87.5em; height: 50px; }
+#menu-newtop { float: left; height: 50px; width: 90.5em; }
+#menulogotop { float: left; width: auto; margin-left: 186px; height: 50px; }
+#theclima { float: left; height: 50px; width: 180px; padding-top: 8px; padding-left: 20px; }
+#bg-fondologo { float: left; background-image: url('bg-logo.png'); width: 230px; height: 80px; padding: 16px 10px 4px; text-align: center; }
+#menunewtop { float: left; width: auto; height: 50px; }
+#newidoma { float: left; }
+header #headerRighBottomntop { padding: 5px 0px 0px; }
+header #headerRighBottomntop nav#first { width: auto; }
+header #headerRighBottomntop nav#first ul { margin: 0px; padding: 0px 13px; overflow: hidden; }
+header #headerRighBottomntop nav#first ul li { background: url('separacionlimenu.png') no-repeat scroll left top transparent; padding: 0px; font: 14px/40px TrajanProRegular; float: left; height: 45px; margin: 0px; }
+header #headerRighBottomntop nav#first ul li a { color: rgb(63, 51, 48); display: block; vertical-align: middle; padding: 0px 13px; }
+header #headerRighBottomntop nav#first ul li a:hover, header #headerRighBottomntop nav#first ul li a.active { color: rgb(134, 81, 9); }
+header #headerRighBottomntop ul.sub-menu { display: none; position: absolute; top: 50px; width: 130px ! important; background: url('bg-submenu.png') repeat-x scroll 0% 0% rgb(236, 230, 217) ! important; opacity: 0.95; list-style-type: none; z-index: 10; padding: 12px 0px 0px ! important; border-bottom-right-radius: 10% 5%; border-bottom-left-radius: 10% 5%; }
+header #headerRighBottomntop ul.sub-menu li { width: 108px; padding: 2px 11px ! important; height: 26px ! important; line-height: 22px ! important; background: url('line-bg-submenu.png') repeat-x scroll left bottom transparent ! important; }
+header #headerRighBottomntop ul.sub-menu li:first-child { border-top: medium none; }
+header #headerRighBottomntop ul.sub-menu li a { width: 96px; margin: 0px; padding: 0px; height: 22px ! important; font-size: 11px; }
+header #headerRighBottomntop ul.sub-menu li a:hover { width: 96px; margin: 0px; color: rgb(156, 1, 1); background: none repeat scroll 0% 0% transparent; height: 22px ! important; font-size: 11px; }
+header #headerRighBottomntop ul.sub-menu li.toolfree a { background: url('tollfree.png') no-repeat scroll 0px 2px transparent ! important; padding: 0px 0px 0px 23px ! important; }
+header #headerRighBottomntop ul.sub-menu li.mail a { background: url('mail.png') no-repeat scroll 0px 2px transparent ! important; padding: 0px 0px 0px 23px ! important; }
+header #headerRighBottomntop ul.sub-menu li.tellfrie a { background: url('tellfrie.png') no-repeat scroll 0px 3px transparent ! important; padding: 0px 0px 0px 23px ! important; }
+header #headerRighBottomntop ul.sub-menu li.chat a { background: url('chat.png') no-repeat scroll 0px 4px transparent ! important; padding: 0px 0px 0px 23px ! important; }
+body { background: url('bg-body.jpg') repeat scroll 0px 0px transparent; overflow-x: hidden; }
+a { color: rgb(74, 87, 2); }
+.clear { clear: both; }
+.full-height { width: 100%; overflow: hidden; position: relative; }
+.hide { display: none; }
+.left { float: left; position: relative; }
+.relativo { position: relative ! important; }
+#arrowPage { position: absolute; top: -13px; width: 1000px; z-index: 5; left: 50%; margin-left: -500px; height: 38px; }
+#arrowPage img { position: relative; z-index: 11; left: 466px; }
+#back-slide { background-color: rgb(0, 0, 0); height: auto; left: 0px; overflow: hidden; position: absolute; top: 0px; width: 100%; z-index: -1; }
+#content { overflow: hidden; position: relative; width: 100%; }
+#content-right { float: right; padding-right: 7.2%; width: 58.3%; padding-bottom: 35px ! important; }
+#left-menu { width: 25%; }
+#nivo-slider { font-size: 0px; margin: 0px; padding: 0px; text-align: center; }
+#page { margin: 0px auto; }
+#primary { background-color: rgb(246, 242, 235); box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5); margin-top: 0px; }
+#secondary ul li { background: url('separacionlimenusecundary.png') no-repeat scroll left bottom transparent; float: left; font-family: "TrajanProRegular"; font-size: 14px; line-height: 59px; min-height: 59px; position: relative; text-align: center; text-transform: uppercase; width: 250px; }
+#secondary ul li a { color: rgb(63, 51, 48); display: block; position: relative; text-shadow: 1px 1px 0px rgb(239, 239, 239); vertical-align: middle; z-index: 15; }
+#secondary ul li a:hover, #secondary ul li a.active { color: rgb(151, 80, 0); }
+.bg-menu-second { background: url('bgmenusecundary.png') repeat-x scroll 0px 0px rgb(238, 233, 224); height: 61px; width: 100%; }
+.entry-content img[alt="header"] { display: none; }
+#branding { height: 390px; }
+header #wrapperHeader { margin: 0px auto; min-height: 390px; position: relative; width: 1000px; }
+nav#first ul li:first-child { background: none repeat scroll 0% 0% transparent ! important; }
+#live-weather tr td { font: 300 0.75em sans-serif; color: rgb(63, 51, 48); }
+#referenceTextPage { bottom: 60px; color: rgb(255, 255, 255); right: 0px; position: absolute; text-align: center; z-index: 1; width: auto ! important; }
+#bookOnLine { top: 0px; left: 0px; position: absolute; width: 295px; }
+.tooltipredes { background-image: url('bglinkredes.png'); color: rgb(59, 44, 31); display: none; font-size: 8px; height: 15px; margin-left: -80px; margin-top: -32px; padding: 7px 13px 0px 5px; text-align: center; text-transform: uppercase; width: 55px; z-index: 1000; }
+#linksredes { z-index: 22; top: 200px; right: -1px; position: fixed; }
+#iconoredes { padding-top: 5px; top: 200px; right: 0px; width: 38px; height: 159px; background-image: url('linksredes.png'); }
+.iconredes { padding-top: 0px; }
+#contentTextBook { background: none repeat scroll 0px 0px rgb(231, 223, 206); border-radius: 0px 10px 10px 0px; box-shadow: 1px 2px 3px rgb(18, 18, 18); color: rgb(63, 51, 48); left: 0px; line-height: 24px; min-height: 83px; position: absolute; top: 216px; width: 95px; z-index: 22; }
+#contentTextBook a { color: rgb(63, 51, 48); display: block; font: 16px/20px TrajanProRegular; min-height: 28px; padding: 24px 0px 19px 11px; vertical-align: middle; }
+#left-menu { padding: 35px 0px 35px 20px; }
+#left-menu ul.menu { background: url('bg-vertical.png') repeat-y scroll right top transparent; padding-bottom: 35px; width: 100%; height: auto ! important; }
+#left-menu ul li { background: url('dashed-in.png') repeat-x scroll left bottom transparent; margin-right: 5px; min-height: 30px; font: 1em TrajanProRegular; padding-top: 10px; }
+#left-menu ul li .sub-menu { margin: 5px 0px 0px; padding: 5px 0px; }
+#left-menu ul li .sub-menu li { background: none repeat scroll 0% 0% transparent; font-size: 14px; min-height: 20px; padding-top: 5px; }
+#left-menu ul li .sub-menu li a { background-image: url('vineta-circle.png'); background-position: 10px 8px; background-repeat: no-repeat; font-size: 14px; padding-left: 25px; }
+#left-menu ul li .sub-menu ul li a { background: none repeat scroll 0% 0% transparent; padding-left: 0px; }
+#left-menu ul li .sub-menu ul li { list-style-type: disc; margin-left: 25px; }
+#left-menu ul li a { display: block; color: rgb(65, 48, 44); height: 23px; line-height: 23px; padding-left: 8px; }
+#left-menu ul li a:hover, #left-menu li.current-menu-item > a { background-color: rgb(95, 105, 36) ! important; color: rgb(229, 217, 203) ! important; }
+.sub-menu .current-menu-item .sub-menu, .sub-menu .sub-menu { padding-left: 15px ! important; }
+.sub-menu .sub-menu li a { font-size: 13px ! important; }
+.sub-menu { display: none; }
+#content-right .entry-title { background: url('dashed-in.png') repeat-x scroll left bottom transparent; color: rgb(74, 87, 2); font: 30px TrajanProRegular; margin: 0px; padding-bottom: 12px; }
+#content-right .entry-content { color: rgb(80, 71, 50); font: 13px/16px GeorgiaRegular; text-align: justify; margin-top: 10px; }
+#content-right .entry-content p { line-height: 18px; margin-bottom: 20px; margin-top: 0px; }
+.list-button { min-height: 30px; list-style: outside none none; margin: 0px; }
+#content-right .entry-content ul.list-button li { min-height: 30px; list-style: outside none none; margin: -9px 0px 0px 9px; padding: 0px; }
+.list-button li a, .btn_input { background: url('btn-grey.png') no-repeat scroll 0px 2px transparent; color: rgb(206, 213, 162); display: block; height: 27px; line-height: 27px; text-align: center; text-shadow: 1px 2px 3px rgb(18, 18, 18); width: 100px; border: medium none; font-size: 11px; }
+.list-button li a span { background: url('icon-botones.png') no-repeat scroll 0px 0px transparent; display: inline-block; line-height: 28px; width: 13px; height: 19px; }
+.data-icon-friend { background-position: 0px -39px ! important; }
+.data-icon-social { background-position: 0px -84px ! important; }
+.li-horizontal li { float: left; padding-left: 14px; }
+.li-horizontal li:first-child { padding-left: 0px; margin-right: -8px; }
+#list-titnerary { background: url('bg-horizontal.png') no-repeat scroll 0px 0px transparent; height: 220px; padding-top: 0px; padding-bottom: 20px; }
+#list-titnerary h2, .carousel-content h2 { color: rgb(74, 87, 2); font: 1.375em TrajanProRegular; margin: 0px; padding: 20px 0px 16px 20px; }
+#list-titnerary .itinerary { float: left; padding-left: 25px; }
+#list-titnerary .itinerary h3 { color: rgb(76, 66, 63); font: 1em georgia,times; margin: 0px; }
+#list-titnerary .itinerary a { color: rgb(76, 66, 63); font: italic 0.7em georgia,times; }
+#list-titnerary .itinerary a:hover { color: rgb(52, 52, 52); text-decoration: underline; }
+#wrapperFooterTop { background: url('bgfootertop.png') repeat-x scroll 0% 0% transparent; min-height: 185px; width: 100%; }
+#wrapperFooterTop article { background: url('separcionborder.png') no-repeat scroll right top transparent; margin: 0px auto; padding: 20px 22px 0px 0px; }
+#wrapperFooterTop article div { background: url('separcionborder.png') no-repeat scroll left top transparent; float: left; min-height: 129px; padding: 18px 0px 0px 24px; }
+#wrapperFooterTop article div h4 { color: rgb(103, 72, 38); font: 13px GeorgiaRegular; }
+#wrapperFooterTop article div span { display: block; text-align: right; }
+#wrapperFooterTop article div span img { padding: 0px 0px 0px 10px; }
+#wrapperFooterTop article div ul { margin: 0px; padding: 12px 0px 0px; }
+#wrapperFooterTop article div li { margin: 0px; font: 12px/18px GeorgiaRegular; color: rgb(91, 86, 64); list-style: outside none none; float: none; padding: 0px; }
+#wrapperFooterTop article div a { color: rgb(91, 86, 64); text-decoration: none; margin: 0px; float: none; padding: 0px; }
+#wrapperFooterTop article div a:hover { text-decoration: underline; }
+#wrapperFooterSeo { background: none repeat scroll 0% 0% rgb(234, 223, 208); min-height: 80px; width: 100%; padding-top: 20px; }
+#bread-crumbs { color: rgb(167, 106, 22); font-size: 11px; height: 45px; line-height: 45px; }
+.entry-content img { margin: 1px 2px; }
+.btn-submit-contact input[type="submit"] { background: url('btn-grey.png') no-repeat scroll 0px 0px transparent; color: rgb(206, 213, 162); display: block; height: 28px; line-height: 28px; text-align: center; text-shadow: 1px 2px 3px rgb(18, 18, 18); width: 100px; border: 1px none; }
+#hotels-list, .hotel-menu { display: none; background-color: rgb(213, 198, 177); border-bottom: 1px solid rgb(248, 244, 238); box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.5) inset; }
+#hotels-list ul, .hotel-menu ul { border-bottom: 1px solid rgb(161, 144, 116); text-align: center; padding-top: 25px; padding-bottom: 10px; }
+#hotels-list ul li, .hotel-menu ul li { display: inline-block; padding: 0px 7px; }
+#hotels-list ul li a, .hotel-menu ul li a { color: rgb(65, 48, 44); }
+#hotels-list ul li img, .hotel-menu ul li img { border: 1px solid rgb(227, 217, 202); }
+#hotels-list h2, .hotel-menu h2 { font: lighter 12px "TrajanProRegular"; margin-top: 0px; }
+#secondary ul li.spaceBetspoke { width: 237px ! important; }
+#secondary ul li.borderRight { width: 260px ! important; }
+.contentBookOnline { background: none repeat scroll 0px 0px rgb(231, 223, 206); border-radius: 0px 10px 10px 0px; box-shadow: 1px 2px 3px rgb(18, 18, 18); color: rgb(63, 51, 48); line-height: 24px; min-height: 105px; top: 120px; width: 270px; z-index: 100; display: none; }
+.absoluto { position: absolute ! important; display: block; }
+.contentCaja { padding-left: 25px; padding-top: 10px; padding-right: 15px; font-size: 12px; z-index: 200; }
+#secondary { padding-bottom: 2px; }
+#contentHome, .bg-menu-second { background: url('bgmenusecundary.png') repeat-x scroll 0px 0px rgb(238, 233, 224); height: 61px; width: 100%; }
+#content-right .full-height li { margin-left: 40px; margin-top: 7px; margin-bottom: 8px; }
+#newtop { width: 100%; height: 50px; background-image: url('bg-newtop.png'); }
+#pagetop { margin: 0px auto; width: 87.5em; height: 50px; }
+#menu-newtop { float: left; height: 50px; width: 90.5em; }
+#menulogotop { float: left; width: auto; margin-left: 186px; height: 50px; }
+#theclima { float: left; height: 50px; width: 180px; padding-top: 8px; padding-left: 20px; }
+#bg-fondologo { float: left; background-image: url('bg-logo.png'); width: 230px; height: 80px; padding: 16px 10px 4px; text-align: center; }
+#menunewtop { float: left; width: auto; height: 50px; }
+#newidoma { float: left; }
+header #headerRighBottomntop ul.sub-menu { background: none repeat scroll 0% 0% rgb(236, 230, 217); }
+header #headerRighBottomntop { padding: 5px 0px 0px; }
+header #headerRighBottomntop nav#first { width: auto; }
+header #headerRighBottomntop nav#first ul { margin: 0px; padding: 0px 13px; overflow: hidden; }
+header #headerRighBottomntop nav#first ul li { background: url('separacionlimenu.png') no-repeat scroll left top transparent; padding: 0px; font: 14px/40px TrajanProRegular; float: left; height: 45px; margin: 0px; }
+header #headerRighBottomntop nav#first ul li a { color: rgb(63, 51, 48); display: block; vertical-align: middle; padding: 0px 13px; }
+header #headerRighBottomntop nav#first ul li a:hover, header #headerRighBottomntop nav#first ul li a.active { color: rgb(134, 81, 9); }
+header #headerRighBottomntop ul.sub-menu { display: none; position: absolute; top: 50px; width: 130px ! important; background: url('bg-submenu.png') repeat-x scroll 0% 0% rgb(236, 230, 217) ! important; opacity: 0.95; list-style-type: none; z-index: 10; padding: 12px 0px 0px ! important; border-bottom-right-radius: 10% 5%; border-bottom-left-radius: 10% 5%; }
+header #headerRighBottomntop ul.sub-menu li { width: 108px; padding: 2px 11px ! important; height: 26px ! important; line-height: 22px ! important; background: url('line-bg-submenu.png') repeat-x scroll left bottom transparent ! important; }
+header #headerRighBottomntop ul.sub-menu li:first-child { border-top: medium none; }
+header #headerRighBottomntop ul.sub-menu li a { width: 96px; margin: 0px; padding: 0px; height: 22px ! important; font-size: 11px; }
+header #headerRighBottomntop ul.sub-menu li a:hover { width: 96px; margin: 0px; color: rgb(156, 1, 1); background: none repeat scroll 0% 0% transparent; height: 22px ! important; font-size: 11px; }
+header #headerRighBottomntop ul.sub-menu li.toolfree a { background: url('tollfree.png') no-repeat scroll 0px 2px transparent ! important; padding: 0px 0px 0px 23px ! important; }
+header #headerRighBottomntop ul.sub-menu li.mail a { background: url('mail.png') no-repeat scroll 0px 2px transparent ! important; padding: 0px 0px 0px 23px ! important; }
+header #headerRighBottomntop ul.sub-menu li.tellfrie a { background: url('tellfrie.png') no-repeat scroll 0px 3px transparent ! important; padding: 0px 0px 0px 23px ! important; }
+header #headerRighBottomntop ul.sub-menu li.chat a { background: url('chat.png') no-repeat scroll 0px 4px transparent ! important; padding: 0px 0px 0px 23px ! important; }
+.finkaterra { width: 156px ! important; }
+.fourhotels { width: 250px ! important; }
+div.marcotable #collapse1 span, div.marcotable #collapse3 span { font-size: 11px ! important; }
+@media screen and (max-width: 1024px) {
+	.fmovil { width: 190%; margin: 0px auto; }
+	.pmovil { width: 1000px ! important; margin-left: 10% ! important; }
+	.slidemovil { width: 190% ! important; margin: 0px auto ! important; }
+	.newtopmovil { width: 190% ! important; margin: 0px auto ! important; }
+	footer#colophon.fmovil #wrapperFooterTop > article { margin: 0px ! important; }
+	footer#colophon.fmovil #wrapperFooterSeo > div { margin: 0px ! important; }
+}
+/* ::::: http://www.inkaterra.com/wp-content/themes/inkaterra/css/shadowbox.css ::::: */
+
+/* ::::: http://www.inkaterra.com/wp-content/themes/inkaterra/css/nivo-slider.css ::::: */
+
+#nivo-slider { position: relative; width: 1400px; height: 440px; margin: 0px auto; }
+#nivo-slider img { position: absolute; top: 0px; left: 0px; }
+/* ::::: http://www.inkaterra.com/wp-content/themes/inkaterra/css/jcarousel.css ::::: */
+
+/* ::::: http://www.inkaterra.com/wp-content/themes/inkaterra/css/rhino-slider.css ::::: */
+
+/* ::::: http://www.inkaterra.com/wp-content/themes/inkaterra/css/circle.player.css ::::: */
+
+/* ::::: http://www.inkaterra.com/wp-content/themes/inkaterra/css/stylebyinkaterra.css ::::: */
+
+.single {  }
+#secondary ul li.spaceBetspoke { width: 235px ! important; }
+#secondary ul li.borderRight { width: 265px ! important; }
+.tooltipredes { background-image: url('bglinkredes.png'); color: rgb(59, 44, 31); display: none; font-size: 8px; height: 15px; margin-left: -80px; margin-top: -32px; padding: 7px 13px 0px 5px; text-align: center; text-transform: uppercase; width: 55px; z-index: 1000; }
+#linksredes { z-index: 22; top: 200px; right: -5px; position: fixed; }
+#iconoredes { padding-top: 5px; top: 200px; right: 0px; width: 38px; height: 194px; background: none repeat scroll 0% 0% rgb(231, 223, 206); border-radius: 7px 0px 0px 7px; box-shadow: 1px 2px 3px rgb(18, 18, 18); }
+.iconredes { padding-top: 0px; }
+/* ::::: http://www.inkaterra.com/wp-content/themes/inkaterra/css/home.css ::::: */
+
+#secondary ul li.borderRight a { background: url('separacionlimenusecundary.png') no-repeat scroll right bottom transparent; }
+#secondary ul li a { color: rgb(63, 51, 48); cursor: pointer; display: block; position: relative; vertical-align: middle; z-index: 15; }
+.wpcf7-text { background: none repeat scroll 0% 0% rgb(212, 205, 175); width: 250px; height: 18px; border: 1px solid rgb(140, 133, 108); }
+.wpcf7-textarea { background: none repeat scroll 0% 0% rgb(212, 205, 175); border: 1px solid rgb(140, 133, 108); width: 250px; height: 93px; }
+.wpcf7-form span { font-size: 11px; }
+.wpcf7-form p { margin: 4px 0px; }
+#contenedorcontacto { margin-left: 40px; margin-top: 20px; height: auto; }
+#titulocontacto { padding: 9px 0px; border-bottom: 1px dotted; width: 100%; }
+#titulocontacto span { font-size: 25px; color: rgb(134, 81, 9); font-family: TrajanProRegular; }
+.wpcf7-select { background: none repeat scroll 0% 0% rgb(212, 205, 175); width: 250px; height: 22px; border: 1px solid rgb(140, 133, 108); }
+.btn-submit-contact { font-size: 12px; }
+#marcocontacto { float: left; padding: 8px 0px; width: 256px; }
+#contactoright { float: left; margin: 30px 0px 30px 17px; width: 260px; }
+.subtitulocontacto { padding-bottom: 10px; border-bottom: 1px dotted; width: 100%; font-family: TrajanProRegular; }
+.subtitulocontacto span { font-size: 18px; color: rgb(101, 109, 37); }
+.marcotable { margin-top: 10px; }
+div.marcotable span { font-size: 12px; color: rgb(101, 109, 37); }
+div.wpcf7-response-output { float: left; background: none repeat scroll 0% 0% transparent; margin: 21px 0px 0px; width: 226px; }
+#fondooscuro {  }
+.theme2 { margin: 0px 50px 0px 0px; }
+.round-border { border: 1px solid rgba(0, 0, 0, 0.05); border-radius: 4px; padding: 2px; margin-bottom: 5px; }
+.botontexto { font-family: "TrajanProRegular"; color: rgb(101, 109, 37); font-size: 12px; margin: 5px 0px 0px -1px; padding: 0px 11px 4px 1px; float: left; font-weight: bold; }
+.botontexto:hover { cursor: pointer; }
+.nav-toggle { background: none repeat scroll 0% 0% transparent; border: medium none; float: right; position: absolute; right: 0px; padding-left: 246px; }
+.clearfix:after { content: "."; display: block; height: 0px; font-size: 0px; clear: both; visibility: hidden; }
+.clearfix { display: inline-block; }
+.clearfix { display: block; }
+/* ::::: http://www.inkaterra.com/wp-content/themes/inkaterra/estiloslenguaje.css ::::: */
+
+header #headerRighTops { padding: 14px 0px 0px; text-align: right; }
+header #headerRighTops li { margin: 0px 18px 0px 0px; list-style: outside none none; float: left; width: inherit; }
+header #headerRighTops li:first-child { margin-right: 0px; }
+header #headerRighTops li.lang { background: none repeat scroll 0% 0% rgb(220, 214, 197); color: rgb(78, 71, 60); font: 10px/20px Arial,Helvetica,sans-serif; vertical-align: middle; text-align: left; height: 20px; padding: 0px 0px 0px 8px; position: relative; border-radius: 6px; width: 76px; z-index: 5; }
+header #headerRighTops li.lang a { color: rgb(63, 51, 48); }
+header #headerRighTops li a { color: rgb(255, 255, 255); display: block; font: 14px/21px "Calibri",Helvetica,sans-serif; height: 21px; text-decoration: none; vertical-align: middle; }
+header #headerRighTops li.lang a { color: rgb(0, 0, 0); background: none repeat scroll 0% 0% transparent; }
+/* ::::: http://www.inkaterra.com/wp-content/themes/inkaterra/css/cycle.css ::::: */
+
+.pics { height: 245px; width: 583px; padding: 0px; margin: 0px; overflow: hidden; }
+.pics img { height: 245px; width: 583px; padding: 0px; top: 0px; left: 0px; }
+.pics img {  }
+#prev { background-image: url('left-galeria.png'); width: 15px; height: 37px; display: block; position: absolute; top: 122px; left: 20px; z-index: 100; }
+#next { background-image: url('right-galeria.png'); width: 16px; height: 35px; display: block; position: absolute; top: 122px; right: 26px; z-index: 100; }
+.cenboton { float: left; width: 100%; overflow: hidden; position: relative; }
+.cenbotonul { clear: left; float: left; list-style: outside none none; margin: 0px; padding: 0px; position: relative; left: 50%; text-align: center; }
+ul.cenbotonul li { display: block; float: left; list-style: outside none none; padding: 0px; position: relative; right: 49.7%; margin: 0px 7px; }
+/* ::::: http://www.inkaterra.com/wp-content/themes/inkaterra/css/jpagestyle.css ::::: */
+
+/* ::::: http://www.inkaterra.com/wp-content/plugins/captcha/css/style.css ::::: */
+
+/* ::::: http://www.inkaterra.com/wp-content/plugins/contact-form-7/includes/css/styles.css ::::: */
+
+div.wpcf7 { margin: 0px; padding: 0px; }
+div.wpcf7-response-output { margin: 2em 0.5em 1em; padding: 0.2em 1em; }
+div.wpcf7 .screen-reader-response { position: absolute; overflow: hidden; clip: rect(1px, 1px, 1px, 1px); height: 1px; width: 1px; margin: 0px; padding: 0px; border: 0px none; }
+span.wpcf7-form-control-wrap { position: relative; }
+.wpcf7-display-none { display: none; }
+/* ::::: https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css ::::: */
+
+button.ui-button::-moz-focus-inner { border: 0px none; padding: 0px; }
+/* ::::: http://www.inkaterra.com/wp-content/themes/inkaterra/nuevobook/js/jquery.booklet.1.4.0.css ::::: */
+
+body { z-index: 0; }
+/* ::::: http://www.inkaterra.com/wp-content/themes/inkaterra/js/fancybox/jquery.fancybox-1.3.4.css ::::: */
+
+/* ::::: http://www.inkaterra.com/wp-content/themes/inkaterra/js/prettyPhoto/css/prettyPhoto.css ::::: */
+

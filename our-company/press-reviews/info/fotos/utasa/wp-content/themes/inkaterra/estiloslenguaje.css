@@ -1,0 +1,109 @@
+header #headerRighTops{
+    padding:14px 0px 0px 0px;
+    text-align:right; }	
+
+header #headerRighTops li {
+    margin:0px 18px 0px 0px;
+    list-style: none;
+    float: left;
+    width:inherit;}
+
+header #headerRighTops li:first-child {margin-right: 0;}
+
+header #headerRighTops li.lang{
+    background: #dcd6c5;
+    color:#4e473c;
+    font: 10px/20px Arial, Helvetica, sans-serif;
+    vertical-align:middle;
+    text-align:left;
+    height:20px;
+    padding: 0px 0px 0px 8px;
+    position:relative;
+    border-radius:6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;	
+    width:76px; 
+    behavior:url(PIE.htc);
+    z-index:5; }
+	
+header #headerRighTops li.lang a{
+	color:#3F3330;
+	
+	}
+
+header #headerRighTops #arrowLang {
+    height:20px;
+    position:absolute;
+    top:0px;
+    right:0px;
+    width:22px;
+}
+
+header #headerRighTops #wrapperLang{
+    background: #dcd6c5;
+    right:1px;
+    font:10px/20px Arial,Helvetica,sans-serif;
+    padding:0px 22px 0px 10px;
+    position:absolute;
+    top:15px;
+    text-align:left;
+    padding:15px 0 0;
+    width:108px;
+    z-index:1;  }	
+
+header #headerRighTops #wrapperLang a{
+    background: #dcd6c5;
+    color:#4e473c;
+    display:block;
+    padding:0 22px 0 10px;
+    font:10px/20px Arial,Helvetica,sans-serif;
+    float:none; }	
+
+header #headerRighTops #wrapperLang a:hover{
+    background: #756c5e;
+    color:#e2dbca; }
+
+header #headerRighTops li a{
+    color:#fff;
+    display:block;
+    font:14px 'Calibri', Helvetica, sans-serif;
+    height:21px;
+    line-height:21px;
+    text-decoration:none;
+    vertical-align:middle; }
+/*boton de like facebook*/
+header #headerRighTops li.lang a{
+	color:#000;
+	background:none;
+}
+	
+header #headerRighTops.fb_reset{
+	background:#000;
+	
+	}
+header #headerRighTops li.like{ width:70px;
+}
+header #headerRighTops li.like a{
+    background:url(images/background/tollFree.png) no-repeat 0px 0px;
+    padding: 0px 0px 0px 23px; 	 }
+/*fin boton like facebook*/	
+
+header #headerRighTops li.tollFree{ width:75px;}	
+header #headerRighTops li.tollFree a{
+    background:url(images/background/tollFree.png) no-repeat 0px 0px;
+    padding: 0px 0px 0px 23px; 	 }	
+
+header #headerRighTops li.liveChat{ width:74px;}	
+header #headerRighTops li.liveChat a{
+    background:url(images/background/liveChat.png) no-repeat 0px 0px;
+    padding: 0px 0px 0px 23px; }	
+
+header #headerRighTops li.mail{ width:87px;}	
+header #headerRighTops li.mail a{
+    background:url(images/background/mail.png) no-repeat 0px 0px;
+    padding: 0px 0px 0px 23px; }	
+	
+header #headerRighTops li.tellfrie{ width:100px;}	
+header #headerRighTops li.tellfrie a{
+    background:url(images/background/mail.png) no-repeat 0px 0px;
+    padding: 0px 0px 0px 23px; }	

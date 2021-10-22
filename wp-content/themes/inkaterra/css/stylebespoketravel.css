@@ -1,0 +1,131 @@
+body{
+	background: url(http://www.inkaterra.com/wp-content/themes/inkaterra/images/background/bg-betspoke.jpg);
+	}
+section#wrapperFooterTop.byinkaterra{
+	min-height:185px;
+	margin:0 auto;
+	width: 62.5em;
+	}
+	
+#back-slide.byinkaterra{
+	width:100%;
+	background:none!important;
+	}
+.single-byinkaterra{
+	background:url("http://www.inkaterra.com/wp-content/themes/inkaterra/images/background/fondoweb.jpg");
+	}
+.single{}
+#contenedor{
+	margin:0px auto;
+	width: 100%;
+	}
+#bg-fondo{
+	margin:0 auto;
+	width: 1400px;
+	height:650px;
+	/*background: url("../images/background/header-bespoketravel.png") no-repeat;*/
+	}
+#fondotodo{
+	/*background:url("../images/background/fondoweb.jpg");*/
+	width:100%;
+	}
+.byinkcaterramenu{
+	background: url("http://www.inkaterra.com/wp-content/themes/inkaterra/images/background/bgMenuSecundary.png") repeat-x scroll 0 0 #EEE9E0!important;
+	margin:0 auto;
+	width: 62.5em;
+	border-radius:8px 8px 0 0;
+		 -moz-border-radius:8px 8px 0 0;
+		 -webkit-border-radius:8px 8px 0 0;
+		/* -goog-ms-border-radius:8px 8px 0 0;*/
+		 behavior:url(http://www.inkaterra.com/PIE.htc);
+	}
+#headerbyinkaterra{
+	margin:0 auto;
+	width:100%;
+	background-image:url("http://www.inkaterra.com/wp-content/themes/inkaterra/images/background/bg-header.jpg");
+	z-index:999;
+	}
+#arrow-page {
+	left:35%;
+}
+#primary {    
+    margin-top:0px!important;
+}
+#secondary ul {
+
+    min-height: 60px !important; 
+
+}
+section#wrapperFooterBottom article li{
+	   display:block;
+   float:left;
+   list-style:none;
+   margin-left:65px;
+   padding:0;
+   position:relative;
+   right:54%;
+	}
+#nivo-slider img{
+	height:650px !important;
+}
+#branding {
+    height: 450px !important;
+}
+#contentmenu-menu_bespoke_travel{
+	background:#000;
+	
+	}
+#left-menu ul li a:hover, #left-menu li.current-menu-item > a{
+background-color: #98718d !important;
+color: #fff !important;	
+	}
+#content-right .entry-title{
+	background: transparent url(http://www.inkaterra.com/wp-content/themes/inkaterra/images/background/dashed-in.png) repeat-x bottom left;
+	color: #98718d ;
+	font: 2em TrajanProRegular;
+	margin: 0 0 14px 0;
+	padding-bottom: 12px;
+	}
+#bread-crumbs{
+	color: #98718d;
+	}
+/*inconos redes*/
+.tooltipredes{
+	background-image: url(http://www.inkaterra.com/wp-content/themes/inkaterra/images/bglinkredes.png);
+    color: #3B2C1F;
+    display: none;
+    font-size: 8px;
+    height: 15px;
+    margin-left: -80px;
+    margin-top: -32px;
+    padding: 7px 13px 0 5px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 55px;
+    z-index: 1000;
+}
+
+#linksredes{
+    z-index:22; 
+    top:200px; 
+    right:-5px; 
+    position:fixed;
+  }
+
+#iconoredes{
+    padding-top: 5px;
+    top:200px;
+    right:0px;
+    width:38px;
+    height: 194px!important;
+	/*background-image: url(../images/linksredes.png);*/
+	background:#e7dfce;
+	border-radius:7px 0px 0px 7px;
+	box-shadow:1px 2px 3px #121212;
+	behavior: url(http://www.inkaterra.com/wp-content/themes/inkaterra/css/PIE.htc);
+    }
+.iconredes{
+    padding-top:0px;
+}
+
+/*fin iconos redes*/

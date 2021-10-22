@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'TrajanProBold';
+    src: url('../fonts/trajanpro-bold-webfont.eot');
+    src: url('../fonts/trajanpro-bold-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/trajanpro-bold-webfont.woff') format('woff'),
+         url('../fonts/trajanpro-bold-webfont.ttf') format('truetype'),
+         url('trajanpro-bold-webfont.html#TrajanProBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'TrajanProRegular';
+    src: url('../fonts/trajanpro-regular-webfont.eot');
+    src: url('../fonts/trajanpro-regular-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/trajanpro-regular-webfont.woff') format('woff'),
+         url('../fonts/trajanpro-regular-webfont.ttf') format('truetype'),
+         url('trajanpro-regular-webfont.html#TrajanProRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'GeorgiaRegular';
+    src: url('../fonts/georgia-webfont.eot');
+    src: url('../fonts/georgia-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/georgia-webfont.woff') format('woff'),
+         url('../fonts/georgia-webfont.ttf') format('truetype'),
+         url('georgia-webfont.html#GeorgiaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'GeorgiaBold';
+    src: url('../fonts/georgiab-webfont.eot');
+    src: url('../fonts/georgiab-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/georgiab-webfont.woff') format('woff'),
+         url('../fonts/georgiab-webfont.ttf') format('truetype'),
+         url('georgiab-webfont.html#GeorgiaBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'GeorgiaItalic';
+    src: url('../fonts/georgiai-webfont.eot');
+    src: url('../fonts/georgiai-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/georgiai-webfont.woff') format('woff'),
+         url('../fonts/georgiai-webfont.ttf') format('truetype'),
+         url('georgiai-webfont.html#GeorgiaItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'GeorgiaBoldItalic';
+    src: url('../fonts/georgiaz-webfont.eot');
+    src: url('../fonts/georgiaz-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/georgiaz-webfont.woff') format('woff'),
+         url('../fonts/georgiaz-webfont.ttf') format('truetype'),
+         url('georgiaz-webfont.html#GeorgiaBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+	
+
+	
+
+	
+	
+	
+	
+	
+	
+	
+			
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

@@ -1,0 +1,48 @@
+/* GLOBAL */
+body {
+	/*background:url(../images/backgrounds/bgBody.png) repeat; */
+	background:url(../images/bgBody.jpg) repeat; 
+	font:11px Arial, Helvetica, sans-serif;
+	color:#63553d;
+	overflow-x: hidden; }
+	
+body#home { 
+	background:url(../images/backgrounds/bgBody.png) repeat; }
+	
+a { text-decoration:none; outline:none; color:#000000; }
+
+strong { font-weight:bold; }
+
+a img { border:none; }
+
+p { line-height:14px;
+	margin-bottom: 8px; }
+
+p.texto {
+	font-size:12px !important;
+	line-height:14px;
+	margin-bottom:8px;
+}
+
+.alignRight { text-align: right !important; }
+.alignLeft { text-align:left !important; }
+.alignCenter { text-align:center !important; }
+
+.valign { vertical-align:middle; }
+
+/* CLEARFIX TRICK */
+
+.clearfix:after { content: "."; display: block; height: 0; font-size:0; clear: both; visibility:hidden; }
+.clearfix{ display: inline-block; } 
+
+* html .clearfix { height: 1%; } 
+.clearfix{ display:block; }
+
+.hidden { display:none; }
+
+/* FLOATINGS */
+.right { float:right; }
+.left { float:left; }
+.clear { clear:both; }
+
+
